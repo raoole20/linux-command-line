@@ -1,0 +1,10 @@
+services:
+  linux-lab:
+    build: .
+    container_name: linux-lab
+    volumes:
+      - .:/workspace
+    stdin_open: true
+    tty: true
+    command: bash
+    
