@@ -1,5 +1,7 @@
 services:
   linux-lab:
+    environment:
+      - TZ=America/New_York
     build: .
     container_name: linux-lab
     volumes:
