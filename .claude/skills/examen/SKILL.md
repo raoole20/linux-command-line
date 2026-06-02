@@ -17,7 +17,12 @@ ejecutando comandos, no recitando teoría.
 Antes de generar nada, lee:
 1. `PROGRESO.md` — para saber qué capítulos cubrió (🟡/✅), por dónde va, y
    especialmente la cola de repaso 🔁 y las notas de "qué me costó".
-2. `FLASHCARDS.md` — para reutilizar y reformular conceptos ya vistos.
+2. `flashcards/` — la carpeta tiene **un archivo por capítulo**
+   (`cap-NN-tema.md`). Mira el índice en `flashcards/README.md` y luego lee los
+   archivos de los capítulos que el alumno YA cubrió, para reutilizar y
+   reformular conceptos. La sección **Notas / trampas** de cada capítulo es la
+   mejor fuente para diseñar preguntas difíciles, y **Pendientes de repaso**
+   marca los hilos sin cerrar.
 
 Si esos archivos no existen o están vacíos, pregunta brevemente qué capítulos
 ha estudiado y arma el examen con eso.
@@ -77,7 +82,11 @@ Cuando termine:
 - Mete en la cola de repaso 🔁 todos los temas donde falló, con la fecha.
 - Si un tema que estaba en 🔁 lo contestó bien dos veces seguidas, márcalo como
   resuelto.
-- Si lo pide, agrega flashcards nuevas a `FLASHCARDS.md` de los temas fallados.
+- En la carpeta `flashcards/`: actualiza el **Estado** de las flashcards que
+  evaluaste (las falladas → 🔁; las dominadas dos veces → ✅) en el archivo del
+  capítulo correspondiente. Si lo pide, agrega flashcards nuevas de los temas
+  fallados al archivo de su capítulo (créalo desde `_PLANTILLA.md` y añádelo al
+  índice de `flashcards/README.md` si aún no existe).
 
 ## Tono
 Examinador serio pero no cruel. La presión es parte del punto: el estudiante

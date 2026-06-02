@@ -4,18 +4,18 @@
 > Estados: ⬜ sin empezar · 🟡 en progreso · ✅ dominado · 🔁 a repasar
 
 ## Última sesión
-- **Fecha:** —
-- **Dónde quedé:** (capítulo / sección)
-- **Próximo paso:** —
+- **Fecha:** 2026-06-02
+- **Dónde quedé:** Caps 1, 2 y 3 completados (✅). En Cap 3 exploré a fondo `ls` y sus opciones.
+- **Próximo paso:** Cerrar el hilo pendiente de `-F` + alias de `ls` (correr `type ls`), luego Cap 4 — Manipular archivos y directorios (`cp`, `mv`, `rm`, `ln`).
 
 ---
 
 ## Parte I — Aprendiendo la shell
 | Cap | Tema | Estado | Notas / qué me costó |
 |-----|------|--------|----------------------|
-| 1 | ¿Qué es la shell? | ⬜ | |
-| 2 | Navegación (`pwd`, `cd`, `ls`) | ⬜ | |
-| 3 | Explorando el sistema (`less`, `file`, enlaces) | ⬜ | |
+| 1 | ¿Qué es la shell? | ✅ | Verificado 2026-06-02. Inicialmente confundía shell vs terminal; aclarado. |
+| 2 | Navegación (`pwd`, `cd`, `ls`) | ✅ | Verificado 2026-06-02. `pwd` = Print Working Directory. Atajos `cd`: `cd -` (dir anterior, destacado en el libro), `cd` (home), `cd ~usuario`. |
+| 3 | Explorando el sistema (`less`, `file`, enlaces) | ✅ | Completado 2026-06-02. Descubrió que las opciones cortas (`-l`, `-t`, `-a`, `-r`, `-s`...) se encadenan sin límite y en cualquier orden (`-ltasr`). Diferencia `-r` (corta) vs `--reverse` (larga, 2 guiones). Pendiente: por qué `-F` no muestra diferencia → alias de `ls` (ver cola de repaso). |
 | 4 | Manipular archivos y directorios (`cp`, `mv`, `rm`, `ln`) | ⬜ | |
 | 5 | Trabajar con comandos (`type`, `which`, `help`, `man`, alias) | ⬜ | |
 | 6 | Redirección (`>`, `>>`, `|`, pipes, `tee`) | ⬜ | |
@@ -69,7 +69,7 @@
 
 | Tema | Marcado el | Repasado el | ¿Resuelto? |
 |------|-----------|-------------|------------|
-| | | | |
+| `-F` de `ls` y alias de `ls` (correr `type ls`) — por qué no se ve diferencia | 2026-06-02 | | ⬜ No |
 
 ---
 
@@ -78,4 +78,4 @@
 
 | Fecha | Capítulos cubiertos | Lo que dominé | Lo que me costó |
 |-------|---------------------|---------------|-----------------|
-| | | | |
+| 2026-06-02 | Caps 1, 2 y 3 | Encadenar opciones cortas de `ls` sin límite y en cualquier orden (`-ltasr`); `-r` vs `--reverse` | Entender `-F` (quedó pendiente el tema del alias de `ls`) |

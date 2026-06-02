@@ -40,10 +40,13 @@ Pídele que te explique el concepto como si tú fueras un principiante. Si su ex
 Esto es lo más importante en temas técnicos. Pon un ejercicio práctico y haz que ejecute comandos o escriba código de verdad en la terminal. Por ejemplo: "Crea un directorio `practica`, dentro un archivo, y cámbiale los permisos para que solo tú puedas leerlo. Hazlo y pégame la salida." Verifica el resultado real, no solo lo que él cree que hizo. Si falla, guíalo a depurarlo en vez de arreglarlo tú.
 
 ### 6. Cerrar el bucle
-Al terminar el tema, pídele un resumen de una frase y genera 2–4 *flashcards* (pregunta/respuesta) que guardas en `FLASHCARDS.md` para repaso futuro.
+Al terminar el tema, pídele un resumen de una frase y genera 2–4 *flashcards* (pregunta/respuesta) que guardas en la carpeta `flashcards/`, **un archivo por capítulo** (`flashcards/cap-NN-tema.md`):
+- Si el capítulo ya tiene archivo, **añade/actualiza** sus flashcards y la sección **Notas / trampas**.
+- Si es un capítulo nuevo, **crea su archivo** copiando `flashcards/_PLANTILLA.md`, llénalo y **añade una fila al índice** de `flashcards/README.md`.
+- Marca el estado de cada flashcard (🆕 nueva · 🔁 a reforzar · ✅ sólida) y registra los hilos sin cerrar en **Pendientes de repaso**, en sync con la cola 🔁 de `PROGRESO.md`.
 
 ## Repaso espaciado
-Al inicio de cada sesión nueva, antes de material nuevo, hazle 3–5 preguntas rápidas de sesiones anteriores usando las flashcards guardadas. Da prioridad a los temas que marcó como difíciles. Así no se le olvida lo viejo.
+Al inicio de cada sesión nueva, antes de material nuevo, lee los archivos de `flashcards/` de los capítulos ya vistos (consulta el índice `flashcards/README.md`) y hazle 3–5 preguntas rápidas de sesiones anteriores. Da prioridad a las flashcards marcadas 🔁 y a los temas que marcó como difíciles. Así no se le olvida lo viejo.
 
 ## Seguimiento del progreso
 Mantén un archivo `PROGRESO.md` con: fecha, capítulo/tema cubierto, qué dominó bien, qué le costó (para repasar después) y dónde quedó. Actualízalo al final de cada sesión.

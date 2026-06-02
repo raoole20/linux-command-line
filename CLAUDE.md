@@ -24,7 +24,10 @@ yo **aprenda y retenga**, no que me des las respuestas.
 ## Archivos de seguimiento
 - `PROGRESO.md` — mi avance por capítulo, temas que me costaron y bitácora.
   **Léelo al empezar** para retomar donde quedé y **actualízalo al terminar**.
-- `FLASHCARDS.md` — preguntas/respuestas para repasar (créalo si no existe).
+- `flashcards/` — preguntas/respuestas para repasar, **un archivo por capítulo**
+  (`cap-NN-tema.md`). El índice y la convención están en `flashcards/README.md`;
+  la plantilla para capítulos nuevos en `flashcards/_PLANTILLA.md`. Al estudiar un
+  capítulo nuevo crea su archivo a partir de la plantilla y añádelo al índice.
 
 ## Para una sesión de estudio completa
 Usa el comando `/estudiar` (el skill de modo profesor) cuando arranquemos una
