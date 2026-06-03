@@ -4,9 +4,9 @@
 > Estados: ⬜ sin empezar · 🟡 en progreso · ✅ dominado · 🔁 a repasar
 
 ## Última sesión
-- **Fecha:** 2026-06-02
-- **Dónde quedé:** Caps 1, 2 y 3 completados (✅). En Cap 3 exploré a fondo `ls` y sus opciones.
-- **Próximo paso:** Cerrar el hilo pendiente de `-F` + alias de `ls` (correr `type ls`), luego Cap 4 — Manipular archivos y directorios (`cp`, `mv`, `rm`, `ln`).
+- **Fecha:** 2026-06-03
+- **Dónde quedé:** Caps 1, 2 y 3 ✅. Cap 4 🟡 — me lo voy a **leer por mi cuenta** (`cp`, `mv`, `mkdir`, `rm`, `ln`); sin práctica todavía por tiempo.
+- **Próximo paso:** Al volver: (1) recuerdo activo del Cap 4 con las preguntas guía (overwrite/`-i`, doble función de `mv`, `mkdir -p`, peligro de `rm -rf` + comodines, hard vs symbolic links) + práctica en terminal; (2) cerrar el pendiente de `-F`/alias de `ls` (correr `type ls`).
 
 ---
 
@@ -16,7 +16,7 @@
 | 1 | ¿Qué es la shell? | ✅ | Verificado 2026-06-02. Inicialmente confundía shell vs terminal; aclarado. |
 | 2 | Navegación (`pwd`, `cd`, `ls`) | ✅ | Verificado 2026-06-02. `pwd` = Print Working Directory. Atajos `cd`: `cd -` (dir anterior, destacado en el libro), `cd` (home), `cd ~usuario`. |
 | 3 | Explorando el sistema (`less`, `file`, enlaces) | ✅ | Completado 2026-06-02. Descubrió que las opciones cortas (`-l`, `-t`, `-a`, `-r`, `-s`...) se encadenan sin límite y en cualquier orden (`-ltasr`). Diferencia `-r` (corta) vs `--reverse` (larga, 2 guiones). Pendiente: por qué `-F` no muestra diferencia → alias de `ls` (ver cola de repaso). |
-| 4 | Manipular archivos y directorios (`cp`, `mv`, `rm`, `ln`) | ⬜ | |
+| 4 | Manipular archivos y directorios (`cp`, `mv`, `rm`, `ln`) | 🟡 | Leyéndolo por mi cuenta (2026-06-03). Pendiente: recuerdo activo + práctica en terminal. Ojo al plato fuerte: hard link vs symbolic link. |
 | 5 | Trabajar con comandos (`type`, `which`, `help`, `man`, alias) | ⬜ | |
 | 6 | Redirección (`>`, `>>`, `|`, pipes, `tee`) | ⬜ | |
 | 7 | Ver el mundo como la shell (expansión, comillas, escapes) | ⬜ | |

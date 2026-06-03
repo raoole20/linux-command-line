@@ -18,6 +18,7 @@ Tapa la columna **Respuesta** e intenta contestar en voz alta antes de mirar.
 | 1 | ¿Qué es la shell? | [cap-01-que-es-la-shell.md](cap-01-que-es-la-shell.md) | ✅ |
 | 2 | Navegación (`pwd`, `cd`, `ls`) | [cap-02-navegacion.md](cap-02-navegacion.md) | ✅ |
 | 3 | Explorando el sistema (`less`, `file`, enlaces) | [cap-03-explorando-el-sistema.md](cap-03-explorando-el-sistema.md) | ✅ |
+| 4 | Manipular archivos y directorios (`cp`, `mv`, `mkdir`, `rm`, `ln`) | [cap-04-manipular-archivos.md](cap-04-manipular-archivos.md) | 🟡 |
 
 > A medida que avances, añade aquí una fila por cada capítulo nuevo.
 
