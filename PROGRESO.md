@@ -4,9 +4,9 @@
 > Estados: ⬜ sin empezar · 🟡 en progreso · ✅ dominado · 🔁 a repasar
 
 ## Última sesión
-- **Fecha:** 2026-06-03
-- **Dónde quedé:** Caps 1, 2 y 3 ✅. Cap 4 🟡 — me lo voy a **leer por mi cuenta** (`cp`, `mv`, `mkdir`, `rm`, `ln`); sin práctica todavía por tiempo.
-- **Próximo paso:** Al volver: (1) recuerdo activo del Cap 4 con las preguntas guía (overwrite/`-i`, doble función de `mv`, `mkdir -p`, peligro de `rm -rf` + comodines, hard vs symbolic links) + práctica en terminal; (2) cerrar el pendiente de `-F`/alias de `ls` (correr `type ls`).
+- **Fecha:** 2026-06-08
+- **Dónde quedé:** Caps 1, 2 y 3 ✅. Cap 4 🟡 — examen rápido (5.5/20). Bien la práctica de sobrescritura con `mv`; **mal links (sin estudiar) y comodines (sin aplicar)**.
+- **Próximo paso:** (1) Estudiar a fondo **hard vs symbolic link** + práctica con `ls -li` (inodes); (2) practicar **comodines** prediciendo salidas (`?`, `[..]`, `[[:clase:]]`, `[!..]`); (3) corregir la idea de que `mv` "copia" (NO copia, mueve/renombra); (4) cerrar `-F`/alias de `ls` con explicación propia (ya corrió `type ls` → `ls --color=auto`).
 
 ---
 
@@ -69,7 +69,10 @@
 
 | Tema | Marcado el | Repasado el | ¿Resuelto? |
 |------|-----------|-------------|------------|
-| `-F` de `ls` y alias de `ls` (correr `type ls`) — por qué no se ve diferencia | 2026-06-02 | | ⬜ No |
+| `-F` de `ls` y alias de `ls` (correr `type ls`) — por qué no se ve diferencia | 2026-06-02 | 2026-06-08 | 🟡 Parcial — corrió `type ls` (`ls --color=auto`); falta explicación propia |
+| **Hard link vs symbolic link** (inode, borrar original, particiones, directorios) | 2026-06-08 | | ⬜ No — sin estudiar |
+| **Comodines** — predecir salidas (`?`, `[abc]`, `[!abc]`, `[[:clase:]]`) | 2026-06-08 | | ⬜ No |
+| `mv` NO copia — mueve/renombra (el original deja de existir) | 2026-06-08 | | ⬜ No |
 
 ---
 
@@ -79,3 +82,4 @@
 | Fecha | Capítulos cubiertos | Lo que dominé | Lo que me costó |
 |-------|---------------------|---------------|-----------------|
 | 2026-06-02 | Caps 1, 2 y 3 | Encadenar opciones cortas de `ls` sin límite y en cualquier orden (`-ltasr`); `-r` vs `--reverse` | Entender `-F` (quedó pendiente el tema del alias de `ls`) |
+| 2026-06-08 | Examen rápido Caps 1–4 — **5.5/20** | Práctica real: demostró sobrescritura silenciosa con `mv` (`b.txt` pisado, `a.txt` desaparece) | Hard/symbolic links (sin estudiar); comodines (no los aplicó); creía que `mv` "copia" |
