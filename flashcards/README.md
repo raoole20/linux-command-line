@@ -19,6 +19,7 @@ Tapa la columna **Respuesta** e intenta contestar en voz alta antes de mirar.
 | 2 | Navegación (`pwd`, `cd`, `ls`) | [cap-02-navegacion.md](cap-02-navegacion.md) | ✅ |
 | 3 | Explorando el sistema (`less`, `file`, enlaces) | [cap-03-explorando-el-sistema.md](cap-03-explorando-el-sistema.md) | ✅ |
 | 4 | Manipular archivos y directorios (`cp`, `mv`, `mkdir`, `rm`, `ln`) | [cap-04-manipular-archivos.md](cap-04-manipular-archivos.md) | 🟡 |
+| 5 | Trabajar con comandos (`type`, `which`, `help`, `man`, `alias`) | [cap-05-trabajar-con-comandos.md](cap-05-trabajar-con-comandos.md) | 🟡 |
 
 > A medida que avances, añade aquí una fila por cada capítulo nuevo.
 
