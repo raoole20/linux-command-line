@@ -1,0 +1,2684 @@
+total 80892
+lrwxrwxrwx   1 root root          28 Mar 30 12:50 [ -> ../lib/cargo/bin/coreutils/[
+-rwxr-xr-x   1 root root       14720 Apr  8 13:26 aa-enabled
+-rwxr-xr-x   1 root root       14720 Apr  8 13:26 aa-exec
+-rwxr-xr-x   1 root root       14720 Apr  8 13:26 aa-features-abi
+lrwxrwxrwx   1 root root           6 Feb  2 16:49 apropos -> whatis
+-rwxr-xr-x   1 root root       23072 Apr  7 05:02 apt
+-rwxr-xr-x   1 root root      100904 Apr  7 05:02 apt-cache
+-rwxr-xr-x   1 root root       27176 Apr  7 05:02 apt-cdrom
+-rwxr-xr-x   1 root root       31200 Apr  7 05:02 apt-config
+-rwxr-xr-x   1 root root       59944 Apr  7 05:02 apt-get
+-rwxr-xr-x   1 root root       72232 Apr  7 05:02 apt-mark
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 arch -> ../lib/cargo/bin/coreutils/arch
+lrwxrwxrwx   1 root root          21 Feb  3 16:30 awk -> /etc/alternatives/awk
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 b2sum -> ../lib/cargo/bin/coreutils/b2sum
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 base32 -> ../lib/cargo/bin/coreutils/base32
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 base64 -> ../lib/cargo/bin/coreutils/base64
+lrwxrwxrwx   1 root root          35 Mar 30 12:50 basename -> ../lib/cargo/bin/coreutils/basename
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 basenc -> ../lib/cargo/bin/coreutils/basenc
+-rwxr-xr-x   1 root root     1540520 Feb 13 08:16 bash
+-rwxr-xr-x   1 root root        7075 Feb 13 08:16 bashbug
+-rwxr-xr-x   1 root root       92776 Apr 15 14:32 busctl
+-rwxr-xr-x   1 root root     2190672 Jan 14 11:50 busybox
+-rwxr-xr-x   1 root root        6919 Apr  7 08:05 c_rehash
+lrwxrwxrwx   1 root root           4 Dec  9  2025 cal -> ncal
+lrwxrwxrwx   1 root root           3 Jan  3 03:53 captoinfo -> tic
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 cat -> ../lib/cargo/bin/coreutils/cat
+-rwxr-xr-x   1 root root       35760 Feb  2 16:49 catman
+-rwxr-sr-x   1 root shadow     85256 Feb  2 16:45 chage
+-rwxr-xr-x   1 root root       14728 Feb 13 08:17 chattr
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 chcon -> ../lib/cargo/bin/coreutils/chcon
+-rwsr-xr-x   1 root root       72840 Feb  2 16:45 chfn
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 chgrp -> ../lib/cargo/bin/coreutils/chgrp
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 chmod -> ../lib/cargo/bin/coreutils/chmod
+-rwxr-xr-x   1 root root       22992 Mar 13 07:09 choom
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 chown -> ../lib/cargo/bin/coreutils/chown
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 chroot -> ../lib/cargo/bin/coreutils/chroot
+-rwxr-xr-x   1 root root       31184 Mar 13 07:09 chrt
+-rwsr-xr-x   1 root root       48936 Feb  2 16:45 chsh
+-rwxr-xr-x   1 root root       27184 Jan 11 18:40 cifsiostat
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 cksum -> ../lib/cargo/bin/coreutils/cksum
+-rwxr-xr-x   1 root root       14728 Jan  3 03:53 clear
+-rwxr-xr-x   1 root root       14640 Feb 13 08:16 clear_console
+-rwxr-xr-x   1 root root       43592 Oct 19  2025 cmp
+-rwxr-xr-x   1 root root       23000 Mar 13 07:09 col
+-rwxr-xr-x   1 root root       14808 Mar 13 07:09 colcrt
+-rwxr-xr-x   1 root root       14808 Mar 13 07:09 colrm
+-rwxr-xr-x   1 root root       39384 Mar 13 07:09 column
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 comm -> ../lib/cargo/bin/coreutils/comm
+-rwxr-xr-x 115 root root    11352352 Apr 16 08:41 coreutils
+lrwxrwxrwx   1 root root           5 Mar 30 12:50 cp -> gnucp
+-rwxr-xr-x   1 root root      153624 Dec 21 08:24 cpio
+-rwxr-sr-x   1 root crontab    39744 Nov  5  2025 crontab
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 csplit -> ../lib/cargo/bin/coreutils/csplit
+-rwxr-xr-x   1 root root      334360 Apr 29 07:35 curl
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 cut -> ../lib/cargo/bin/coreutils/cut
+-rwxr-xr-x   1 root root      341328 Mar 13 07:02 cvtsudoers.ws
+-rwxr-xr-x   1 root root      129856 Feb  2 16:26 dash
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 date -> ../lib/cargo/bin/coreutils/date
+-rwxr-xr-x   1 root root       14712 Mar  3 07:20 dbus-cleanup-sockets
+-rwxr-xr-x   1 root root      236256 Mar  3 07:20 dbus-daemon
+-rwxr-xr-x   1 root root       27000 Mar  3 07:20 dbus-monitor
+-rwxr-xr-x   1 root root       14712 Mar  3 07:20 dbus-run-session
+-rwxr-xr-x   1 root root       35192 Mar  3 07:20 dbus-send
+-rwxr-xr-x   1 root root       14712 Mar  3 07:20 dbus-update-activation-environment
+-rwxr-xr-x   1 root root       14712 Mar  3 07:20 dbus-uuidgen
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 dd -> ../lib/cargo/bin/coreutils/dd
+-rwxr-xr-x   1 root root       24358 Jul 13  2022 deb-systemd-helper
+-rwxr-xr-x   1 root root        7135 Nov 26  2023 deb-systemd-invoke
+-rwxr-xr-x   1 root root        2870 Feb 16 13:48 debconf
+-rwxr-xr-x   1 root root       11846 Feb 16 13:48 debconf-apt-progress
+-rwxr-xr-x   1 root root         623 Feb 16 13:48 debconf-communicate
+-rwxr-xr-x   1 root root        1718 Feb 16 13:48 debconf-copydb
+-rwxr-xr-x   1 root root         668 Feb 16 13:48 debconf-escape
+-rwxr-xr-x   1 root root        3216 Feb 16 13:48 debconf-set-selections
+-rwxr-xr-x   1 root root        1825 Feb 16 13:48 debconf-show
+-rwxr-xr-x   1 root root       27088 Feb 16 18:18 debian-distro-info
+-rwxr-xr-x   1 root root       62952 May 21 08:23 delv
+lrwxrwxrwx   1 root root           5 Mar 30 12:50 df -> gnudf
+-rwxr-xr-x   1 root root        4527 Sep 28  2025 dh_bash-completion
+-rwxr-xr-x   1 root root      137960 Oct 19  2025 diff
+-rwxr-xr-x   1 root root       51808 Oct 19  2025 diff3
+-rwxr-xr-x   1 root root      150480 May 21 08:23 dig
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 dir -> ../lib/cargo/bin/coreutils/dir
+lrwxrwxrwx   1 root root          36 Mar 30 12:50 dircolors -> ../lib/cargo/bin/coreutils/dircolors
+lrwxrwxrwx   1 root root          34 Mar 30 12:50 dirname -> ../lib/cargo/bin/coreutils/dirname
+lrwxrwxrwx   1 root root          18 Feb 16 18:18 distro-info -> ubuntu-distro-info
+-rwxr-xr-x   1 root root       74528 Mar 13 07:09 dmesg
+lrwxrwxrwx   1 root root           8 Dec  6  2025 dnsdomainname -> hostname
+-rwxr-xr-x   1 root root        9268 Apr 22 13:29 do-release-upgrade
+lrwxrwxrwx   1 root root           8 Dec  6  2025 domainname -> hostname
+-rwxr-xr-x   1 root root      322728 Mar 31 10:52 dpkg
+-rwxr-xr-x   1 root root      150176 Mar 31 10:52 dpkg-deb
+-rwxr-xr-x   1 root root      125768 Mar 31 10:52 dpkg-divert
+-rwxr-xr-x   1 root root       21123 Mar 31 10:52 dpkg-maintscript-helper
+-rwxr-xr-x   1 root root      142160 Mar 31 10:52 dpkg-query
+-rwxr-xr-x   1 root root       35280 Mar 31 10:52 dpkg-realpath
+-rwxr-xr-x   1 root root      100976 Mar 31 10:52 dpkg-split
+-rwxr-xr-x   1 root root       55936 Mar 31 10:52 dpkg-statoverride
+-rwxr-xr-x   1 root root       47728 Mar 31 10:52 dpkg-trigger
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 du -> ../lib/cargo/bin/coreutils/du
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 echo -> ../lib/cargo/bin/coreutils/echo
+-rwxr-xr-x   1 root root       63792 Jan  5 11:07 ed
+lrwxrwxrwx   1 root root          24 Jan  5 11:07 editor -> /etc/alternatives/editor
+-rwxr-xr-x   1 root root          41 Sep 27  2025 egrep
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 env -> ../lib/cargo/bin/coreutils/env
+-rwxr-xr-x   1 root root       39456 Nov 13  2025 envsubst
+-rwxr-xr-x   1 root root      197136 Dec  2  2025 eqn
+lrwxrwxrwx   1 root root          20 May 20 15:11 ex -> /etc/alternatives/ex
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 expand -> ../lib/cargo/bin/coreutils/expand
+-rwxr-sr-x   1 root shadow     23168 Feb  2 16:45 expiry
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 expr -> ../lib/cargo/bin/coreutils/expr
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 factor -> ../lib/cargo/bin/coreutils/factor
+-rwxr-xr-x   1 root root       27088 Mar 13 07:09 fallocate
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 false -> ../lib/cargo/bin/coreutils/false
+-rwxr-xr-x   1 root root          41 Sep 27  2025 fgrep
+-rwxr-xr-x   1 root root       27352 Feb  2 16:37 file
+-rwxr-xr-x   1 root root      216632 Feb  2 16:37 find
+-rwxr-xr-x   1 root root       81888 Mar 13 07:09 findmnt
+-rwxr-xr-x   1 root root       27200 Mar 13 07:09 flock
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 fmt -> ../lib/cargo/bin/coreutils/fmt
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 fold -> ../lib/cargo/bin/coreutils/fold
+-rwxr-xr-x   1 root root       27160 Dec  1  2025 free
+lrwxrwxrwx   1 root root          21 Feb 10 23:57 ftp -> /etc/alternatives/ftp
+-rwxr-xr-x   1 root root       44000 Feb  2 16:37 fuser
+lrwxrwxrwx   1 root root          11 Mar 21 03:16 fusermount -> fusermount3
+-rwsr-xr-x   1 root root       39376 Mar 21 03:16 fusermount3
+lrwxrwxrwx   1 root root           3 Dec  2  2025 geqn -> eqn
+-rwxr-xr-x   1 root root       31088 Mar 31 16:35 getconf
+-rwxr-xr-x   1 root root       39648 Mar 31 16:35 getent
+-rwxr-xr-x   1 root root       22992 Mar 13 07:09 getopt
+-rwxr-xr-x   1 root root       39456 Nov 13  2025 gettext
+-rwxr-xr-x   1 root root        5167 Nov 13  2025 gettext.sh
+lrwxrwxrwx   1 root root          12 Mar 25 14:25 ginstall-info -> install-info
+-rwxr-xr-x   1 root root       47632 Jan 23 09:41 gnu[
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnuarch
+-rwxr-xr-x   1 root root       55904 Jan 23 09:41 gnub2sum
+-rwxr-xr-x   1 root root       39520 Jan 23 09:41 gnubase32
+-rwxr-xr-x   1 root root       39520 Jan 23 09:41 gnubase64
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnubasename
+-rwxr-xr-x   1 root root       51808 Jan 23 09:41 gnubasenc
+-rwxr-xr-x   1 root root       39472 Jan 23 09:41 gnucat
+-rwxr-xr-x   1 root root       64096 Jan 23 09:41 gnuchcon
+-rwxr-xr-x   1 root root       64064 Jan 23 09:41 gnuchgrp
+-rwxr-xr-x   1 root root       60000 Jan 23 09:41 gnuchmod
+-rwxr-xr-x   1 root root       68160 Jan 23 09:41 gnuchown
+-rwxr-xr-x   1 root root      117360 Jan 23 09:41 gnucksum
+-rwxr-xr-x   1 root root       39528 Jan 23 09:41 gnucomm
+-rwxr-xr-x   1 root root      137840 Jan 23 09:41 gnucp
+-rwxr-xr-x   1 root root       51808 Jan 23 09:41 gnucsplit
+-rwxr-xr-x   1 root root       43616 Jan 23 09:41 gnucut
+-rwxr-xr-x   1 root root       96864 Jan 23 09:41 gnudate
+-rwxr-xr-x   1 root root       64128 Jan 23 09:41 gnudd
+-rwxr-xr-x   1 root root       93256 Jan 23 09:41 gnudf
+-rwxr-xr-x   1 root root      150568 Jan 23 09:41 gnudir
+-rwxr-xr-x   1 root root       47720 Jan 23 09:41 gnudircolors
+-rwxr-xr-x   1 root root       35288 Jan 23 09:41 gnudirname
+-rwxr-xr-x   1 root root      100960 Jan 23 09:41 gnudu
+-rwxr-xr-x   1 root root       35288 Jan 23 09:41 gnuecho
+-rwxr-xr-x   1 root root       48128 Jan 23 09:41 gnuenv
+-rwxr-xr-x   1 root root       39544 Jan 23 09:41 gnuexpand
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnuexpr
+-rwxr-xr-x   1 root root       64096 Jan 23 09:41 gnufactor
+-rwxr-xr-x   1 root root       35288 Jan 23 09:41 gnufalse
+-rwxr-xr-x   1 root root       43584 Jan 23 09:41 gnufmt
+-rwxr-xr-x   1 root root       39520 Jan 23 09:41 gnufold
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnugroups
+-rwxr-xr-x   1 root root       43616 Jan 23 09:41 gnuhead
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnuhostid
+-rwxr-xr-x   1 root root       43616 Jan 23 09:41 gnuid
+-rwxr-xr-x   1 root root      141936 Jan 23 09:41 gnuinstall
+-rwxr-xr-x   1 root root       51856 Jan 23 09:41 gnujoin
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnulink
+-rwxr-xr-x   1 root root       60000 Jan 23 09:41 gnuln
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnulogname
+-rwxr-xr-x   1 root root      150568 Jan 23 09:41 gnuls
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnumd5sum
+-rwxr-xr-x   1 root root       51808 Jan 23 09:41 gnumkdir
+-rwxr-xr-x   1 root root       43616 Jan 23 09:41 gnumkfifo
+-rwxr-xr-x   1 root root       47680 Jan 23 09:41 gnumknod
+-rwxr-xr-x   1 root root       39488 Jan 23 09:41 gnumktemp
+-rwxr-xr-x   1 root root      133744 Jan 23 09:41 gnumv
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnunice
+-rwxr-xr-x   1 root root       43712 Jan 23 09:41 gnunl
+-rwxr-xr-x   1 root root       39424 Jan 23 09:41 gnunohup
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnunproc
+-rwxr-xr-x   1 root root       60032 Jan 23 09:41 gnunumfmt
+-rwxr-xr-x   1 root root       76384 Jan 23 09:41 gnuod
+-rwxr-xr-x   1 root root       39424 Jan 23 09:41 gnupaste
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnupathchk
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnupinky
+-rwxr-xr-x   1 root root       72360 Jan 23 09:41 gnupr
+-rwxr-xr-x   1 root root       35288 Jan 23 09:41 gnuprintenv
+-rwxr-xr-x   1 root root       64064 Jan 23 09:41 gnuprintf
+-rwxr-xr-x   1 root root       55936 Jan 23 09:41 gnuptx
+-rwxr-xr-x   1 root root       39488 Jan 23 09:41 gnupwd
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnureadlink
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnurealpath
+-rwxr-xr-x   1 root root       64096 Jan 23 09:41 gnurm
+-rwxr-xr-x   1 root root       35328 Jan 23 09:41 gnurmdir
+-rwxr-xr-x   1 root root       35392 Jan 23 09:41 gnuruncon
+-rwxr-xr-x   1 root root       43616 Jan 23 09:41 gnuseq
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnusha1sum
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnusha224sum
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnusha256sum
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnusha384sum
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnusha512sum
+-rwxr-xr-x   1 root root       55904 Jan 23 09:41 gnushred
+-rwxr-xr-x   1 root root       51808 Jan 23 09:41 gnushuf
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnusleep
+-rwxr-xr-x   1 root root      105360 Jan 23 09:41 gnusort
+-rwxr-xr-x   1 root root       60440 Jan 23 09:41 gnusplit
+-rwxr-xr-x   1 root root       92776 Jan 23 09:41 gnustat
+-rwxr-xr-x   1 root root       39488 Jan 23 09:41 gnustdbuf
+-rwxr-xr-x   1 root root       72304 Jan 23 09:41 gnustty
+-rwxr-xr-x   1 root root       39424 Jan 23 09:41 gnusum
+-rwxr-xr-x   1 root root       35328 Jan 23 09:41 gnusync
+-rwxr-xr-x   1 root root       39424 Jan 23 09:41 gnutac
+-rwxr-xr-x   1 root root       72312 Jan 23 09:41 gnutail
+-rwxr-xr-x   1 root root       39520 Jan 23 09:41 gnutee
+-rwxr-xr-x   1 root root       39440 Jan 23 09:41 gnutest
+-rwxr-xr-x   1 root root       39968 Jan 23 09:41 gnutimeout
+-rwxr-xr-x   1 root root       76384 Jan 23 09:41 gnutouch
+-rwxr-xr-x   1 root root       51776 Jan 23 09:41 gnutr
+-rwxr-xr-x   1 root root       35288 Jan 23 09:41 gnutrue
+-rwxr-xr-x   1 root root       39520 Jan 23 09:41 gnutruncate
+-rwxr-xr-x   1 root root       51808 Jan 23 09:41 gnutsort
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnutty
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnuuname
+-rwxr-xr-x   1 root root       39544 Jan 23 09:41 gnuunexpand
+-rwxr-xr-x   1 root root       47728 Jan 23 09:41 gnuuniq
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnuunlink
+-rwxr-xr-x   1 root root       43616 Jan 23 09:41 gnuusers
+-rwxr-xr-x   1 root root      150568 Jan 23 09:41 gnuvdir
+-rwxr-xr-x   1 root root       60016 Jan 23 09:41 gnuwc
+-rwxr-xr-x   1 root root       51824 Jan 23 09:41 gnuwho
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnuwhoami
+-rwxr-xr-x   1 root root       35288 Jan 23 09:41 gnuyes
+-rwsr-xr-x   1 root root       76328 Feb  2 16:45 gpasswd
+-rwxr-xr-x   1 root root      302296 Jan 29 09:57 gpgv
+lrwxrwxrwx   1 root root           3 Dec  2  2025 gpic -> pic
+-rwxr-xr-x   1 root root      191056 Sep 27  2025 grep
+-rwxr-xr-x   1 root root       96848 Dec  2  2025 groff
+-rwxr-xr-x   1 root root       19195 Dec  2  2025 grog
+-rwxr-xr-x   1 root root      170624 Dec  2  2025 grops
+-rwxr-xr-x   1 root root      125520 Dec  2  2025 grotty
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 groups -> ../lib/cargo/bin/coreutils/groups
+lrwxrwxrwx   1 root root           3 Dec  2  2025 gtbl -> tbl
+-rwxr-xr-x   1 root root        2266 Feb 27 13:02 gunzip
+-rwxr-xr-x   1 root root        6379 Feb 27 13:02 gzexe
+-rwxr-xr-x   1 root root       97560 Feb 27 13:02 gzip
+-rwxr-xr-x   1 root root       47664 Mar 13 07:09 hardlink
+lrwxrwxrwx   1 root root          34 Mar 30 12:50 hashsum -> ../lib/cargo/bin/coreutils/hashsum
+lrwxrwxrwx   1 root root           7 Mar 13 07:09 hd -> hexdump
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 head -> ../lib/cargo/bin/coreutils/head
+-rwxr-xr-x   1 root root        2514 May 20 15:11 helpztags
+-rwxr-xr-x   1 root root       51680 Mar 13 07:09 hexdump
+-rwxr-xr-x   1 root root      113632 May 21 08:23 host
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 hostid -> ../lib/cargo/bin/coreutils/hostid
+-rwxr-xr-x   1 root root       26928 Dec  6  2025 hostname
+-rwxr-xr-x   1 root root       39384 Apr 15 14:32 hostnamectl
+-rwxr-xr-x   1 root root       11512 Apr 16 09:25 hwe-support-status
+lrwxrwxrwx   1 root root           7 Mar 13 07:09 i386 -> setarch
+-rwxr-xr-x   1 root root       68104 Mar 31 16:35 iconv
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 id -> ../lib/cargo/bin/coreutils/id
+-rwxr-xr-x   1 root root      202320 Jan 27 10:28 inetutils-telnet
+-rwxr-xr-x   1 root root      251736 Mar 25 14:25 info
+lrwxrwxrwx   1 root root          29 Mar 25 14:25 infobrowser -> /etc/alternatives/infobrowser
+-rwxr-xr-x   1 root root       68040 Jan  3 03:53 infocmp
+lrwxrwxrwx   1 root root           3 Jan  3 03:53 infotocap -> tic
+lrwxrwxrwx   1 root root          34 Mar 30 12:50 install -> ../lib/cargo/bin/coreutils/install
+-rwxr-xr-x   1 root root       48448 Mar 25 14:25 install-info
+-rwxr-xr-x   1 root root       18896 Mar 13 07:09 ionice
+-rwxr-xr-x   1 root root       59952 Jan 11 18:40 iostat
+-rwxr-xr-x   1 root root       23064 Mar 13 07:09 ipcmk
+-rwxr-xr-x   1 root root       31184 Mar 13 07:09 ipcrm
+-rwxr-xr-x   1 root root       39376 Mar 13 07:09 ipcs
+lrwxrwxrwx   1 root root          28 Feb  2 16:26 iptables-xml -> ../sbin/xtables-legacy-multi
+-rwxr-xr-x   1 root root       14896 Feb  2 16:29 ischroot
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 join -> ../lib/cargo/bin/coreutils/join
+-rwxr-xr-x   1 root root       93376 Apr 15 14:32 journalctl
+-rwxr-xr-x   1 root root       56024 Apr 15 14:32 kernel-install
+-rwxr-xr-x   1 root root       22992 Dec  1  2025 kill
+-rwxr-xr-x   1 root root       31632 Feb  2 16:37 killall
+lrwxrwxrwx   1 root root          29 Mar 31 16:35 ld.so -> ../lib64/ld-linux-x86-64.so.2
+-rwxr-xr-x   1 root root        5388 Mar 31 16:35 ldd
+-rwxr-xr-x   1 root root      245256 Feb  2 16:30 less
+-rwxr-xr-x   1 root root       14728 Feb  2 16:30 lessecho
+lrwxrwxrwx   1 root root           8 Feb  2 16:30 lessfile -> lesspipe
+-rwxr-xr-x   1 root root       27096 Feb  2 16:30 lesskey
+-rwxr-xr-x   1 root root        9047 Apr  5  2025 lesspipe
+-rwxr-xr-x   1 root root      101976 Feb  2 16:49 lexgrog
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 link -> ../lib/cargo/bin/coreutils/link
+lrwxrwxrwx   1 root root           7 Mar 13 07:09 linux32 -> setarch
+lrwxrwxrwx   1 root root           7 Mar 13 07:09 linux64 -> setarch
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 ln -> ../lib/cargo/bin/coreutils/ln
+-rwxr-xr-x   1 root root       50824 Mar 31 16:35 locale
+-rwxr-xr-x   1 root root       14568 Apr 20 04:46 locale-check
+-rwxr-xr-x   1 root root       31176 Apr 15 14:32 localectl
+-rwxr-xr-x   1 root root      334976 Mar 31 16:35 localedef
+-rwxr-xr-x   1 root root       39984 Mar 13 07:09 logger
+-rwxr-xr-x   1 root root       43472 Mar 13 07:09 login
+-rwxr-xr-x   1 root root       68192 Apr 15 14:32 loginctl
+lrwxrwxrwx   1 root root          34 Mar 30 12:50 logname -> ../lib/cargo/bin/coreutils/logname
+-rwxr-xr-x   1 root root       18904 Mar 13 07:09 look
+-rwxr-xr-x   1 root root      121912 Apr 17 13:48 lowntfs-3g
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 ls -> ../lib/cargo/bin/coreutils/ls
+-rwxr-xr-x   1 root root       14728 Feb 13 08:17 lsattr
+-rwxr-xr-x   1 root root        2834 Dec 18 08:47 lsb_release
+-rwxr-xr-x   1 root root      174552 Mar 13 07:09 lsblk
+-rwxr-xr-x   1 root root      117208 Mar 13 07:09 lscpu
+-rwxr-xr-x   1 root root      823832 Oct 28  2025 lshw
+-rwxr-xr-x   1 root root       63952 Mar 13 07:09 lsipc
+-rwxr-xr-x   1 root root       43904 Mar 13 07:09 lslocks
+-rwxr-xr-x   1 root root       51672 Mar 13 07:09 lsns
+-rwxr-xr-x   1 root root      196416 Feb  2 16:48 lsof
+-rwxr-xr-x   1 root root      118976 Feb  2 16:34 lspci
+-rwxr-xr-x   1 root root        1228 Mar 11  2025 lspower
+-rwxr-xr-x   1 root root      231920 Nov 15  2025 lsusb
+lrwxrwxrwx   1 root root          23 Mar 31 20:00 lzcat -> /etc/alternatives/lzcat
+lrwxrwxrwx   1 root root          23 Mar 31 20:00 lzcmp -> /etc/alternatives/lzcmp
+lrwxrwxrwx   1 root root          24 Mar 31 20:00 lzdiff -> /etc/alternatives/lzdiff
+lrwxrwxrwx   1 root root          25 Mar 31 20:00 lzegrep -> /etc/alternatives/lzegrep
+lrwxrwxrwx   1 root root          25 Mar 31 20:00 lzfgrep -> /etc/alternatives/lzfgrep
+lrwxrwxrwx   1 root root          24 Mar 31 20:00 lzgrep -> /etc/alternatives/lzgrep
+lrwxrwxrwx   1 root root          24 Mar 31 20:00 lzless -> /etc/alternatives/lzless
+lrwxrwxrwx   1 root root          22 Mar 31 20:00 lzma -> /etc/alternatives/lzma
+-rwxr-xr-x   1 root root       18896 Mar 31 20:00 lzmainfo
+lrwxrwxrwx   1 root root          24 Mar 31 20:00 lzmore -> /etc/alternatives/lzmore
+-rwxr-xr-x   1 root root         320 Apr 20 22:05 man
+-rwxr-xr-x   1 root root       36408 Feb  2 16:49 man-recode
+-rwxr-xr-x   1 root root      128496 Feb  2 16:49 man.REAL
+-rwxr-xr-x   1 root root      147200 Feb  2 16:49 mandb
+-rwxr-xr-x   1 root root       31680 Feb  2 16:49 manpath
+-rwxr-xr-x   1 root root      183128 Feb  3 16:30 mawk
+-rwxr-xr-x   1 root root       27160 Mar 13 07:09 mcookie
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 md5sum -> ../lib/cargo/bin/coreutils/md5sum
+-rwxr-xr-x   1 root root       51688 May 21 08:23 mdig
+-rwxr-xr-x   1 root root       14848 Feb  2 16:31 memhog
+-rwxr-xr-x   1 root root       14800 Feb  2 16:31 migratepages
+-rwxr-xr-x   1 root root       14728 Feb  2 16:31 migspeed
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 mkdir -> ../lib/cargo/bin/coreutils/mkdir
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 mkfifo -> ../lib/cargo/bin/coreutils/mkfifo
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 mknod -> ../lib/cargo/bin/coreutils/mknod
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 mktemp -> ../lib/cargo/bin/coreutils/mktemp
+-rwxr-xr-x   1 root root       47576 Mar 13 07:09 more
+-rwsr-xr-x   1 root root       51664 Mar 13 07:09 mount
+-rwxr-xr-x   1 root root       18896 Mar 13 07:09 mountpoint
+-rwxr-xr-x   1 root root       51768 Jan 11 18:40 mpstat
+lrwxrwxrwx   1 root root          20 Dec 21 08:24 mt -> /etc/alternatives/mt
+-rwxr-xr-x   1 root root       76888 Dec 21 08:24 mt-gnu
+-rwxr-xr-x   1 root root       78232 Dec  6  2025 mtr
+-rwsr-xr-x   1 root root       35280 Dec  6  2025 mtr-packet
+lrwxrwxrwx   1 root root           5 Mar 30 12:50 mv -> gnumv
+-rwxr-xr-x   1 root root       22992 Mar 13 07:09 namei
+-rwxr-xr-x   1 root root      301904 Feb  8 18:29 nano
+lrwxrwxrwx   1 root root          22 Feb  3 16:30 nawk -> /etc/alternatives/nawk
+-rwxr-xr-x   1 root root       37912 Dec  9  2025 ncal
+-rwxr-xr-x   1 root root         913 Dec  2  2025 neqn
+-rwxr-xr-x   1 root root      129624 Apr 15 14:32 networkctl
+-rwxr-xr-x   1 root root       39456 Nov 13  2025 ngettext
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 nice -> ../lib/cargo/bin/coreutils/nice
+lrwxrwxrwx   1 root root           8 Dec  6  2025 nisdomainname -> hostname
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 nl -> ../lib/cargo/bin/coreutils/nl
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 nohup -> ../lib/cargo/bin/coreutils/nohup
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 nproc -> ../lib/cargo/bin/coreutils/nproc
+-rwxr-xr-x   1 root root        5718 Dec  2  2025 nroff
+-rwxr-xr-x   1 root root       35544 Mar 13 07:09 nsenter
+-rwxr-xr-x   1 root root      117736 May 21 08:23 nslookup
+-rwxr-xr-x   1 root root       84680 May 21 08:23 nsupdate
+-rwsr-xr-x   1 root root      167000 Apr 17 13:48 ntfs-3g
+-rwxr-xr-x   1 root root       14800 Apr 17 13:48 ntfs-3g.probe
+-rwxr-xr-x   1 root root       27088 Apr 17 13:48 ntfscat
+-rwxr-xr-x   1 root root       39384 Apr 17 13:48 ntfscluster
+-rwxr-xr-x   1 root root       31184 Apr 17 13:48 ntfscmp
+-rwxr-xr-x   1 root root       43480 Apr 17 13:48 ntfsdecrypt
+-rwxr-xr-x   1 root root       27096 Apr 17 13:48 ntfsfallocate
+-rwxr-xr-x   1 root root       35288 Apr 17 13:48 ntfsfix
+-rwxr-xr-x   1 root root       55768 Apr 17 13:48 ntfsinfo
+-rwxr-xr-x   1 root root       28192 Apr 17 13:48 ntfsls
+-rwxr-xr-x   1 root root       31192 Apr 17 13:48 ntfsmove
+-rwxr-xr-x   1 root root      113104 Apr 17 13:48 ntfsrecover
+-rwxr-xr-x   1 root root       84928 Apr 17 13:48 ntfssecaudit
+-rwxr-xr-x   1 root root       27016 Apr 17 13:48 ntfstruncate
+-rwxr-xr-x   1 root root       18816 Apr 17 13:48 ntfsusermap
+-rwxr-xr-x   1 root root       44016 Apr 17 13:48 ntfswipe
+-rwxr-xr-x   1 root root       40288 Feb  2 16:31 numactl
+-rwxr-xr-x   1 root root       35360 Feb  2 16:31 numastat
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 numfmt -> ../lib/cargo/bin/coreutils/numfmt
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 od -> ../lib/cargo/bin/coreutils/od
+lrwxrwxrwx   1 root root          17 Feb  2 16:36 on_ac_power -> /sbin/on_ac_power
+-rwxr-xr-x   1 root root     1132128 Apr  7 08:05 openssl
+lrwxrwxrwx   1 root root          23 Mar 13 07:09 pager -> /etc/alternatives/pager
+-rwxr-xr-x   1 root root       63960 Mar 13 07:09 partx
+-rwsr-xr-x   1 root root       93640 Feb  2 16:45 passwd
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 paste -> ../lib/cargo/bin/coreutils/paste
+lrwxrwxrwx   1 root root          34 Mar 30 12:50 pathchk -> ../lib/cargo/bin/coreutils/pathchk
+-rwxr-xr-x   1 root root       47568 Feb  2 16:34 pcilmr
+lrwxrwxrwx   1 root root           7 Mar 21 05:46 pdb3 -> pdb3.14
+-rwxr-xr-x   1 root root          38 Apr  8 00:02 pdb3.14
+-rwxr-xr-x   1 root root     9924770 Apr 16 18:56 pebble
+-rwxr-xr-x   1 root root       14720 Feb  2 16:37 peekfd
+-rwxr-xr-x   2 root root     4064448 Mar 17 06:45 perl
+-rwxr-xr-x   2 root root     4064448 Mar 17 06:45 perl5.40.1
+-rwxr-xr-x   1 root root       39544 Dec  1  2025 pgrep
+-rwxr-xr-x   1 root root      196744 Dec  2  2025 pic
+lrwxrwxrwx   1 root root          22 Feb  8 18:29 pico -> /etc/alternatives/pico
+lrwxrwxrwx   1 root root          16 Oct 31  2025 pidof -> ../sbin/killall5
+-rwxr-xr-x   1 root root       55864 Jan 11 18:40 pidstat
+-rwxr-xr-x   1 root root       39544 Dec  1  2025 pidwait
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 pinky -> ../lib/cargo/bin/coreutils/pinky
+lrwxrwxrwx   1 root root           5 Dec  1  2025 pkill -> pgrep
+-rwxr-xr-x   1 root root       22976 Mar 31 16:35 pldd
+-rwxr-xr-x   1 root root       47488 Mar 12 10:27 plymouth
+-rwxr-xr-x   1 root root       35376 Dec  1  2025 pmap
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 pr -> ../lib/cargo/bin/coreutils/pr
+-rwxr-xr-x   1 root root       59952 Dec  2  2025 preconv
+lrwxrwxrwx   1 root root          35 Mar 30 12:50 printenv -> ../lib/cargo/bin/coreutils/printenv
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 printf -> ../lib/cargo/bin/coreutils/printf
+-rwxr-xr-x   1 root root       27616 Mar 13 07:09 prlimit
+lrwxrwxrwx   1 root root          16 Mar 11 09:27 pro -> ubuntu-advantage
+-rwxr-xr-x   1 root root       22992 Feb  2 16:37 prtstat
+-rwxr-xr-x   1 root root      146576 Dec  1  2025 ps
+-rwxr-xr-x   1 root root       14720 Feb  2 16:37 pslog
+-rwxr-xr-x   1 root root       35544 Feb  2 16:37 pstree
+lrwxrwxrwx   1 root root           6 Feb  2 16:37 pstree.x11 -> pstree
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 ptx -> ../lib/cargo/bin/coreutils/ptx
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 pwd -> ../lib/cargo/bin/coreutils/pwd
+-rwxr-xr-x   1 root root       14872 Dec  1  2025 pwdx
+-rwxr-xr-x   1 root root        7231 Mar 21 05:46 py3clean
+-rwxr-xr-x   1 root root       13312 Mar 21 05:46 py3compile
+lrwxrwxrwx   1 root root          31 Mar 21 05:46 py3versions -> ../share/python3/py3versions.py
+lrwxrwxrwx   1 root root           9 Mar 21 05:46 pydoc3 -> pydoc3.14
+-rwxr-xr-x   1 root root          80 Apr  8 00:02 pydoc3.14
+lrwxrwxrwx   1 root root          13 Mar 21 05:46 pygettext3 -> pygettext3.14
+-rwxr-xr-x   1 root root       28593 Apr  8 00:02 pygettext3.14
+lrwxrwxrwx   1 root root          10 Mar 21 05:46 python3 -> python3.14
+-rwxr-xr-x   1 root root     7477096 Apr  8 00:02 python3.14
+lrwxrwxrwx   1 root root           4 Feb 13 08:16 rbash -> bash
+lrwxrwxrwx   1 root root          35 Mar 30 12:50 readlink -> ../lib/cargo/bin/coreutils/readlink
+lrwxrwxrwx   1 root root          35 Mar 30 12:50 realpath -> ../lib/cargo/bin/coreutils/realpath
+-rwxr-xr-x   1 root root          89 Jan  5 11:07 red
+-rwxr-xr-x   1 root root       14800 Mar 13 07:09 renice
+lrwxrwxrwx   1 root root           4 Jan  3 03:53 reset -> tset
+-rwxr-xr-x   1 root root      137912 Apr 15 14:32 resolvectl
+-rwxr-xr-x   1 root root       14808 Mar 13 07:09 rev
+-rwxr-xr-x   1 root root          30 Apr 21  2025 rgrep
+lrwxrwxrwx   1 root root           5 Mar 30 12:50 rm -> gnurm
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 rmdir -> ../lib/cargo/bin/coreutils/rmdir
+lrwxrwxrwx   1 root root           4 Feb  8 18:29 rnano -> nano
+-rwxr-xr-x   1 root root       13005 May 14 04:54 rrsync
+-rwxr-xr-x   1 root root      542912 May 14 04:54 rsync
+-rwxr-xr-x   1 root root        5128 May 14 04:54 rsync-ssl
+-rwxr-xr-x   1 root root       31632 Feb  2 16:29 run-parts
+lrwxrwxrwx   1 root root          11 Apr 15 14:32 run0 -> systemd-run
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 runcon -> ../lib/cargo/bin/coreutils/runcon
+lrwxrwxrwx   1 root root          23 May 20 15:11 rview -> /etc/alternatives/rview
+lrwxrwxrwx   1 root root          22 May 20 15:11 rvim -> /etc/alternatives/rvim
+-rwxr-xr-x   1 root root      405648 Jan 11 18:40 sadf
+lrwxrwxrwx   1 root root          21 Jan 11 18:40 sar -> /etc/alternatives/sar
+-rwxr-xr-x   1 root root      191600 Jan 11 18:40 sar.sysstat
+-rwxr-xr-x   1 root root       10487 Feb  2 16:29 savelog
+-rwxr-xr-x   1 root root      137976 Apr 27 20:15 scp
+-rwxr-xr-x   1 root root      497936 Feb  9 18:45 screen
+-rwxr-xr-x   1 root root       55760 Mar 13 07:09 script
+-rwxr-xr-x   1 root root       43472 Mar 13 07:09 scriptlive
+-rwxr-xr-x   1 root root       35280 Mar 13 07:09 scriptreplay
+-rwxr-xr-x   1 root root       51808 Oct 19  2025 sdiff
+-rwxr-xr-x   1 root root      117392 Feb  2 16:41 sed
+-rwxr-xr-x   1 root root        2678 Dec 18 08:57 select-editor
+-rwxr-xr-x   1 root root        1085 Dec 18 08:57 sensible-browser
+-rwxr-xr-x   1 root root        1551 Dec 18 08:57 sensible-editor
+-rwxr-xr-x   1 root root         824 Dec 18 08:57 sensible-pager
+-rwxr-xr-x   1 root root        1109 Dec 18 08:57 sensible-terminal
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 seq -> ../lib/cargo/bin/coreutils/seq
+-rwxr-xr-x   1 root root       27368 Mar 13 07:09 setarch
+-rwxr-xr-x   1 root root       35288 Feb  2 16:34 setpci
+-rwxr-xr-x   1 root root       47576 Mar 13 07:09 setpriv
+-rwxr-xr-x   1 root root       14800 Mar 13 07:09 setsid
+-rwxr-xr-x   1 root root       35280 Mar 13 07:09 setterm
+-rwxr-xr-x   1 root root      154336 Apr 27 20:15 sftp
+lrwxrwxrwx   1 root root           4 Feb  2 16:26 sh -> dash
+lrwxrwxrwx   1 root root          34 Mar 30 12:50 sha1sum -> ../lib/cargo/bin/coreutils/sha1sum
+lrwxrwxrwx   1 root root          36 Mar 30 12:50 sha224sum -> ../lib/cargo/bin/coreutils/sha224sum
+lrwxrwxrwx   1 root root          36 Mar 30 12:50 sha256sum -> ../lib/cargo/bin/coreutils/sha256sum
+lrwxrwxrwx   1 root root          38 Mar 30 12:50 sha3-224sum -> ../lib/cargo/bin/coreutils/sha3-224sum
+lrwxrwxrwx   1 root root          38 Mar 30 12:50 sha3-256sum -> ../lib/cargo/bin/coreutils/sha3-256sum
+lrwxrwxrwx   1 root root          38 Mar 30 12:50 sha3-384sum -> ../lib/cargo/bin/coreutils/sha3-384sum
+lrwxrwxrwx   1 root root          38 Mar 30 12:50 sha3-512sum -> ../lib/cargo/bin/coreutils/sha3-512sum
+lrwxrwxrwx   1 root root          36 Mar 30 12:50 sha384sum -> ../lib/cargo/bin/coreutils/sha384sum
+lrwxrwxrwx   1 root root          34 Mar 30 12:50 sha3sum -> ../lib/cargo/bin/coreutils/sha3sum
+lrwxrwxrwx   1 root root          36 Mar 30 12:50 sha512sum -> ../lib/cargo/bin/coreutils/sha512sum
+lrwxrwxrwx   1 root root          38 Mar 30 12:50 shake128sum -> ../lib/cargo/bin/coreutils/shake128sum
+lrwxrwxrwx   1 root root          38 Mar 30 12:50 shake256sum -> ../lib/cargo/bin/coreutils/shake256sum
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 shred -> ../lib/cargo/bin/coreutils/shred
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 shuf -> ../lib/cargo/bin/coreutils/shuf
+-rwxr-xr-x   1 root root       27128 Dec  1  2025 skill
+-rwxr-xr-x   1 root root       23128 Dec  1  2025 slabtop
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 sleep -> ../lib/cargo/bin/coreutils/sleep
+lrwxrwxrwx   1 root root           5 Dec  1  2025 snice -> skill
+-rwxr-xr-x   1 root root       39472 Dec  2  2025 soelim
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 sort -> ../lib/cargo/bin/coreutils/sort
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 split -> ../lib/cargo/bin/coreutils/split
+-rwxr-xr-x   1 root root      924800 Apr 27 20:15 ssh
+-rwxr-xr-x   1 root root      297472 Apr 27 20:15 ssh-add
+-rwxr-sr-x   1 root _ssh      313864 Apr 27 20:15 ssh-agent
+-rwxr-xr-x   1 root root        1455 Mar 12 10:14 ssh-argv0
+-rwxr-xr-x   1 root root       14421 Oct  9  2025 ssh-copy-id
+-rwxr-xr-x   1 root root      457232 Apr 27 20:15 ssh-keygen
+-rwxr-xr-x   1 root root      399888 Apr 27 20:15 ssh-keyscan
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 stat -> ../lib/cargo/bin/coreutils/stat
+lrwxrwxrwx   1 root root           7 Jan 14 11:50 static-sh -> busybox
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 stdbuf -> ../lib/cargo/bin/coreutils/stdbuf
+-rwxr-xr-x   1 root root     2370264 Apr 15 10:53 strace
+-rwxr-xr-x   1 root root        1875 Jul 19  2024 strace-log-merge
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 stty -> ../lib/cargo/bin/coreutils/stty
+-rwsr-xr-x   1 root root       55760 Mar 13 07:09 su
+lrwxrwxrwx   1 root root          19 Mar 11 09:27 su-rs -> ../lib/cargo/bin/su
+lrwxrwxrwx   1 root root          22 Mar 13 07:02 sudo -> /etc/alternatives/sudo
+lrwxrwxrwx   1 root root          21 Mar 11 09:27 sudo-rs -> ../lib/cargo/bin/sudo
+-rwsr-xr-x   1 root root      282080 Mar 13 07:02 sudo.ws
+lrwxrwxrwx   1 root root          26 Jun  2 09:34 sudoedit -> /etc/alternatives/sudoedit
+lrwxrwxrwx   1 root root          21 Mar 11 09:27 sudoedit-rs -> ../lib/cargo/bin/sudo
+-rwxr-xr-x   1 root root       98368 Mar 13 07:02 sudoreplay.ws
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 sum -> ../lib/cargo/bin/coreutils/sum
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 sync -> ../lib/cargo/bin/coreutils/sync
+-rwxr-xr-x   1 root root      302112 Apr 15 14:32 systemctl
+-rwxr-xr-x   1 root root       14792 Apr 15 14:32 systemd-ac-power
+-rwxr-xr-x   1 root root      252888 Apr 15 14:32 systemd-analyze
+-rwxr-xr-x   1 root root       27248 Apr 15 14:32 systemd-ask-password
+-rwxr-xr-x   1 root root       18896 Apr 15 14:32 systemd-cat
+-rwxr-xr-x   1 root root       23112 Apr 15 14:32 systemd-cgls
+-rwxr-xr-x   1 root root       35392 Apr 15 14:32 systemd-cgtop
+lrwxrwxrwx   1 root root          14 Apr 15 14:32 systemd-confext -> systemd-sysext
+-rwxr-xr-x   1 root root       60256 Apr 15 14:32 systemd-creds
+-rwxr-xr-x   1 root root       80888 Apr 15 14:32 systemd-cryptenroll
+-rwxr-xr-x   1 root root       85080 Apr 15 14:32 systemd-cryptsetup
+-rwxr-xr-x   1 root root       27080 Apr 15 14:32 systemd-delta
+-rwxr-xr-x   1 root root       18888 Apr 15 14:32 systemd-detect-virt
+-rwxr-xr-x   1 root root       22984 Apr 15 14:32 systemd-escape
+-rwxr-xr-x   1 root root       60296 Apr 15 14:32 systemd-firstboot
+-rwxr-xr-x   1 root root       14784 Apr 15 14:32 systemd-hwdb
+-rwxr-xr-x   1 root root       31184 Apr 15 14:32 systemd-id128
+-rwxr-xr-x   1 root root       23008 Apr 15 14:32 systemd-inhibit
+-rwxr-xr-x   1 root root       19072 Apr 15 14:32 systemd-machine-id-setup
+-rwxr-xr-x   1 root root       56112 Apr 15 14:32 systemd-mount
+-rwxr-xr-x   1 root root       27080 Apr 15 14:32 systemd-mute-console
+-rwxr-xr-x   1 root root       31464 Apr 15 14:32 systemd-notify
+-rwxr-xr-x   1 root root       22984 Apr 15 14:32 systemd-path
+-rwxr-xr-x   1 root root       23136 Apr 15 14:32 systemd-pty-forward
+-rwxr-xr-x   1 root root       97272 Apr 15 14:32 systemd-run
+-rwxr-xr-x   1 root root       31176 Apr 15 14:32 systemd-socket-activate
+-rwxr-xr-x   1 root root       22984 Apr 15 14:32 systemd-stdio-bridge
+-rwxr-xr-x   1 root root       76440 Apr 15 14:32 systemd-sysext
+-rwxr-xr-x   1 root root       68224 Apr 15 14:32 systemd-sysusers
+-rwxr-xr-x   1 root root      121544 Apr 15 14:32 systemd-tmpfiles
+-rwxr-xr-x   1 root root       39496 Apr 15 14:32 systemd-tty-ask-password-agent
+lrwxrwxrwx   1 root root          13 Apr 15 14:32 systemd-umount -> systemd-mount
+-rwxr-xr-x   1 root root       23248 Apr 15 14:32 systemd-vpick
+-rwxr-xr-x   1 root root       18816 Jan  3 03:53 tabs
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 tac -> ../lib/cargo/bin/coreutils/tac
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 tail -> ../lib/cargo/bin/coreutils/tail
+-rwxr-xr-x   1 root root       31280 Jan 11 18:40 tapestat
+-rwxr-xr-x   1 root root      448528 Feb 19 16:05 tar
+-rwxr-xr-x   1 root root       31184 Mar 13 07:09 taskset
+-rwxr-xr-x   1 root root      133680 Dec  2  2025 tbl
+-rwxr-xr-x   1 root root     1282240 Feb 27 04:52 tcpdump
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 tee -> ../lib/cargo/bin/coreutils/tee
+lrwxrwxrwx   1 root root          24 Jan 27 10:28 telnet -> /etc/alternatives/telnet
+-rwxr-xr-x   1 root root       14720 Feb  2 16:29 tempfile
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 test -> ../lib/cargo/bin/coreutils/test
+-rwxr-xr-x   1 root root       92736 Jan  3 03:53 tic
+-rwxr-xr-x   1 root root       27232 Jan 14 13:45 time
+-rwxr-xr-x   1 root root       47560 Apr 15 14:32 timedatectl
+lrwxrwxrwx   1 root root          34 Mar 30 12:50 timeout -> ../lib/cargo/bin/coreutils/timeout
+-rwxr-xr-x   1 root root       18984 Dec  1  2025 tload
+-rwxr-xr-x   1 root root      187392 Feb 10 23:57 tnftp
+-rwxr-xr-x   1 root root       22912 Jan  3 03:53 toe
+-rwxr-xr-x   1 root root      135064 Dec  1  2025 top
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 touch -> ../lib/cargo/bin/coreutils/touch
+-rwxr-xr-x   1 root root       27040 Jan  3 03:53 tput
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 tr -> ../lib/cargo/bin/coreutils/tr
+-rwxr-xr-x   1 root root      466992 Jan 22 18:04 trace-cmd
+-rwxr-xr-x   1 root root       18736 Oct 31  2025 tracepath
+-rwxr-xr-x   1 root root       97792 Feb  3 13:59 tree
+-rwxr-xr-x   1 root root      748224 Dec  2  2025 troff
+lrwxrwxrwx   1 root root           7 Mar 30 12:50 true -> gnutrue
+lrwxrwxrwx   1 root root          35 Mar 30 12:50 truncate -> ../lib/cargo/bin/coreutils/truncate
+-rwxr-xr-x   1 root root       31112 Jan  3 03:53 tset
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 tsort -> ../lib/cargo/bin/coreutils/tsort
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 tty -> ../lib/cargo/bin/coreutils/tty
+-rwxr-xr-x   1 root root       21901 Mar 31 16:35 tzselect
+lrwxrwxrwx   1 root root          16 Mar 11 09:27 ua -> ubuntu-advantage
+-rwxr-xr-x   1 root root        1004 Mar 11 09:27 ubuntu-advantage
+-rwxr-xr-x   1 root root       22992 Feb 16 18:18 ubuntu-distro-info
+-rwxr-xr-x   1 root root       22784 Apr 16 09:25 ubuntu-security-status
+-rwxr-xr-x   1 root root       36482 Feb 26 10:35 ucf
+-rwxr-xr-x   1 root root       18915 Feb 26 10:35 ucfq
+-rwxr-xr-x   1 root root       10180 Feb 26 10:35 ucfr
+-rwxr-xr-x   1 root root       31184 Mar 13 07:09 uclampset
+-rwxr-xr-x   1 root root      765648 Apr 15 14:32 udevadm
+-rwxr-xr-x   1 root root       23000 Mar 13 07:09 ul
+-rwsr-xr-x   1 root root       39376 Mar 13 07:09 umount
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 uname -> ../lib/cargo/bin/coreutils/uname
+lrwxrwxrwx   1 root root           6 Feb 27 13:02 uncompress -> gunzip
+lrwxrwxrwx   1 root root          35 Mar 30 12:50 unexpand -> ../lib/cargo/bin/coreutils/unexpand
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 uniq -> ../lib/cargo/bin/coreutils/uniq
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 unlink -> ../lib/cargo/bin/coreutils/unlink
+lrwxrwxrwx   1 root root          24 Mar 31 20:00 unlzma -> /etc/alternatives/unlzma
+-rwxr-xr-x   1 root root       47800 Mar 13 07:09 unshare
+lrwxrwxrwx   1 root root           2 Mar 31 20:00 unxz -> xz
+-rwxr-xr-x   1 root root       59864 Mar 31 10:52 update-alternatives
+-rwxr-xr-x   1 root root       88480 Feb  2 16:45 update-mime-database
+-rwxr-xr-x   1 root root       14872 Dec  1  2025 uptime
+-rwxr-xr-x   1 root root        4979 Oct 22  2025 usb-devices
+-rwxr-xr-x   1 root root       31192 Nov 15  2025 usbhid-dump
+-rwxr-xr-x   1 root root       14720 Nov 15  2025 usbreset
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 users -> ../lib/cargo/bin/coreutils/users
+-rwxr-xr-x   1 root root       22992 Mar 13 07:09 uuidgen
+-rwxr-xr-x   1 root root       22992 Mar 13 07:09 uuidparse
+-rwxr-xr-x   1 root root       47720 Apr 15 14:32 varlinkctl
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 vdir -> ../lib/cargo/bin/coreutils/vdir
+lrwxrwxrwx   1 root root          20 May 20 15:11 vi -> /etc/alternatives/vi
+lrwxrwxrwx   1 root root          22 May 20 15:11 view -> /etc/alternatives/view
+lrwxrwxrwx   1 root root          21 May 20 15:11 vim -> /etc/alternatives/vim
+-rwxr-xr-x   1 root root     4571816 May 20 15:11 vim.basic
+lrwxrwxrwx   1 root root          25 May 20 15:11 vimdiff -> /etc/alternatives/vimdiff
+-rwxr-xr-x   1 root root        4870 May 20 15:11 vimtutor
+lrwxrwxrwx   1 root root          23 Mar 11 09:27 visudo-rs -> ../lib/cargo/bin/visudo
+-rwxr-xr-x   1 root root       39864 Dec  1  2025 vmstat
+-rwxr-xr-x   1 root root       35352 Dec  1  2025 w
+-rwxr-xr-x   1 root root       27088 Mar 13 07:09 wall
+-rwxr-xr-x   1 root root       31736 Dec  1  2025 watch
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 wc -> ../lib/cargo/bin/coreutils/wc
+-rwxr-xr-x   1 root root       11581 Apr 29 07:35 wcurl
+-rwxr-xr-x   1 root root      531536 Feb  2 16:52 wget
+-rwxr-xr-x   1 root root       48576 Feb  2 16:49 whatis
+-rwxr-xr-x   1 root root       31184 Mar 13 07:09 whereis
+lrwxrwxrwx   1 root root          23 Feb  2 16:29 which -> /etc/alternatives/which
+-rwxr-xr-x   1 root root        1080 Feb  2 16:29 which.debianutils
+-rwxr-xr-x   1 root root       30968 Mar 20 07:05 whiptail
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 who -> ../lib/cargo/bin/coreutils/who
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 whoami -> ../lib/cargo/bin/coreutils/whoami
+lrwxrwxrwx   1 root root           7 Mar 13 07:09 x86_64 -> setarch
+-rwxr-xr-x   1 root root       68088 Feb  2 16:37 xargs
+-rwxr-xr-x   1 root root       56352 Dec  6  2025 xauth
+-rwxr-xr-x   1 root root         234 Sep 20  2025 xdg-user-dir
+-rwxr-xr-x   1 root root       26936 Sep 25  2025 xdg-user-dirs-update
+-rwxr-xr-x   1 root root       22896 May 20 15:11 xxd
+-rwxr-xr-x   1 root root      101392 Mar 31 20:00 xz
+lrwxrwxrwx   1 root root           2 Mar 31 20:00 xzcat -> xz
+lrwxrwxrwx   1 root root           6 Mar 31 20:00 xzcmp -> xzdiff
+-rwxr-xr-x   1 root root        7743 Mar 31 20:00 xzdiff
+lrwxrwxrwx   1 root root           6 Mar 31 20:00 xzegrep -> xzgrep
+lrwxrwxrwx   1 root root           6 Mar 31 20:00 xzfgrep -> xzgrep
+-rwxr-xr-x   1 root root       10458 Mar 31 20:00 xzgrep
+-rwxr-xr-x   1 root root        2428 Mar 31 20:00 xzless
+-rwxr-xr-x   1 root root        2262 Mar 31 20:00 xzmore
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 yes -> ../lib/cargo/bin/coreutils/yes
+lrwxrwxrwx   1 root root           8 Dec  6  2025 ypdomainname -> hostname
+-rwxr-xr-x   1 root root        1904 Feb 27 13:02 zcat
+-rwxr-xr-x   1 root root        1609 Feb 27 13:02 zcmp
+-rwxr-xr-x   1 root root        6386 Feb 27 13:02 zdiff
+-rwxr-xr-x   1 root root       31008 Mar 31 16:35 zdump
+-rwxr-xr-x   1 root root          29 Feb 27 13:02 zegrep
+-rwxr-xr-x   1 root root          29 Feb 27 13:02 zfgrep
+-rwxr-xr-x   1 root root        2007 Feb 27 13:02 zforce
+-rwxr-xr-x   1 root root        8136 Feb 27 13:02 zgrep
+-rwxr-xr-x   1 root root        2365 Feb 27 13:02 zless
+-rwxr-xr-x   1 root root        1768 Feb 27 13:02 zmore
+-rwxr-xr-x   1 root root        4561 Feb 27 13:02 znew
+total 80892
+lrwxrwxrwx   1 root root          28 Mar 30 12:50 [ -> ../lib/cargo/bin/coreutils/[
+-rwxr-xr-x   1 root root       14720 Apr  8 13:26 aa-enabled
+-rwxr-xr-x   1 root root       14720 Apr  8 13:26 aa-exec
+-rwxr-xr-x   1 root root       14720 Apr  8 13:26 aa-features-abi
+lrwxrwxrwx   1 root root           6 Feb  2 16:49 apropos -> whatis
+-rwxr-xr-x   1 root root       23072 Apr  7 05:02 apt
+-rwxr-xr-x   1 root root      100904 Apr  7 05:02 apt-cache
+-rwxr-xr-x   1 root root       27176 Apr  7 05:02 apt-cdrom
+-rwxr-xr-x   1 root root       31200 Apr  7 05:02 apt-config
+-rwxr-xr-x   1 root root       59944 Apr  7 05:02 apt-get
+-rwxr-xr-x   1 root root       72232 Apr  7 05:02 apt-mark
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 arch -> ../lib/cargo/bin/coreutils/arch
+lrwxrwxrwx   1 root root          21 Feb  3 16:30 awk -> /etc/alternatives/awk
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 b2sum -> ../lib/cargo/bin/coreutils/b2sum
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 base32 -> ../lib/cargo/bin/coreutils/base32
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 base64 -> ../lib/cargo/bin/coreutils/base64
+lrwxrwxrwx   1 root root          35 Mar 30 12:50 basename -> ../lib/cargo/bin/coreutils/basename
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 basenc -> ../lib/cargo/bin/coreutils/basenc
+-rwxr-xr-x   1 root root     1540520 Feb 13 08:16 bash
+-rwxr-xr-x   1 root root        7075 Feb 13 08:16 bashbug
+-rwxr-xr-x   1 root root       92776 Apr 15 14:32 busctl
+-rwxr-xr-x   1 root root     2190672 Jan 14 11:50 busybox
+-rwxr-xr-x   1 root root        6919 Apr  7 08:05 c_rehash
+lrwxrwxrwx   1 root root           4 Dec  9  2025 cal -> ncal
+lrwxrwxrwx   1 root root           3 Jan  3 03:53 captoinfo -> tic
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 cat -> ../lib/cargo/bin/coreutils/cat
+-rwxr-xr-x   1 root root       35760 Feb  2 16:49 catman
+-rwxr-sr-x   1 root shadow     85256 Feb  2 16:45 chage
+-rwxr-xr-x   1 root root       14728 Feb 13 08:17 chattr
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 chcon -> ../lib/cargo/bin/coreutils/chcon
+-rwsr-xr-x   1 root root       72840 Feb  2 16:45 chfn
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 chgrp -> ../lib/cargo/bin/coreutils/chgrp
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 chmod -> ../lib/cargo/bin/coreutils/chmod
+-rwxr-xr-x   1 root root       22992 Mar 13 07:09 choom
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 chown -> ../lib/cargo/bin/coreutils/chown
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 chroot -> ../lib/cargo/bin/coreutils/chroot
+-rwxr-xr-x   1 root root       31184 Mar 13 07:09 chrt
+-rwsr-xr-x   1 root root       48936 Feb  2 16:45 chsh
+-rwxr-xr-x   1 root root       27184 Jan 11 18:40 cifsiostat
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 cksum -> ../lib/cargo/bin/coreutils/cksum
+-rwxr-xr-x   1 root root       14728 Jan  3 03:53 clear
+-rwxr-xr-x   1 root root       14640 Feb 13 08:16 clear_console
+-rwxr-xr-x   1 root root       43592 Oct 19  2025 cmp
+-rwxr-xr-x   1 root root       23000 Mar 13 07:09 col
+-rwxr-xr-x   1 root root       14808 Mar 13 07:09 colcrt
+-rwxr-xr-x   1 root root       14808 Mar 13 07:09 colrm
+-rwxr-xr-x   1 root root       39384 Mar 13 07:09 column
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 comm -> ../lib/cargo/bin/coreutils/comm
+-rwxr-xr-x 115 root root    11352352 Apr 16 08:41 coreutils
+lrwxrwxrwx   1 root root           5 Mar 30 12:50 cp -> gnucp
+-rwxr-xr-x   1 root root      153624 Dec 21 08:24 cpio
+-rwxr-sr-x   1 root crontab    39744 Nov  5  2025 crontab
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 csplit -> ../lib/cargo/bin/coreutils/csplit
+-rwxr-xr-x   1 root root      334360 Apr 29 07:35 curl
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 cut -> ../lib/cargo/bin/coreutils/cut
+-rwxr-xr-x   1 root root      341328 Mar 13 07:02 cvtsudoers.ws
+-rwxr-xr-x   1 root root      129856 Feb  2 16:26 dash
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 date -> ../lib/cargo/bin/coreutils/date
+-rwxr-xr-x   1 root root       14712 Mar  3 07:20 dbus-cleanup-sockets
+-rwxr-xr-x   1 root root      236256 Mar  3 07:20 dbus-daemon
+-rwxr-xr-x   1 root root       27000 Mar  3 07:20 dbus-monitor
+-rwxr-xr-x   1 root root       14712 Mar  3 07:20 dbus-run-session
+-rwxr-xr-x   1 root root       35192 Mar  3 07:20 dbus-send
+-rwxr-xr-x   1 root root       14712 Mar  3 07:20 dbus-update-activation-environment
+-rwxr-xr-x   1 root root       14712 Mar  3 07:20 dbus-uuidgen
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 dd -> ../lib/cargo/bin/coreutils/dd
+-rwxr-xr-x   1 root root       24358 Jul 13  2022 deb-systemd-helper
+-rwxr-xr-x   1 root root        7135 Nov 26  2023 deb-systemd-invoke
+-rwxr-xr-x   1 root root        2870 Feb 16 13:48 debconf
+-rwxr-xr-x   1 root root       11846 Feb 16 13:48 debconf-apt-progress
+-rwxr-xr-x   1 root root         623 Feb 16 13:48 debconf-communicate
+-rwxr-xr-x   1 root root        1718 Feb 16 13:48 debconf-copydb
+-rwxr-xr-x   1 root root         668 Feb 16 13:48 debconf-escape
+-rwxr-xr-x   1 root root        3216 Feb 16 13:48 debconf-set-selections
+-rwxr-xr-x   1 root root        1825 Feb 16 13:48 debconf-show
+-rwxr-xr-x   1 root root       27088 Feb 16 18:18 debian-distro-info
+-rwxr-xr-x   1 root root       62952 May 21 08:23 delv
+lrwxrwxrwx   1 root root           5 Mar 30 12:50 df -> gnudf
+-rwxr-xr-x   1 root root        4527 Sep 28  2025 dh_bash-completion
+-rwxr-xr-x   1 root root      137960 Oct 19  2025 diff
+-rwxr-xr-x   1 root root       51808 Oct 19  2025 diff3
+-rwxr-xr-x   1 root root      150480 May 21 08:23 dig
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 dir -> ../lib/cargo/bin/coreutils/dir
+lrwxrwxrwx   1 root root          36 Mar 30 12:50 dircolors -> ../lib/cargo/bin/coreutils/dircolors
+lrwxrwxrwx   1 root root          34 Mar 30 12:50 dirname -> ../lib/cargo/bin/coreutils/dirname
+lrwxrwxrwx   1 root root          18 Feb 16 18:18 distro-info -> ubuntu-distro-info
+-rwxr-xr-x   1 root root       74528 Mar 13 07:09 dmesg
+lrwxrwxrwx   1 root root           8 Dec  6  2025 dnsdomainname -> hostname
+-rwxr-xr-x   1 root root        9268 Apr 22 13:29 do-release-upgrade
+lrwxrwxrwx   1 root root           8 Dec  6  2025 domainname -> hostname
+-rwxr-xr-x   1 root root      322728 Mar 31 10:52 dpkg
+-rwxr-xr-x   1 root root      150176 Mar 31 10:52 dpkg-deb
+-rwxr-xr-x   1 root root      125768 Mar 31 10:52 dpkg-divert
+-rwxr-xr-x   1 root root       21123 Mar 31 10:52 dpkg-maintscript-helper
+-rwxr-xr-x   1 root root      142160 Mar 31 10:52 dpkg-query
+-rwxr-xr-x   1 root root       35280 Mar 31 10:52 dpkg-realpath
+-rwxr-xr-x   1 root root      100976 Mar 31 10:52 dpkg-split
+-rwxr-xr-x   1 root root       55936 Mar 31 10:52 dpkg-statoverride
+-rwxr-xr-x   1 root root       47728 Mar 31 10:52 dpkg-trigger
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 du -> ../lib/cargo/bin/coreutils/du
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 echo -> ../lib/cargo/bin/coreutils/echo
+-rwxr-xr-x   1 root root       63792 Jan  5 11:07 ed
+lrwxrwxrwx   1 root root          24 Jan  5 11:07 editor -> /etc/alternatives/editor
+-rwxr-xr-x   1 root root          41 Sep 27  2025 egrep
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 env -> ../lib/cargo/bin/coreutils/env
+-rwxr-xr-x   1 root root       39456 Nov 13  2025 envsubst
+-rwxr-xr-x   1 root root      197136 Dec  2  2025 eqn
+lrwxrwxrwx   1 root root          20 May 20 15:11 ex -> /etc/alternatives/ex
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 expand -> ../lib/cargo/bin/coreutils/expand
+-rwxr-sr-x   1 root shadow     23168 Feb  2 16:45 expiry
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 expr -> ../lib/cargo/bin/coreutils/expr
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 factor -> ../lib/cargo/bin/coreutils/factor
+-rwxr-xr-x   1 root root       27088 Mar 13 07:09 fallocate
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 false -> ../lib/cargo/bin/coreutils/false
+-rwxr-xr-x   1 root root          41 Sep 27  2025 fgrep
+-rwxr-xr-x   1 root root       27352 Feb  2 16:37 file
+-rwxr-xr-x   1 root root      216632 Feb  2 16:37 find
+-rwxr-xr-x   1 root root       81888 Mar 13 07:09 findmnt
+-rwxr-xr-x   1 root root       27200 Mar 13 07:09 flock
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 fmt -> ../lib/cargo/bin/coreutils/fmt
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 fold -> ../lib/cargo/bin/coreutils/fold
+-rwxr-xr-x   1 root root       27160 Dec  1  2025 free
+lrwxrwxrwx   1 root root          21 Feb 10 23:57 ftp -> /etc/alternatives/ftp
+-rwxr-xr-x   1 root root       44000 Feb  2 16:37 fuser
+lrwxrwxrwx   1 root root          11 Mar 21 03:16 fusermount -> fusermount3
+-rwsr-xr-x   1 root root       39376 Mar 21 03:16 fusermount3
+lrwxrwxrwx   1 root root           3 Dec  2  2025 geqn -> eqn
+-rwxr-xr-x   1 root root       31088 Mar 31 16:35 getconf
+-rwxr-xr-x   1 root root       39648 Mar 31 16:35 getent
+-rwxr-xr-x   1 root root       22992 Mar 13 07:09 getopt
+-rwxr-xr-x   1 root root       39456 Nov 13  2025 gettext
+-rwxr-xr-x   1 root root        5167 Nov 13  2025 gettext.sh
+lrwxrwxrwx   1 root root          12 Mar 25 14:25 ginstall-info -> install-info
+-rwxr-xr-x   1 root root       47632 Jan 23 09:41 gnu[
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnuarch
+-rwxr-xr-x   1 root root       55904 Jan 23 09:41 gnub2sum
+-rwxr-xr-x   1 root root       39520 Jan 23 09:41 gnubase32
+-rwxr-xr-x   1 root root       39520 Jan 23 09:41 gnubase64
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnubasename
+-rwxr-xr-x   1 root root       51808 Jan 23 09:41 gnubasenc
+-rwxr-xr-x   1 root root       39472 Jan 23 09:41 gnucat
+-rwxr-xr-x   1 root root       64096 Jan 23 09:41 gnuchcon
+-rwxr-xr-x   1 root root       64064 Jan 23 09:41 gnuchgrp
+-rwxr-xr-x   1 root root       60000 Jan 23 09:41 gnuchmod
+-rwxr-xr-x   1 root root       68160 Jan 23 09:41 gnuchown
+-rwxr-xr-x   1 root root      117360 Jan 23 09:41 gnucksum
+-rwxr-xr-x   1 root root       39528 Jan 23 09:41 gnucomm
+-rwxr-xr-x   1 root root      137840 Jan 23 09:41 gnucp
+-rwxr-xr-x   1 root root       51808 Jan 23 09:41 gnucsplit
+-rwxr-xr-x   1 root root       43616 Jan 23 09:41 gnucut
+-rwxr-xr-x   1 root root       96864 Jan 23 09:41 gnudate
+-rwxr-xr-x   1 root root       64128 Jan 23 09:41 gnudd
+-rwxr-xr-x   1 root root       93256 Jan 23 09:41 gnudf
+-rwxr-xr-x   1 root root      150568 Jan 23 09:41 gnudir
+-rwxr-xr-x   1 root root       47720 Jan 23 09:41 gnudircolors
+-rwxr-xr-x   1 root root       35288 Jan 23 09:41 gnudirname
+-rwxr-xr-x   1 root root      100960 Jan 23 09:41 gnudu
+-rwxr-xr-x   1 root root       35288 Jan 23 09:41 gnuecho
+-rwxr-xr-x   1 root root       48128 Jan 23 09:41 gnuenv
+-rwxr-xr-x   1 root root       39544 Jan 23 09:41 gnuexpand
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnuexpr
+-rwxr-xr-x   1 root root       64096 Jan 23 09:41 gnufactor
+-rwxr-xr-x   1 root root       35288 Jan 23 09:41 gnufalse
+-rwxr-xr-x   1 root root       43584 Jan 23 09:41 gnufmt
+-rwxr-xr-x   1 root root       39520 Jan 23 09:41 gnufold
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnugroups
+-rwxr-xr-x   1 root root       43616 Jan 23 09:41 gnuhead
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnuhostid
+-rwxr-xr-x   1 root root       43616 Jan 23 09:41 gnuid
+-rwxr-xr-x   1 root root      141936 Jan 23 09:41 gnuinstall
+-rwxr-xr-x   1 root root       51856 Jan 23 09:41 gnujoin
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnulink
+-rwxr-xr-x   1 root root       60000 Jan 23 09:41 gnuln
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnulogname
+-rwxr-xr-x   1 root root      150568 Jan 23 09:41 gnuls
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnumd5sum
+-rwxr-xr-x   1 root root       51808 Jan 23 09:41 gnumkdir
+-rwxr-xr-x   1 root root       43616 Jan 23 09:41 gnumkfifo
+-rwxr-xr-x   1 root root       47680 Jan 23 09:41 gnumknod
+-rwxr-xr-x   1 root root       39488 Jan 23 09:41 gnumktemp
+-rwxr-xr-x   1 root root      133744 Jan 23 09:41 gnumv
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnunice
+-rwxr-xr-x   1 root root       43712 Jan 23 09:41 gnunl
+-rwxr-xr-x   1 root root       39424 Jan 23 09:41 gnunohup
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnunproc
+-rwxr-xr-x   1 root root       60032 Jan 23 09:41 gnunumfmt
+-rwxr-xr-x   1 root root       76384 Jan 23 09:41 gnuod
+-rwxr-xr-x   1 root root       39424 Jan 23 09:41 gnupaste
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnupathchk
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnupinky
+-rwxr-xr-x   1 root root       72360 Jan 23 09:41 gnupr
+-rwxr-xr-x   1 root root       35288 Jan 23 09:41 gnuprintenv
+-rwxr-xr-x   1 root root       64064 Jan 23 09:41 gnuprintf
+-rwxr-xr-x   1 root root       55936 Jan 23 09:41 gnuptx
+-rwxr-xr-x   1 root root       39488 Jan 23 09:41 gnupwd
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnureadlink
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnurealpath
+-rwxr-xr-x   1 root root       64096 Jan 23 09:41 gnurm
+-rwxr-xr-x   1 root root       35328 Jan 23 09:41 gnurmdir
+-rwxr-xr-x   1 root root       35392 Jan 23 09:41 gnuruncon
+-rwxr-xr-x   1 root root       43616 Jan 23 09:41 gnuseq
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnusha1sum
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnusha224sum
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnusha256sum
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnusha384sum
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnusha512sum
+-rwxr-xr-x   1 root root       55904 Jan 23 09:41 gnushred
+-rwxr-xr-x   1 root root       51808 Jan 23 09:41 gnushuf
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnusleep
+-rwxr-xr-x   1 root root      105360 Jan 23 09:41 gnusort
+-rwxr-xr-x   1 root root       60440 Jan 23 09:41 gnusplit
+-rwxr-xr-x   1 root root       92776 Jan 23 09:41 gnustat
+-rwxr-xr-x   1 root root       39488 Jan 23 09:41 gnustdbuf
+-rwxr-xr-x   1 root root       72304 Jan 23 09:41 gnustty
+-rwxr-xr-x   1 root root       39424 Jan 23 09:41 gnusum
+-rwxr-xr-x   1 root root       35328 Jan 23 09:41 gnusync
+-rwxr-xr-x   1 root root       39424 Jan 23 09:41 gnutac
+-rwxr-xr-x   1 root root       72312 Jan 23 09:41 gnutail
+-rwxr-xr-x   1 root root       39520 Jan 23 09:41 gnutee
+-rwxr-xr-x   1 root root       39440 Jan 23 09:41 gnutest
+-rwxr-xr-x   1 root root       39968 Jan 23 09:41 gnutimeout
+-rwxr-xr-x   1 root root       76384 Jan 23 09:41 gnutouch
+-rwxr-xr-x   1 root root       51776 Jan 23 09:41 gnutr
+-rwxr-xr-x   1 root root       35288 Jan 23 09:41 gnutrue
+-rwxr-xr-x   1 root root       39520 Jan 23 09:41 gnutruncate
+-rwxr-xr-x   1 root root       51808 Jan 23 09:41 gnutsort
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnutty
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnuuname
+-rwxr-xr-x   1 root root       39544 Jan 23 09:41 gnuunexpand
+-rwxr-xr-x   1 root root       47728 Jan 23 09:41 gnuuniq
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnuunlink
+-rwxr-xr-x   1 root root       43616 Jan 23 09:41 gnuusers
+-rwxr-xr-x   1 root root      150568 Jan 23 09:41 gnuvdir
+-rwxr-xr-x   1 root root       60016 Jan 23 09:41 gnuwc
+-rwxr-xr-x   1 root root       51824 Jan 23 09:41 gnuwho
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnuwhoami
+-rwxr-xr-x   1 root root       35288 Jan 23 09:41 gnuyes
+-rwsr-xr-x   1 root root       76328 Feb  2 16:45 gpasswd
+-rwxr-xr-x   1 root root      302296 Jan 29 09:57 gpgv
+lrwxrwxrwx   1 root root           3 Dec  2  2025 gpic -> pic
+-rwxr-xr-x   1 root root      191056 Sep 27  2025 grep
+-rwxr-xr-x   1 root root       96848 Dec  2  2025 groff
+-rwxr-xr-x   1 root root       19195 Dec  2  2025 grog
+-rwxr-xr-x   1 root root      170624 Dec  2  2025 grops
+-rwxr-xr-x   1 root root      125520 Dec  2  2025 grotty
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 groups -> ../lib/cargo/bin/coreutils/groups
+lrwxrwxrwx   1 root root           3 Dec  2  2025 gtbl -> tbl
+-rwxr-xr-x   1 root root        2266 Feb 27 13:02 gunzip
+-rwxr-xr-x   1 root root        6379 Feb 27 13:02 gzexe
+-rwxr-xr-x   1 root root       97560 Feb 27 13:02 gzip
+-rwxr-xr-x   1 root root       47664 Mar 13 07:09 hardlink
+lrwxrwxrwx   1 root root          34 Mar 30 12:50 hashsum -> ../lib/cargo/bin/coreutils/hashsum
+lrwxrwxrwx   1 root root           7 Mar 13 07:09 hd -> hexdump
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 head -> ../lib/cargo/bin/coreutils/head
+-rwxr-xr-x   1 root root        2514 May 20 15:11 helpztags
+-rwxr-xr-x   1 root root       51680 Mar 13 07:09 hexdump
+-rwxr-xr-x   1 root root      113632 May 21 08:23 host
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 hostid -> ../lib/cargo/bin/coreutils/hostid
+-rwxr-xr-x   1 root root       26928 Dec  6  2025 hostname
+-rwxr-xr-x   1 root root       39384 Apr 15 14:32 hostnamectl
+-rwxr-xr-x   1 root root       11512 Apr 16 09:25 hwe-support-status
+lrwxrwxrwx   1 root root           7 Mar 13 07:09 i386 -> setarch
+-rwxr-xr-x   1 root root       68104 Mar 31 16:35 iconv
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 id -> ../lib/cargo/bin/coreutils/id
+-rwxr-xr-x   1 root root      202320 Jan 27 10:28 inetutils-telnet
+-rwxr-xr-x   1 root root      251736 Mar 25 14:25 info
+lrwxrwxrwx   1 root root          29 Mar 25 14:25 infobrowser -> /etc/alternatives/infobrowser
+-rwxr-xr-x   1 root root       68040 Jan  3 03:53 infocmp
+lrwxrwxrwx   1 root root           3 Jan  3 03:53 infotocap -> tic
+lrwxrwxrwx   1 root root          34 Mar 30 12:50 install -> ../lib/cargo/bin/coreutils/install
+-rwxr-xr-x   1 root root       48448 Mar 25 14:25 install-info
+-rwxr-xr-x   1 root root       18896 Mar 13 07:09 ionice
+-rwxr-xr-x   1 root root       59952 Jan 11 18:40 iostat
+-rwxr-xr-x   1 root root       23064 Mar 13 07:09 ipcmk
+-rwxr-xr-x   1 root root       31184 Mar 13 07:09 ipcrm
+-rwxr-xr-x   1 root root       39376 Mar 13 07:09 ipcs
+lrwxrwxrwx   1 root root          28 Feb  2 16:26 iptables-xml -> ../sbin/xtables-legacy-multi
+-rwxr-xr-x   1 root root       14896 Feb  2 16:29 ischroot
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 join -> ../lib/cargo/bin/coreutils/join
+-rwxr-xr-x   1 root root       93376 Apr 15 14:32 journalctl
+-rwxr-xr-x   1 root root       56024 Apr 15 14:32 kernel-install
+-rwxr-xr-x   1 root root       22992 Dec  1  2025 kill
+-rwxr-xr-x   1 root root       31632 Feb  2 16:37 killall
+lrwxrwxrwx   1 root root          29 Mar 31 16:35 ld.so -> ../lib64/ld-linux-x86-64.so.2
+-rwxr-xr-x   1 root root        5388 Mar 31 16:35 ldd
+-rwxr-xr-x   1 root root      245256 Feb  2 16:30 less
+-rwxr-xr-x   1 root root       14728 Feb  2 16:30 lessecho
+lrwxrwxrwx   1 root root           8 Feb  2 16:30 lessfile -> lesspipe
+-rwxr-xr-x   1 root root       27096 Feb  2 16:30 lesskey
+-rwxr-xr-x   1 root root        9047 Apr  5  2025 lesspipe
+-rwxr-xr-x   1 root root      101976 Feb  2 16:49 lexgrog
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 link -> ../lib/cargo/bin/coreutils/link
+lrwxrwxrwx   1 root root           7 Mar 13 07:09 linux32 -> setarch
+lrwxrwxrwx   1 root root           7 Mar 13 07:09 linux64 -> setarch
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 ln -> ../lib/cargo/bin/coreutils/ln
+-rwxr-xr-x   1 root root       50824 Mar 31 16:35 locale
+-rwxr-xr-x   1 root root       14568 Apr 20 04:46 locale-check
+-rwxr-xr-x   1 root root       31176 Apr 15 14:32 localectl
+-rwxr-xr-x   1 root root      334976 Mar 31 16:35 localedef
+-rwxr-xr-x   1 root root       39984 Mar 13 07:09 logger
+-rwxr-xr-x   1 root root       43472 Mar 13 07:09 login
+-rwxr-xr-x   1 root root       68192 Apr 15 14:32 loginctl
+lrwxrwxrwx   1 root root          34 Mar 30 12:50 logname -> ../lib/cargo/bin/coreutils/logname
+-rwxr-xr-x   1 root root       18904 Mar 13 07:09 look
+-rwxr-xr-x   1 root root      121912 Apr 17 13:48 lowntfs-3g
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 ls -> ../lib/cargo/bin/coreutils/ls
+-rwxr-xr-x   1 root root       14728 Feb 13 08:17 lsattr
+-rwxr-xr-x   1 root root        2834 Dec 18 08:47 lsb_release
+-rwxr-xr-x   1 root root      174552 Mar 13 07:09 lsblk
+-rwxr-xr-x   1 root root      117208 Mar 13 07:09 lscpu
+-rwxr-xr-x   1 root root      823832 Oct 28  2025 lshw
+-rwxr-xr-x   1 root root       63952 Mar 13 07:09 lsipc
+-rwxr-xr-x   1 root root       43904 Mar 13 07:09 lslocks
+-rwxr-xr-x   1 root root       51672 Mar 13 07:09 lsns
+-rwxr-xr-x   1 root root      196416 Feb  2 16:48 lsof
+-rwxr-xr-x   1 root root      118976 Feb  2 16:34 lspci
+-rwxr-xr-x   1 root root        1228 Mar 11  2025 lspower
+-rwxr-xr-x   1 root root      231920 Nov 15  2025 lsusb
+lrwxrwxrwx   1 root root          23 Mar 31 20:00 lzcat -> /etc/alternatives/lzcat
+lrwxrwxrwx   1 root root          23 Mar 31 20:00 lzcmp -> /etc/alternatives/lzcmp
+lrwxrwxrwx   1 root root          24 Mar 31 20:00 lzdiff -> /etc/alternatives/lzdiff
+lrwxrwxrwx   1 root root          25 Mar 31 20:00 lzegrep -> /etc/alternatives/lzegrep
+lrwxrwxrwx   1 root root          25 Mar 31 20:00 lzfgrep -> /etc/alternatives/lzfgrep
+lrwxrwxrwx   1 root root          24 Mar 31 20:00 lzgrep -> /etc/alternatives/lzgrep
+lrwxrwxrwx   1 root root          24 Mar 31 20:00 lzless -> /etc/alternatives/lzless
+lrwxrwxrwx   1 root root          22 Mar 31 20:00 lzma -> /etc/alternatives/lzma
+-rwxr-xr-x   1 root root       18896 Mar 31 20:00 lzmainfo
+lrwxrwxrwx   1 root root          24 Mar 31 20:00 lzmore -> /etc/alternatives/lzmore
+-rwxr-xr-x   1 root root         320 Apr 20 22:05 man
+-rwxr-xr-x   1 root root       36408 Feb  2 16:49 man-recode
+-rwxr-xr-x   1 root root      128496 Feb  2 16:49 man.REAL
+-rwxr-xr-x   1 root root      147200 Feb  2 16:49 mandb
+-rwxr-xr-x   1 root root       31680 Feb  2 16:49 manpath
+-rwxr-xr-x   1 root root      183128 Feb  3 16:30 mawk
+-rwxr-xr-x   1 root root       27160 Mar 13 07:09 mcookie
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 md5sum -> ../lib/cargo/bin/coreutils/md5sum
+-rwxr-xr-x   1 root root       51688 May 21 08:23 mdig
+-rwxr-xr-x   1 root root       14848 Feb  2 16:31 memhog
+-rwxr-xr-x   1 root root       14800 Feb  2 16:31 migratepages
+-rwxr-xr-x   1 root root       14728 Feb  2 16:31 migspeed
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 mkdir -> ../lib/cargo/bin/coreutils/mkdir
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 mkfifo -> ../lib/cargo/bin/coreutils/mkfifo
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 mknod -> ../lib/cargo/bin/coreutils/mknod
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 mktemp -> ../lib/cargo/bin/coreutils/mktemp
+-rwxr-xr-x   1 root root       47576 Mar 13 07:09 more
+-rwsr-xr-x   1 root root       51664 Mar 13 07:09 mount
+-rwxr-xr-x   1 root root       18896 Mar 13 07:09 mountpoint
+-rwxr-xr-x   1 root root       51768 Jan 11 18:40 mpstat
+lrwxrwxrwx   1 root root          20 Dec 21 08:24 mt -> /etc/alternatives/mt
+-rwxr-xr-x   1 root root       76888 Dec 21 08:24 mt-gnu
+-rwxr-xr-x   1 root root       78232 Dec  6  2025 mtr
+-rwsr-xr-x   1 root root       35280 Dec  6  2025 mtr-packet
+lrwxrwxrwx   1 root root           5 Mar 30 12:50 mv -> gnumv
+-rwxr-xr-x   1 root root       22992 Mar 13 07:09 namei
+-rwxr-xr-x   1 root root      301904 Feb  8 18:29 nano
+lrwxrwxrwx   1 root root          22 Feb  3 16:30 nawk -> /etc/alternatives/nawk
+-rwxr-xr-x   1 root root       37912 Dec  9  2025 ncal
+-rwxr-xr-x   1 root root         913 Dec  2  2025 neqn
+-rwxr-xr-x   1 root root      129624 Apr 15 14:32 networkctl
+-rwxr-xr-x   1 root root       39456 Nov 13  2025 ngettext
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 nice -> ../lib/cargo/bin/coreutils/nice
+lrwxrwxrwx   1 root root           8 Dec  6  2025 nisdomainname -> hostname
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 nl -> ../lib/cargo/bin/coreutils/nl
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 nohup -> ../lib/cargo/bin/coreutils/nohup
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 nproc -> ../lib/cargo/bin/coreutils/nproc
+-rwxr-xr-x   1 root root        5718 Dec  2  2025 nroff
+-rwxr-xr-x   1 root root       35544 Mar 13 07:09 nsenter
+-rwxr-xr-x   1 root root      117736 May 21 08:23 nslookup
+-rwxr-xr-x   1 root root       84680 May 21 08:23 nsupdate
+-rwsr-xr-x   1 root root      167000 Apr 17 13:48 ntfs-3g
+-rwxr-xr-x   1 root root       14800 Apr 17 13:48 ntfs-3g.probe
+-rwxr-xr-x   1 root root       27088 Apr 17 13:48 ntfscat
+-rwxr-xr-x   1 root root       39384 Apr 17 13:48 ntfscluster
+-rwxr-xr-x   1 root root       31184 Apr 17 13:48 ntfscmp
+-rwxr-xr-x   1 root root       43480 Apr 17 13:48 ntfsdecrypt
+-rwxr-xr-x   1 root root       27096 Apr 17 13:48 ntfsfallocate
+-rwxr-xr-x   1 root root       35288 Apr 17 13:48 ntfsfix
+-rwxr-xr-x   1 root root       55768 Apr 17 13:48 ntfsinfo
+-rwxr-xr-x   1 root root       28192 Apr 17 13:48 ntfsls
+-rwxr-xr-x   1 root root       31192 Apr 17 13:48 ntfsmove
+-rwxr-xr-x   1 root root      113104 Apr 17 13:48 ntfsrecover
+-rwxr-xr-x   1 root root       84928 Apr 17 13:48 ntfssecaudit
+-rwxr-xr-x   1 root root       27016 Apr 17 13:48 ntfstruncate
+-rwxr-xr-x   1 root root       18816 Apr 17 13:48 ntfsusermap
+-rwxr-xr-x   1 root root       44016 Apr 17 13:48 ntfswipe
+-rwxr-xr-x   1 root root       40288 Feb  2 16:31 numactl
+-rwxr-xr-x   1 root root       35360 Feb  2 16:31 numastat
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 numfmt -> ../lib/cargo/bin/coreutils/numfmt
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 od -> ../lib/cargo/bin/coreutils/od
+lrwxrwxrwx   1 root root          17 Feb  2 16:36 on_ac_power -> /sbin/on_ac_power
+-rwxr-xr-x   1 root root     1132128 Apr  7 08:05 openssl
+lrwxrwxrwx   1 root root          23 Mar 13 07:09 pager -> /etc/alternatives/pager
+-rwxr-xr-x   1 root root       63960 Mar 13 07:09 partx
+-rwsr-xr-x   1 root root       93640 Feb  2 16:45 passwd
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 paste -> ../lib/cargo/bin/coreutils/paste
+lrwxrwxrwx   1 root root          34 Mar 30 12:50 pathchk -> ../lib/cargo/bin/coreutils/pathchk
+-rwxr-xr-x   1 root root       47568 Feb  2 16:34 pcilmr
+lrwxrwxrwx   1 root root           7 Mar 21 05:46 pdb3 -> pdb3.14
+-rwxr-xr-x   1 root root          38 Apr  8 00:02 pdb3.14
+-rwxr-xr-x   1 root root     9924770 Apr 16 18:56 pebble
+-rwxr-xr-x   1 root root       14720 Feb  2 16:37 peekfd
+-rwxr-xr-x   2 root root     4064448 Mar 17 06:45 perl
+-rwxr-xr-x   2 root root     4064448 Mar 17 06:45 perl5.40.1
+-rwxr-xr-x   1 root root       39544 Dec  1  2025 pgrep
+-rwxr-xr-x   1 root root      196744 Dec  2  2025 pic
+lrwxrwxrwx   1 root root          22 Feb  8 18:29 pico -> /etc/alternatives/pico
+lrwxrwxrwx   1 root root          16 Oct 31  2025 pidof -> ../sbin/killall5
+-rwxr-xr-x   1 root root       55864 Jan 11 18:40 pidstat
+-rwxr-xr-x   1 root root       39544 Dec  1  2025 pidwait
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 pinky -> ../lib/cargo/bin/coreutils/pinky
+lrwxrwxrwx   1 root root           5 Dec  1  2025 pkill -> pgrep
+-rwxr-xr-x   1 root root       22976 Mar 31 16:35 pldd
+-rwxr-xr-x   1 root root       47488 Mar 12 10:27 plymouth
+-rwxr-xr-x   1 root root       35376 Dec  1  2025 pmap
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 pr -> ../lib/cargo/bin/coreutils/pr
+-rwxr-xr-x   1 root root       59952 Dec  2  2025 preconv
+lrwxrwxrwx   1 root root          35 Mar 30 12:50 printenv -> ../lib/cargo/bin/coreutils/printenv
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 printf -> ../lib/cargo/bin/coreutils/printf
+-rwxr-xr-x   1 root root       27616 Mar 13 07:09 prlimit
+lrwxrwxrwx   1 root root          16 Mar 11 09:27 pro -> ubuntu-advantage
+-rwxr-xr-x   1 root root       22992 Feb  2 16:37 prtstat
+-rwxr-xr-x   1 root root      146576 Dec  1  2025 ps
+-rwxr-xr-x   1 root root       14720 Feb  2 16:37 pslog
+-rwxr-xr-x   1 root root       35544 Feb  2 16:37 pstree
+lrwxrwxrwx   1 root root           6 Feb  2 16:37 pstree.x11 -> pstree
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 ptx -> ../lib/cargo/bin/coreutils/ptx
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 pwd -> ../lib/cargo/bin/coreutils/pwd
+-rwxr-xr-x   1 root root       14872 Dec  1  2025 pwdx
+-rwxr-xr-x   1 root root        7231 Mar 21 05:46 py3clean
+-rwxr-xr-x   1 root root       13312 Mar 21 05:46 py3compile
+lrwxrwxrwx   1 root root          31 Mar 21 05:46 py3versions -> ../share/python3/py3versions.py
+lrwxrwxrwx   1 root root           9 Mar 21 05:46 pydoc3 -> pydoc3.14
+-rwxr-xr-x   1 root root          80 Apr  8 00:02 pydoc3.14
+lrwxrwxrwx   1 root root          13 Mar 21 05:46 pygettext3 -> pygettext3.14
+-rwxr-xr-x   1 root root       28593 Apr  8 00:02 pygettext3.14
+lrwxrwxrwx   1 root root          10 Mar 21 05:46 python3 -> python3.14
+-rwxr-xr-x   1 root root     7477096 Apr  8 00:02 python3.14
+lrwxrwxrwx   1 root root           4 Feb 13 08:16 rbash -> bash
+lrwxrwxrwx   1 root root          35 Mar 30 12:50 readlink -> ../lib/cargo/bin/coreutils/readlink
+lrwxrwxrwx   1 root root          35 Mar 30 12:50 realpath -> ../lib/cargo/bin/coreutils/realpath
+-rwxr-xr-x   1 root root          89 Jan  5 11:07 red
+-rwxr-xr-x   1 root root       14800 Mar 13 07:09 renice
+lrwxrwxrwx   1 root root           4 Jan  3 03:53 reset -> tset
+-rwxr-xr-x   1 root root      137912 Apr 15 14:32 resolvectl
+-rwxr-xr-x   1 root root       14808 Mar 13 07:09 rev
+-rwxr-xr-x   1 root root          30 Apr 21  2025 rgrep
+lrwxrwxrwx   1 root root           5 Mar 30 12:50 rm -> gnurm
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 rmdir -> ../lib/cargo/bin/coreutils/rmdir
+lrwxrwxrwx   1 root root           4 Feb  8 18:29 rnano -> nano
+-rwxr-xr-x   1 root root       13005 May 14 04:54 rrsync
+-rwxr-xr-x   1 root root      542912 May 14 04:54 rsync
+-rwxr-xr-x   1 root root        5128 May 14 04:54 rsync-ssl
+-rwxr-xr-x   1 root root       31632 Feb  2 16:29 run-parts
+lrwxrwxrwx   1 root root          11 Apr 15 14:32 run0 -> systemd-run
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 runcon -> ../lib/cargo/bin/coreutils/runcon
+lrwxrwxrwx   1 root root          23 May 20 15:11 rview -> /etc/alternatives/rview
+lrwxrwxrwx   1 root root          22 May 20 15:11 rvim -> /etc/alternatives/rvim
+-rwxr-xr-x   1 root root      405648 Jan 11 18:40 sadf
+lrwxrwxrwx   1 root root          21 Jan 11 18:40 sar -> /etc/alternatives/sar
+-rwxr-xr-x   1 root root      191600 Jan 11 18:40 sar.sysstat
+-rwxr-xr-x   1 root root       10487 Feb  2 16:29 savelog
+-rwxr-xr-x   1 root root      137976 Apr 27 20:15 scp
+-rwxr-xr-x   1 root root      497936 Feb  9 18:45 screen
+-rwxr-xr-x   1 root root       55760 Mar 13 07:09 script
+-rwxr-xr-x   1 root root       43472 Mar 13 07:09 scriptlive
+-rwxr-xr-x   1 root root       35280 Mar 13 07:09 scriptreplay
+-rwxr-xr-x   1 root root       51808 Oct 19  2025 sdiff
+-rwxr-xr-x   1 root root      117392 Feb  2 16:41 sed
+-rwxr-xr-x   1 root root        2678 Dec 18 08:57 select-editor
+-rwxr-xr-x   1 root root        1085 Dec 18 08:57 sensible-browser
+-rwxr-xr-x   1 root root        1551 Dec 18 08:57 sensible-editor
+-rwxr-xr-x   1 root root         824 Dec 18 08:57 sensible-pager
+-rwxr-xr-x   1 root root        1109 Dec 18 08:57 sensible-terminal
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 seq -> ../lib/cargo/bin/coreutils/seq
+-rwxr-xr-x   1 root root       27368 Mar 13 07:09 setarch
+-rwxr-xr-x   1 root root       35288 Feb  2 16:34 setpci
+-rwxr-xr-x   1 root root       47576 Mar 13 07:09 setpriv
+-rwxr-xr-x   1 root root       14800 Mar 13 07:09 setsid
+-rwxr-xr-x   1 root root       35280 Mar 13 07:09 setterm
+-rwxr-xr-x   1 root root      154336 Apr 27 20:15 sftp
+lrwxrwxrwx   1 root root           4 Feb  2 16:26 sh -> dash
+lrwxrwxrwx   1 root root          34 Mar 30 12:50 sha1sum -> ../lib/cargo/bin/coreutils/sha1sum
+lrwxrwxrwx   1 root root          36 Mar 30 12:50 sha224sum -> ../lib/cargo/bin/coreutils/sha224sum
+lrwxrwxrwx   1 root root          36 Mar 30 12:50 sha256sum -> ../lib/cargo/bin/coreutils/sha256sum
+lrwxrwxrwx   1 root root          38 Mar 30 12:50 sha3-224sum -> ../lib/cargo/bin/coreutils/sha3-224sum
+lrwxrwxrwx   1 root root          38 Mar 30 12:50 sha3-256sum -> ../lib/cargo/bin/coreutils/sha3-256sum
+lrwxrwxrwx   1 root root          38 Mar 30 12:50 sha3-384sum -> ../lib/cargo/bin/coreutils/sha3-384sum
+lrwxrwxrwx   1 root root          38 Mar 30 12:50 sha3-512sum -> ../lib/cargo/bin/coreutils/sha3-512sum
+lrwxrwxrwx   1 root root          36 Mar 30 12:50 sha384sum -> ../lib/cargo/bin/coreutils/sha384sum
+lrwxrwxrwx   1 root root          34 Mar 30 12:50 sha3sum -> ../lib/cargo/bin/coreutils/sha3sum
+lrwxrwxrwx   1 root root          36 Mar 30 12:50 sha512sum -> ../lib/cargo/bin/coreutils/sha512sum
+lrwxrwxrwx   1 root root          38 Mar 30 12:50 shake128sum -> ../lib/cargo/bin/coreutils/shake128sum
+lrwxrwxrwx   1 root root          38 Mar 30 12:50 shake256sum -> ../lib/cargo/bin/coreutils/shake256sum
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 shred -> ../lib/cargo/bin/coreutils/shred
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 shuf -> ../lib/cargo/bin/coreutils/shuf
+-rwxr-xr-x   1 root root       27128 Dec  1  2025 skill
+-rwxr-xr-x   1 root root       23128 Dec  1  2025 slabtop
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 sleep -> ../lib/cargo/bin/coreutils/sleep
+lrwxrwxrwx   1 root root           5 Dec  1  2025 snice -> skill
+-rwxr-xr-x   1 root root       39472 Dec  2  2025 soelim
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 sort -> ../lib/cargo/bin/coreutils/sort
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 split -> ../lib/cargo/bin/coreutils/split
+-rwxr-xr-x   1 root root      924800 Apr 27 20:15 ssh
+-rwxr-xr-x   1 root root      297472 Apr 27 20:15 ssh-add
+-rwxr-sr-x   1 root _ssh      313864 Apr 27 20:15 ssh-agent
+-rwxr-xr-x   1 root root        1455 Mar 12 10:14 ssh-argv0
+-rwxr-xr-x   1 root root       14421 Oct  9  2025 ssh-copy-id
+-rwxr-xr-x   1 root root      457232 Apr 27 20:15 ssh-keygen
+-rwxr-xr-x   1 root root      399888 Apr 27 20:15 ssh-keyscan
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 stat -> ../lib/cargo/bin/coreutils/stat
+lrwxrwxrwx   1 root root           7 Jan 14 11:50 static-sh -> busybox
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 stdbuf -> ../lib/cargo/bin/coreutils/stdbuf
+-rwxr-xr-x   1 root root     2370264 Apr 15 10:53 strace
+-rwxr-xr-x   1 root root        1875 Jul 19  2024 strace-log-merge
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 stty -> ../lib/cargo/bin/coreutils/stty
+-rwsr-xr-x   1 root root       55760 Mar 13 07:09 su
+lrwxrwxrwx   1 root root          19 Mar 11 09:27 su-rs -> ../lib/cargo/bin/su
+lrwxrwxrwx   1 root root          22 Mar 13 07:02 sudo -> /etc/alternatives/sudo
+lrwxrwxrwx   1 root root          21 Mar 11 09:27 sudo-rs -> ../lib/cargo/bin/sudo
+-rwsr-xr-x   1 root root      282080 Mar 13 07:02 sudo.ws
+lrwxrwxrwx   1 root root          26 Jun  2 09:34 sudoedit -> /etc/alternatives/sudoedit
+lrwxrwxrwx   1 root root          21 Mar 11 09:27 sudoedit-rs -> ../lib/cargo/bin/sudo
+-rwxr-xr-x   1 root root       98368 Mar 13 07:02 sudoreplay.ws
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 sum -> ../lib/cargo/bin/coreutils/sum
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 sync -> ../lib/cargo/bin/coreutils/sync
+-rwxr-xr-x   1 root root      302112 Apr 15 14:32 systemctl
+-rwxr-xr-x   1 root root       14792 Apr 15 14:32 systemd-ac-power
+-rwxr-xr-x   1 root root      252888 Apr 15 14:32 systemd-analyze
+-rwxr-xr-x   1 root root       27248 Apr 15 14:32 systemd-ask-password
+-rwxr-xr-x   1 root root       18896 Apr 15 14:32 systemd-cat
+-rwxr-xr-x   1 root root       23112 Apr 15 14:32 systemd-cgls
+-rwxr-xr-x   1 root root       35392 Apr 15 14:32 systemd-cgtop
+lrwxrwxrwx   1 root root          14 Apr 15 14:32 systemd-confext -> systemd-sysext
+-rwxr-xr-x   1 root root       60256 Apr 15 14:32 systemd-creds
+-rwxr-xr-x   1 root root       80888 Apr 15 14:32 systemd-cryptenroll
+-rwxr-xr-x   1 root root       85080 Apr 15 14:32 systemd-cryptsetup
+-rwxr-xr-x   1 root root       27080 Apr 15 14:32 systemd-delta
+-rwxr-xr-x   1 root root       18888 Apr 15 14:32 systemd-detect-virt
+-rwxr-xr-x   1 root root       22984 Apr 15 14:32 systemd-escape
+-rwxr-xr-x   1 root root       60296 Apr 15 14:32 systemd-firstboot
+-rwxr-xr-x   1 root root       14784 Apr 15 14:32 systemd-hwdb
+-rwxr-xr-x   1 root root       31184 Apr 15 14:32 systemd-id128
+-rwxr-xr-x   1 root root       23008 Apr 15 14:32 systemd-inhibit
+-rwxr-xr-x   1 root root       19072 Apr 15 14:32 systemd-machine-id-setup
+-rwxr-xr-x   1 root root       56112 Apr 15 14:32 systemd-mount
+-rwxr-xr-x   1 root root       27080 Apr 15 14:32 systemd-mute-console
+-rwxr-xr-x   1 root root       31464 Apr 15 14:32 systemd-notify
+-rwxr-xr-x   1 root root       22984 Apr 15 14:32 systemd-path
+-rwxr-xr-x   1 root root       23136 Apr 15 14:32 systemd-pty-forward
+-rwxr-xr-x   1 root root       97272 Apr 15 14:32 systemd-run
+-rwxr-xr-x   1 root root       31176 Apr 15 14:32 systemd-socket-activate
+-rwxr-xr-x   1 root root       22984 Apr 15 14:32 systemd-stdio-bridge
+-rwxr-xr-x   1 root root       76440 Apr 15 14:32 systemd-sysext
+-rwxr-xr-x   1 root root       68224 Apr 15 14:32 systemd-sysusers
+-rwxr-xr-x   1 root root      121544 Apr 15 14:32 systemd-tmpfiles
+-rwxr-xr-x   1 root root       39496 Apr 15 14:32 systemd-tty-ask-password-agent
+lrwxrwxrwx   1 root root          13 Apr 15 14:32 systemd-umount -> systemd-mount
+-rwxr-xr-x   1 root root       23248 Apr 15 14:32 systemd-vpick
+-rwxr-xr-x   1 root root       18816 Jan  3 03:53 tabs
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 tac -> ../lib/cargo/bin/coreutils/tac
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 tail -> ../lib/cargo/bin/coreutils/tail
+-rwxr-xr-x   1 root root       31280 Jan 11 18:40 tapestat
+-rwxr-xr-x   1 root root      448528 Feb 19 16:05 tar
+-rwxr-xr-x   1 root root       31184 Mar 13 07:09 taskset
+-rwxr-xr-x   1 root root      133680 Dec  2  2025 tbl
+-rwxr-xr-x   1 root root     1282240 Feb 27 04:52 tcpdump
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 tee -> ../lib/cargo/bin/coreutils/tee
+lrwxrwxrwx   1 root root          24 Jan 27 10:28 telnet -> /etc/alternatives/telnet
+-rwxr-xr-x   1 root root       14720 Feb  2 16:29 tempfile
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 test -> ../lib/cargo/bin/coreutils/test
+-rwxr-xr-x   1 root root       92736 Jan  3 03:53 tic
+-rwxr-xr-x   1 root root       27232 Jan 14 13:45 time
+-rwxr-xr-x   1 root root       47560 Apr 15 14:32 timedatectl
+lrwxrwxrwx   1 root root          34 Mar 30 12:50 timeout -> ../lib/cargo/bin/coreutils/timeout
+-rwxr-xr-x   1 root root       18984 Dec  1  2025 tload
+-rwxr-xr-x   1 root root      187392 Feb 10 23:57 tnftp
+-rwxr-xr-x   1 root root       22912 Jan  3 03:53 toe
+-rwxr-xr-x   1 root root      135064 Dec  1  2025 top
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 touch -> ../lib/cargo/bin/coreutils/touch
+-rwxr-xr-x   1 root root       27040 Jan  3 03:53 tput
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 tr -> ../lib/cargo/bin/coreutils/tr
+-rwxr-xr-x   1 root root      466992 Jan 22 18:04 trace-cmd
+-rwxr-xr-x   1 root root       18736 Oct 31  2025 tracepath
+-rwxr-xr-x   1 root root       97792 Feb  3 13:59 tree
+-rwxr-xr-x   1 root root      748224 Dec  2  2025 troff
+lrwxrwxrwx   1 root root           7 Mar 30 12:50 true -> gnutrue
+lrwxrwxrwx   1 root root          35 Mar 30 12:50 truncate -> ../lib/cargo/bin/coreutils/truncate
+-rwxr-xr-x   1 root root       31112 Jan  3 03:53 tset
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 tsort -> ../lib/cargo/bin/coreutils/tsort
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 tty -> ../lib/cargo/bin/coreutils/tty
+-rwxr-xr-x   1 root root       21901 Mar 31 16:35 tzselect
+lrwxrwxrwx   1 root root          16 Mar 11 09:27 ua -> ubuntu-advantage
+-rwxr-xr-x   1 root root        1004 Mar 11 09:27 ubuntu-advantage
+-rwxr-xr-x   1 root root       22992 Feb 16 18:18 ubuntu-distro-info
+-rwxr-xr-x   1 root root       22784 Apr 16 09:25 ubuntu-security-status
+-rwxr-xr-x   1 root root       36482 Feb 26 10:35 ucf
+-rwxr-xr-x   1 root root       18915 Feb 26 10:35 ucfq
+-rwxr-xr-x   1 root root       10180 Feb 26 10:35 ucfr
+-rwxr-xr-x   1 root root       31184 Mar 13 07:09 uclampset
+-rwxr-xr-x   1 root root      765648 Apr 15 14:32 udevadm
+-rwxr-xr-x   1 root root       23000 Mar 13 07:09 ul
+-rwsr-xr-x   1 root root       39376 Mar 13 07:09 umount
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 uname -> ../lib/cargo/bin/coreutils/uname
+lrwxrwxrwx   1 root root           6 Feb 27 13:02 uncompress -> gunzip
+lrwxrwxrwx   1 root root          35 Mar 30 12:50 unexpand -> ../lib/cargo/bin/coreutils/unexpand
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 uniq -> ../lib/cargo/bin/coreutils/uniq
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 unlink -> ../lib/cargo/bin/coreutils/unlink
+lrwxrwxrwx   1 root root          24 Mar 31 20:00 unlzma -> /etc/alternatives/unlzma
+-rwxr-xr-x   1 root root       47800 Mar 13 07:09 unshare
+lrwxrwxrwx   1 root root           2 Mar 31 20:00 unxz -> xz
+-rwxr-xr-x   1 root root       59864 Mar 31 10:52 update-alternatives
+-rwxr-xr-x   1 root root       88480 Feb  2 16:45 update-mime-database
+-rwxr-xr-x   1 root root       14872 Dec  1  2025 uptime
+-rwxr-xr-x   1 root root        4979 Oct 22  2025 usb-devices
+-rwxr-xr-x   1 root root       31192 Nov 15  2025 usbhid-dump
+-rwxr-xr-x   1 root root       14720 Nov 15  2025 usbreset
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 users -> ../lib/cargo/bin/coreutils/users
+-rwxr-xr-x   1 root root       22992 Mar 13 07:09 uuidgen
+-rwxr-xr-x   1 root root       22992 Mar 13 07:09 uuidparse
+-rwxr-xr-x   1 root root       47720 Apr 15 14:32 varlinkctl
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 vdir -> ../lib/cargo/bin/coreutils/vdir
+lrwxrwxrwx   1 root root          20 May 20 15:11 vi -> /etc/alternatives/vi
+lrwxrwxrwx   1 root root          22 May 20 15:11 view -> /etc/alternatives/view
+lrwxrwxrwx   1 root root          21 May 20 15:11 vim -> /etc/alternatives/vim
+-rwxr-xr-x   1 root root     4571816 May 20 15:11 vim.basic
+lrwxrwxrwx   1 root root          25 May 20 15:11 vimdiff -> /etc/alternatives/vimdiff
+-rwxr-xr-x   1 root root        4870 May 20 15:11 vimtutor
+lrwxrwxrwx   1 root root          23 Mar 11 09:27 visudo-rs -> ../lib/cargo/bin/visudo
+-rwxr-xr-x   1 root root       39864 Dec  1  2025 vmstat
+-rwxr-xr-x   1 root root       35352 Dec  1  2025 w
+-rwxr-xr-x   1 root root       27088 Mar 13 07:09 wall
+-rwxr-xr-x   1 root root       31736 Dec  1  2025 watch
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 wc -> ../lib/cargo/bin/coreutils/wc
+-rwxr-xr-x   1 root root       11581 Apr 29 07:35 wcurl
+-rwxr-xr-x   1 root root      531536 Feb  2 16:52 wget
+-rwxr-xr-x   1 root root       48576 Feb  2 16:49 whatis
+-rwxr-xr-x   1 root root       31184 Mar 13 07:09 whereis
+lrwxrwxrwx   1 root root          23 Feb  2 16:29 which -> /etc/alternatives/which
+-rwxr-xr-x   1 root root        1080 Feb  2 16:29 which.debianutils
+-rwxr-xr-x   1 root root       30968 Mar 20 07:05 whiptail
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 who -> ../lib/cargo/bin/coreutils/who
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 whoami -> ../lib/cargo/bin/coreutils/whoami
+lrwxrwxrwx   1 root root           7 Mar 13 07:09 x86_64 -> setarch
+-rwxr-xr-x   1 root root       68088 Feb  2 16:37 xargs
+-rwxr-xr-x   1 root root       56352 Dec  6  2025 xauth
+-rwxr-xr-x   1 root root         234 Sep 20  2025 xdg-user-dir
+-rwxr-xr-x   1 root root       26936 Sep 25  2025 xdg-user-dirs-update
+-rwxr-xr-x   1 root root       22896 May 20 15:11 xxd
+-rwxr-xr-x   1 root root      101392 Mar 31 20:00 xz
+lrwxrwxrwx   1 root root           2 Mar 31 20:00 xzcat -> xz
+lrwxrwxrwx   1 root root           6 Mar 31 20:00 xzcmp -> xzdiff
+-rwxr-xr-x   1 root root        7743 Mar 31 20:00 xzdiff
+lrwxrwxrwx   1 root root           6 Mar 31 20:00 xzegrep -> xzgrep
+lrwxrwxrwx   1 root root           6 Mar 31 20:00 xzfgrep -> xzgrep
+-rwxr-xr-x   1 root root       10458 Mar 31 20:00 xzgrep
+-rwxr-xr-x   1 root root        2428 Mar 31 20:00 xzless
+-rwxr-xr-x   1 root root        2262 Mar 31 20:00 xzmore
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 yes -> ../lib/cargo/bin/coreutils/yes
+lrwxrwxrwx   1 root root           8 Dec  6  2025 ypdomainname -> hostname
+-rwxr-xr-x   1 root root        1904 Feb 27 13:02 zcat
+-rwxr-xr-x   1 root root        1609 Feb 27 13:02 zcmp
+-rwxr-xr-x   1 root root        6386 Feb 27 13:02 zdiff
+-rwxr-xr-x   1 root root       31008 Mar 31 16:35 zdump
+-rwxr-xr-x   1 root root          29 Feb 27 13:02 zegrep
+-rwxr-xr-x   1 root root          29 Feb 27 13:02 zfgrep
+-rwxr-xr-x   1 root root        2007 Feb 27 13:02 zforce
+-rwxr-xr-x   1 root root        8136 Feb 27 13:02 zgrep
+-rwxr-xr-x   1 root root        2365 Feb 27 13:02 zless
+-rwxr-xr-x   1 root root        1768 Feb 27 13:02 zmore
+-rwxr-xr-x   1 root root        4561 Feb 27 13:02 znew
+total 80892
+lrwxrwxrwx   1 root root          28 Mar 30 12:50 [ -> ../lib/cargo/bin/coreutils/[
+-rwxr-xr-x   1 root root       14720 Apr  8 13:26 aa-enabled
+-rwxr-xr-x   1 root root       14720 Apr  8 13:26 aa-exec
+-rwxr-xr-x   1 root root       14720 Apr  8 13:26 aa-features-abi
+lrwxrwxrwx   1 root root           6 Feb  2 16:49 apropos -> whatis
+-rwxr-xr-x   1 root root       23072 Apr  7 05:02 apt
+-rwxr-xr-x   1 root root      100904 Apr  7 05:02 apt-cache
+-rwxr-xr-x   1 root root       27176 Apr  7 05:02 apt-cdrom
+-rwxr-xr-x   1 root root       31200 Apr  7 05:02 apt-config
+-rwxr-xr-x   1 root root       59944 Apr  7 05:02 apt-get
+-rwxr-xr-x   1 root root       72232 Apr  7 05:02 apt-mark
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 arch -> ../lib/cargo/bin/coreutils/arch
+lrwxrwxrwx   1 root root          21 Feb  3 16:30 awk -> /etc/alternatives/awk
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 b2sum -> ../lib/cargo/bin/coreutils/b2sum
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 base32 -> ../lib/cargo/bin/coreutils/base32
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 base64 -> ../lib/cargo/bin/coreutils/base64
+lrwxrwxrwx   1 root root          35 Mar 30 12:50 basename -> ../lib/cargo/bin/coreutils/basename
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 basenc -> ../lib/cargo/bin/coreutils/basenc
+-rwxr-xr-x   1 root root     1540520 Feb 13 08:16 bash
+-rwxr-xr-x   1 root root        7075 Feb 13 08:16 bashbug
+-rwxr-xr-x   1 root root       92776 Apr 15 14:32 busctl
+-rwxr-xr-x   1 root root     2190672 Jan 14 11:50 busybox
+-rwxr-xr-x   1 root root        6919 Apr  7 08:05 c_rehash
+lrwxrwxrwx   1 root root           4 Dec  9  2025 cal -> ncal
+lrwxrwxrwx   1 root root           3 Jan  3 03:53 captoinfo -> tic
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 cat -> ../lib/cargo/bin/coreutils/cat
+-rwxr-xr-x   1 root root       35760 Feb  2 16:49 catman
+-rwxr-sr-x   1 root shadow     85256 Feb  2 16:45 chage
+-rwxr-xr-x   1 root root       14728 Feb 13 08:17 chattr
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 chcon -> ../lib/cargo/bin/coreutils/chcon
+-rwsr-xr-x   1 root root       72840 Feb  2 16:45 chfn
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 chgrp -> ../lib/cargo/bin/coreutils/chgrp
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 chmod -> ../lib/cargo/bin/coreutils/chmod
+-rwxr-xr-x   1 root root       22992 Mar 13 07:09 choom
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 chown -> ../lib/cargo/bin/coreutils/chown
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 chroot -> ../lib/cargo/bin/coreutils/chroot
+-rwxr-xr-x   1 root root       31184 Mar 13 07:09 chrt
+-rwsr-xr-x   1 root root       48936 Feb  2 16:45 chsh
+-rwxr-xr-x   1 root root       27184 Jan 11 18:40 cifsiostat
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 cksum -> ../lib/cargo/bin/coreutils/cksum
+-rwxr-xr-x   1 root root       14728 Jan  3 03:53 clear
+-rwxr-xr-x   1 root root       14640 Feb 13 08:16 clear_console
+-rwxr-xr-x   1 root root       43592 Oct 19  2025 cmp
+-rwxr-xr-x   1 root root       23000 Mar 13 07:09 col
+-rwxr-xr-x   1 root root       14808 Mar 13 07:09 colcrt
+-rwxr-xr-x   1 root root       14808 Mar 13 07:09 colrm
+-rwxr-xr-x   1 root root       39384 Mar 13 07:09 column
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 comm -> ../lib/cargo/bin/coreutils/comm
+-rwxr-xr-x 115 root root    11352352 Apr 16 08:41 coreutils
+lrwxrwxrwx   1 root root           5 Mar 30 12:50 cp -> gnucp
+-rwxr-xr-x   1 root root      153624 Dec 21 08:24 cpio
+-rwxr-sr-x   1 root crontab    39744 Nov  5  2025 crontab
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 csplit -> ../lib/cargo/bin/coreutils/csplit
+-rwxr-xr-x   1 root root      334360 Apr 29 07:35 curl
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 cut -> ../lib/cargo/bin/coreutils/cut
+-rwxr-xr-x   1 root root      341328 Mar 13 07:02 cvtsudoers.ws
+-rwxr-xr-x   1 root root      129856 Feb  2 16:26 dash
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 date -> ../lib/cargo/bin/coreutils/date
+-rwxr-xr-x   1 root root       14712 Mar  3 07:20 dbus-cleanup-sockets
+-rwxr-xr-x   1 root root      236256 Mar  3 07:20 dbus-daemon
+-rwxr-xr-x   1 root root       27000 Mar  3 07:20 dbus-monitor
+-rwxr-xr-x   1 root root       14712 Mar  3 07:20 dbus-run-session
+-rwxr-xr-x   1 root root       35192 Mar  3 07:20 dbus-send
+-rwxr-xr-x   1 root root       14712 Mar  3 07:20 dbus-update-activation-environment
+-rwxr-xr-x   1 root root       14712 Mar  3 07:20 dbus-uuidgen
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 dd -> ../lib/cargo/bin/coreutils/dd
+-rwxr-xr-x   1 root root       24358 Jul 13  2022 deb-systemd-helper
+-rwxr-xr-x   1 root root        7135 Nov 26  2023 deb-systemd-invoke
+-rwxr-xr-x   1 root root        2870 Feb 16 13:48 debconf
+-rwxr-xr-x   1 root root       11846 Feb 16 13:48 debconf-apt-progress
+-rwxr-xr-x   1 root root         623 Feb 16 13:48 debconf-communicate
+-rwxr-xr-x   1 root root        1718 Feb 16 13:48 debconf-copydb
+-rwxr-xr-x   1 root root         668 Feb 16 13:48 debconf-escape
+-rwxr-xr-x   1 root root        3216 Feb 16 13:48 debconf-set-selections
+-rwxr-xr-x   1 root root        1825 Feb 16 13:48 debconf-show
+-rwxr-xr-x   1 root root       27088 Feb 16 18:18 debian-distro-info
+-rwxr-xr-x   1 root root       62952 May 21 08:23 delv
+lrwxrwxrwx   1 root root           5 Mar 30 12:50 df -> gnudf
+-rwxr-xr-x   1 root root        4527 Sep 28  2025 dh_bash-completion
+-rwxr-xr-x   1 root root      137960 Oct 19  2025 diff
+-rwxr-xr-x   1 root root       51808 Oct 19  2025 diff3
+-rwxr-xr-x   1 root root      150480 May 21 08:23 dig
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 dir -> ../lib/cargo/bin/coreutils/dir
+lrwxrwxrwx   1 root root          36 Mar 30 12:50 dircolors -> ../lib/cargo/bin/coreutils/dircolors
+lrwxrwxrwx   1 root root          34 Mar 30 12:50 dirname -> ../lib/cargo/bin/coreutils/dirname
+lrwxrwxrwx   1 root root          18 Feb 16 18:18 distro-info -> ubuntu-distro-info
+-rwxr-xr-x   1 root root       74528 Mar 13 07:09 dmesg
+lrwxrwxrwx   1 root root           8 Dec  6  2025 dnsdomainname -> hostname
+-rwxr-xr-x   1 root root        9268 Apr 22 13:29 do-release-upgrade
+lrwxrwxrwx   1 root root           8 Dec  6  2025 domainname -> hostname
+-rwxr-xr-x   1 root root      322728 Mar 31 10:52 dpkg
+-rwxr-xr-x   1 root root      150176 Mar 31 10:52 dpkg-deb
+-rwxr-xr-x   1 root root      125768 Mar 31 10:52 dpkg-divert
+-rwxr-xr-x   1 root root       21123 Mar 31 10:52 dpkg-maintscript-helper
+-rwxr-xr-x   1 root root      142160 Mar 31 10:52 dpkg-query
+-rwxr-xr-x   1 root root       35280 Mar 31 10:52 dpkg-realpath
+-rwxr-xr-x   1 root root      100976 Mar 31 10:52 dpkg-split
+-rwxr-xr-x   1 root root       55936 Mar 31 10:52 dpkg-statoverride
+-rwxr-xr-x   1 root root       47728 Mar 31 10:52 dpkg-trigger
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 du -> ../lib/cargo/bin/coreutils/du
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 echo -> ../lib/cargo/bin/coreutils/echo
+-rwxr-xr-x   1 root root       63792 Jan  5 11:07 ed
+lrwxrwxrwx   1 root root          24 Jan  5 11:07 editor -> /etc/alternatives/editor
+-rwxr-xr-x   1 root root          41 Sep 27  2025 egrep
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 env -> ../lib/cargo/bin/coreutils/env
+-rwxr-xr-x   1 root root       39456 Nov 13  2025 envsubst
+-rwxr-xr-x   1 root root      197136 Dec  2  2025 eqn
+lrwxrwxrwx   1 root root          20 May 20 15:11 ex -> /etc/alternatives/ex
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 expand -> ../lib/cargo/bin/coreutils/expand
+-rwxr-sr-x   1 root shadow     23168 Feb  2 16:45 expiry
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 expr -> ../lib/cargo/bin/coreutils/expr
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 factor -> ../lib/cargo/bin/coreutils/factor
+-rwxr-xr-x   1 root root       27088 Mar 13 07:09 fallocate
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 false -> ../lib/cargo/bin/coreutils/false
+-rwxr-xr-x   1 root root          41 Sep 27  2025 fgrep
+-rwxr-xr-x   1 root root       27352 Feb  2 16:37 file
+-rwxr-xr-x   1 root root      216632 Feb  2 16:37 find
+-rwxr-xr-x   1 root root       81888 Mar 13 07:09 findmnt
+-rwxr-xr-x   1 root root       27200 Mar 13 07:09 flock
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 fmt -> ../lib/cargo/bin/coreutils/fmt
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 fold -> ../lib/cargo/bin/coreutils/fold
+-rwxr-xr-x   1 root root       27160 Dec  1  2025 free
+lrwxrwxrwx   1 root root          21 Feb 10 23:57 ftp -> /etc/alternatives/ftp
+-rwxr-xr-x   1 root root       44000 Feb  2 16:37 fuser
+lrwxrwxrwx   1 root root          11 Mar 21 03:16 fusermount -> fusermount3
+-rwsr-xr-x   1 root root       39376 Mar 21 03:16 fusermount3
+lrwxrwxrwx   1 root root           3 Dec  2  2025 geqn -> eqn
+-rwxr-xr-x   1 root root       31088 Mar 31 16:35 getconf
+-rwxr-xr-x   1 root root       39648 Mar 31 16:35 getent
+-rwxr-xr-x   1 root root       22992 Mar 13 07:09 getopt
+-rwxr-xr-x   1 root root       39456 Nov 13  2025 gettext
+-rwxr-xr-x   1 root root        5167 Nov 13  2025 gettext.sh
+lrwxrwxrwx   1 root root          12 Mar 25 14:25 ginstall-info -> install-info
+-rwxr-xr-x   1 root root       47632 Jan 23 09:41 gnu[
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnuarch
+-rwxr-xr-x   1 root root       55904 Jan 23 09:41 gnub2sum
+-rwxr-xr-x   1 root root       39520 Jan 23 09:41 gnubase32
+-rwxr-xr-x   1 root root       39520 Jan 23 09:41 gnubase64
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnubasename
+-rwxr-xr-x   1 root root       51808 Jan 23 09:41 gnubasenc
+-rwxr-xr-x   1 root root       39472 Jan 23 09:41 gnucat
+-rwxr-xr-x   1 root root       64096 Jan 23 09:41 gnuchcon
+-rwxr-xr-x   1 root root       64064 Jan 23 09:41 gnuchgrp
+-rwxr-xr-x   1 root root       60000 Jan 23 09:41 gnuchmod
+-rwxr-xr-x   1 root root       68160 Jan 23 09:41 gnuchown
+-rwxr-xr-x   1 root root      117360 Jan 23 09:41 gnucksum
+-rwxr-xr-x   1 root root       39528 Jan 23 09:41 gnucomm
+-rwxr-xr-x   1 root root      137840 Jan 23 09:41 gnucp
+-rwxr-xr-x   1 root root       51808 Jan 23 09:41 gnucsplit
+-rwxr-xr-x   1 root root       43616 Jan 23 09:41 gnucut
+-rwxr-xr-x   1 root root       96864 Jan 23 09:41 gnudate
+-rwxr-xr-x   1 root root       64128 Jan 23 09:41 gnudd
+-rwxr-xr-x   1 root root       93256 Jan 23 09:41 gnudf
+-rwxr-xr-x   1 root root      150568 Jan 23 09:41 gnudir
+-rwxr-xr-x   1 root root       47720 Jan 23 09:41 gnudircolors
+-rwxr-xr-x   1 root root       35288 Jan 23 09:41 gnudirname
+-rwxr-xr-x   1 root root      100960 Jan 23 09:41 gnudu
+-rwxr-xr-x   1 root root       35288 Jan 23 09:41 gnuecho
+-rwxr-xr-x   1 root root       48128 Jan 23 09:41 gnuenv
+-rwxr-xr-x   1 root root       39544 Jan 23 09:41 gnuexpand
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnuexpr
+-rwxr-xr-x   1 root root       64096 Jan 23 09:41 gnufactor
+-rwxr-xr-x   1 root root       35288 Jan 23 09:41 gnufalse
+-rwxr-xr-x   1 root root       43584 Jan 23 09:41 gnufmt
+-rwxr-xr-x   1 root root       39520 Jan 23 09:41 gnufold
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnugroups
+-rwxr-xr-x   1 root root       43616 Jan 23 09:41 gnuhead
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnuhostid
+-rwxr-xr-x   1 root root       43616 Jan 23 09:41 gnuid
+-rwxr-xr-x   1 root root      141936 Jan 23 09:41 gnuinstall
+-rwxr-xr-x   1 root root       51856 Jan 23 09:41 gnujoin
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnulink
+-rwxr-xr-x   1 root root       60000 Jan 23 09:41 gnuln
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnulogname
+-rwxr-xr-x   1 root root      150568 Jan 23 09:41 gnuls
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnumd5sum
+-rwxr-xr-x   1 root root       51808 Jan 23 09:41 gnumkdir
+-rwxr-xr-x   1 root root       43616 Jan 23 09:41 gnumkfifo
+-rwxr-xr-x   1 root root       47680 Jan 23 09:41 gnumknod
+-rwxr-xr-x   1 root root       39488 Jan 23 09:41 gnumktemp
+-rwxr-xr-x   1 root root      133744 Jan 23 09:41 gnumv
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnunice
+-rwxr-xr-x   1 root root       43712 Jan 23 09:41 gnunl
+-rwxr-xr-x   1 root root       39424 Jan 23 09:41 gnunohup
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnunproc
+-rwxr-xr-x   1 root root       60032 Jan 23 09:41 gnunumfmt
+-rwxr-xr-x   1 root root       76384 Jan 23 09:41 gnuod
+-rwxr-xr-x   1 root root       39424 Jan 23 09:41 gnupaste
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnupathchk
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnupinky
+-rwxr-xr-x   1 root root       72360 Jan 23 09:41 gnupr
+-rwxr-xr-x   1 root root       35288 Jan 23 09:41 gnuprintenv
+-rwxr-xr-x   1 root root       64064 Jan 23 09:41 gnuprintf
+-rwxr-xr-x   1 root root       55936 Jan 23 09:41 gnuptx
+-rwxr-xr-x   1 root root       39488 Jan 23 09:41 gnupwd
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnureadlink
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnurealpath
+-rwxr-xr-x   1 root root       64096 Jan 23 09:41 gnurm
+-rwxr-xr-x   1 root root       35328 Jan 23 09:41 gnurmdir
+-rwxr-xr-x   1 root root       35392 Jan 23 09:41 gnuruncon
+-rwxr-xr-x   1 root root       43616 Jan 23 09:41 gnuseq
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnusha1sum
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnusha224sum
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnusha256sum
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnusha384sum
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnusha512sum
+-rwxr-xr-x   1 root root       55904 Jan 23 09:41 gnushred
+-rwxr-xr-x   1 root root       51808 Jan 23 09:41 gnushuf
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnusleep
+-rwxr-xr-x   1 root root      105360 Jan 23 09:41 gnusort
+-rwxr-xr-x   1 root root       60440 Jan 23 09:41 gnusplit
+-rwxr-xr-x   1 root root       92776 Jan 23 09:41 gnustat
+-rwxr-xr-x   1 root root       39488 Jan 23 09:41 gnustdbuf
+-rwxr-xr-x   1 root root       72304 Jan 23 09:41 gnustty
+-rwxr-xr-x   1 root root       39424 Jan 23 09:41 gnusum
+-rwxr-xr-x   1 root root       35328 Jan 23 09:41 gnusync
+-rwxr-xr-x   1 root root       39424 Jan 23 09:41 gnutac
+-rwxr-xr-x   1 root root       72312 Jan 23 09:41 gnutail
+-rwxr-xr-x   1 root root       39520 Jan 23 09:41 gnutee
+-rwxr-xr-x   1 root root       39440 Jan 23 09:41 gnutest
+-rwxr-xr-x   1 root root       39968 Jan 23 09:41 gnutimeout
+-rwxr-xr-x   1 root root       76384 Jan 23 09:41 gnutouch
+-rwxr-xr-x   1 root root       51776 Jan 23 09:41 gnutr
+-rwxr-xr-x   1 root root       35288 Jan 23 09:41 gnutrue
+-rwxr-xr-x   1 root root       39520 Jan 23 09:41 gnutruncate
+-rwxr-xr-x   1 root root       51808 Jan 23 09:41 gnutsort
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnutty
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnuuname
+-rwxr-xr-x   1 root root       39544 Jan 23 09:41 gnuunexpand
+-rwxr-xr-x   1 root root       47728 Jan 23 09:41 gnuuniq
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnuunlink
+-rwxr-xr-x   1 root root       43616 Jan 23 09:41 gnuusers
+-rwxr-xr-x   1 root root      150568 Jan 23 09:41 gnuvdir
+-rwxr-xr-x   1 root root       60016 Jan 23 09:41 gnuwc
+-rwxr-xr-x   1 root root       51824 Jan 23 09:41 gnuwho
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnuwhoami
+-rwxr-xr-x   1 root root       35288 Jan 23 09:41 gnuyes
+-rwsr-xr-x   1 root root       76328 Feb  2 16:45 gpasswd
+-rwxr-xr-x   1 root root      302296 Jan 29 09:57 gpgv
+lrwxrwxrwx   1 root root           3 Dec  2  2025 gpic -> pic
+-rwxr-xr-x   1 root root      191056 Sep 27  2025 grep
+-rwxr-xr-x   1 root root       96848 Dec  2  2025 groff
+-rwxr-xr-x   1 root root       19195 Dec  2  2025 grog
+-rwxr-xr-x   1 root root      170624 Dec  2  2025 grops
+-rwxr-xr-x   1 root root      125520 Dec  2  2025 grotty
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 groups -> ../lib/cargo/bin/coreutils/groups
+lrwxrwxrwx   1 root root           3 Dec  2  2025 gtbl -> tbl
+-rwxr-xr-x   1 root root        2266 Feb 27 13:02 gunzip
+-rwxr-xr-x   1 root root        6379 Feb 27 13:02 gzexe
+-rwxr-xr-x   1 root root       97560 Feb 27 13:02 gzip
+-rwxr-xr-x   1 root root       47664 Mar 13 07:09 hardlink
+lrwxrwxrwx   1 root root          34 Mar 30 12:50 hashsum -> ../lib/cargo/bin/coreutils/hashsum
+lrwxrwxrwx   1 root root           7 Mar 13 07:09 hd -> hexdump
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 head -> ../lib/cargo/bin/coreutils/head
+-rwxr-xr-x   1 root root        2514 May 20 15:11 helpztags
+-rwxr-xr-x   1 root root       51680 Mar 13 07:09 hexdump
+-rwxr-xr-x   1 root root      113632 May 21 08:23 host
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 hostid -> ../lib/cargo/bin/coreutils/hostid
+-rwxr-xr-x   1 root root       26928 Dec  6  2025 hostname
+-rwxr-xr-x   1 root root       39384 Apr 15 14:32 hostnamectl
+-rwxr-xr-x   1 root root       11512 Apr 16 09:25 hwe-support-status
+lrwxrwxrwx   1 root root           7 Mar 13 07:09 i386 -> setarch
+-rwxr-xr-x   1 root root       68104 Mar 31 16:35 iconv
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 id -> ../lib/cargo/bin/coreutils/id
+-rwxr-xr-x   1 root root      202320 Jan 27 10:28 inetutils-telnet
+-rwxr-xr-x   1 root root      251736 Mar 25 14:25 info
+lrwxrwxrwx   1 root root          29 Mar 25 14:25 infobrowser -> /etc/alternatives/infobrowser
+-rwxr-xr-x   1 root root       68040 Jan  3 03:53 infocmp
+lrwxrwxrwx   1 root root           3 Jan  3 03:53 infotocap -> tic
+lrwxrwxrwx   1 root root          34 Mar 30 12:50 install -> ../lib/cargo/bin/coreutils/install
+-rwxr-xr-x   1 root root       48448 Mar 25 14:25 install-info
+-rwxr-xr-x   1 root root       18896 Mar 13 07:09 ionice
+-rwxr-xr-x   1 root root       59952 Jan 11 18:40 iostat
+-rwxr-xr-x   1 root root       23064 Mar 13 07:09 ipcmk
+-rwxr-xr-x   1 root root       31184 Mar 13 07:09 ipcrm
+-rwxr-xr-x   1 root root       39376 Mar 13 07:09 ipcs
+lrwxrwxrwx   1 root root          28 Feb  2 16:26 iptables-xml -> ../sbin/xtables-legacy-multi
+-rwxr-xr-x   1 root root       14896 Feb  2 16:29 ischroot
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 join -> ../lib/cargo/bin/coreutils/join
+-rwxr-xr-x   1 root root       93376 Apr 15 14:32 journalctl
+-rwxr-xr-x   1 root root       56024 Apr 15 14:32 kernel-install
+-rwxr-xr-x   1 root root       22992 Dec  1  2025 kill
+-rwxr-xr-x   1 root root       31632 Feb  2 16:37 killall
+lrwxrwxrwx   1 root root          29 Mar 31 16:35 ld.so -> ../lib64/ld-linux-x86-64.so.2
+-rwxr-xr-x   1 root root        5388 Mar 31 16:35 ldd
+-rwxr-xr-x   1 root root      245256 Feb  2 16:30 less
+-rwxr-xr-x   1 root root       14728 Feb  2 16:30 lessecho
+lrwxrwxrwx   1 root root           8 Feb  2 16:30 lessfile -> lesspipe
+-rwxr-xr-x   1 root root       27096 Feb  2 16:30 lesskey
+-rwxr-xr-x   1 root root        9047 Apr  5  2025 lesspipe
+-rwxr-xr-x   1 root root      101976 Feb  2 16:49 lexgrog
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 link -> ../lib/cargo/bin/coreutils/link
+lrwxrwxrwx   1 root root           7 Mar 13 07:09 linux32 -> setarch
+lrwxrwxrwx   1 root root           7 Mar 13 07:09 linux64 -> setarch
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 ln -> ../lib/cargo/bin/coreutils/ln
+-rwxr-xr-x   1 root root       50824 Mar 31 16:35 locale
+-rwxr-xr-x   1 root root       14568 Apr 20 04:46 locale-check
+-rwxr-xr-x   1 root root       31176 Apr 15 14:32 localectl
+-rwxr-xr-x   1 root root      334976 Mar 31 16:35 localedef
+-rwxr-xr-x   1 root root       39984 Mar 13 07:09 logger
+-rwxr-xr-x   1 root root       43472 Mar 13 07:09 login
+-rwxr-xr-x   1 root root       68192 Apr 15 14:32 loginctl
+lrwxrwxrwx   1 root root          34 Mar 30 12:50 logname -> ../lib/cargo/bin/coreutils/logname
+-rwxr-xr-x   1 root root       18904 Mar 13 07:09 look
+-rwxr-xr-x   1 root root      121912 Apr 17 13:48 lowntfs-3g
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 ls -> ../lib/cargo/bin/coreutils/ls
+-rwxr-xr-x   1 root root       14728 Feb 13 08:17 lsattr
+-rwxr-xr-x   1 root root        2834 Dec 18 08:47 lsb_release
+-rwxr-xr-x   1 root root      174552 Mar 13 07:09 lsblk
+-rwxr-xr-x   1 root root      117208 Mar 13 07:09 lscpu
+-rwxr-xr-x   1 root root      823832 Oct 28  2025 lshw
+-rwxr-xr-x   1 root root       63952 Mar 13 07:09 lsipc
+-rwxr-xr-x   1 root root       43904 Mar 13 07:09 lslocks
+-rwxr-xr-x   1 root root       51672 Mar 13 07:09 lsns
+-rwxr-xr-x   1 root root      196416 Feb  2 16:48 lsof
+-rwxr-xr-x   1 root root      118976 Feb  2 16:34 lspci
+-rwxr-xr-x   1 root root        1228 Mar 11  2025 lspower
+-rwxr-xr-x   1 root root      231920 Nov 15  2025 lsusb
+lrwxrwxrwx   1 root root          23 Mar 31 20:00 lzcat -> /etc/alternatives/lzcat
+lrwxrwxrwx   1 root root          23 Mar 31 20:00 lzcmp -> /etc/alternatives/lzcmp
+lrwxrwxrwx   1 root root          24 Mar 31 20:00 lzdiff -> /etc/alternatives/lzdiff
+lrwxrwxrwx   1 root root          25 Mar 31 20:00 lzegrep -> /etc/alternatives/lzegrep
+lrwxrwxrwx   1 root root          25 Mar 31 20:00 lzfgrep -> /etc/alternatives/lzfgrep
+lrwxrwxrwx   1 root root          24 Mar 31 20:00 lzgrep -> /etc/alternatives/lzgrep
+lrwxrwxrwx   1 root root          24 Mar 31 20:00 lzless -> /etc/alternatives/lzless
+lrwxrwxrwx   1 root root          22 Mar 31 20:00 lzma -> /etc/alternatives/lzma
+-rwxr-xr-x   1 root root       18896 Mar 31 20:00 lzmainfo
+lrwxrwxrwx   1 root root          24 Mar 31 20:00 lzmore -> /etc/alternatives/lzmore
+-rwxr-xr-x   1 root root         320 Apr 20 22:05 man
+-rwxr-xr-x   1 root root       36408 Feb  2 16:49 man-recode
+-rwxr-xr-x   1 root root      128496 Feb  2 16:49 man.REAL
+-rwxr-xr-x   1 root root      147200 Feb  2 16:49 mandb
+-rwxr-xr-x   1 root root       31680 Feb  2 16:49 manpath
+-rwxr-xr-x   1 root root      183128 Feb  3 16:30 mawk
+-rwxr-xr-x   1 root root       27160 Mar 13 07:09 mcookie
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 md5sum -> ../lib/cargo/bin/coreutils/md5sum
+-rwxr-xr-x   1 root root       51688 May 21 08:23 mdig
+-rwxr-xr-x   1 root root       14848 Feb  2 16:31 memhog
+-rwxr-xr-x   1 root root       14800 Feb  2 16:31 migratepages
+-rwxr-xr-x   1 root root       14728 Feb  2 16:31 migspeed
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 mkdir -> ../lib/cargo/bin/coreutils/mkdir
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 mkfifo -> ../lib/cargo/bin/coreutils/mkfifo
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 mknod -> ../lib/cargo/bin/coreutils/mknod
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 mktemp -> ../lib/cargo/bin/coreutils/mktemp
+-rwxr-xr-x   1 root root       47576 Mar 13 07:09 more
+-rwsr-xr-x   1 root root       51664 Mar 13 07:09 mount
+-rwxr-xr-x   1 root root       18896 Mar 13 07:09 mountpoint
+-rwxr-xr-x   1 root root       51768 Jan 11 18:40 mpstat
+lrwxrwxrwx   1 root root          20 Dec 21 08:24 mt -> /etc/alternatives/mt
+-rwxr-xr-x   1 root root       76888 Dec 21 08:24 mt-gnu
+-rwxr-xr-x   1 root root       78232 Dec  6  2025 mtr
+-rwsr-xr-x   1 root root       35280 Dec  6  2025 mtr-packet
+lrwxrwxrwx   1 root root           5 Mar 30 12:50 mv -> gnumv
+-rwxr-xr-x   1 root root       22992 Mar 13 07:09 namei
+-rwxr-xr-x   1 root root      301904 Feb  8 18:29 nano
+lrwxrwxrwx   1 root root          22 Feb  3 16:30 nawk -> /etc/alternatives/nawk
+-rwxr-xr-x   1 root root       37912 Dec  9  2025 ncal
+-rwxr-xr-x   1 root root         913 Dec  2  2025 neqn
+-rwxr-xr-x   1 root root      129624 Apr 15 14:32 networkctl
+-rwxr-xr-x   1 root root       39456 Nov 13  2025 ngettext
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 nice -> ../lib/cargo/bin/coreutils/nice
+lrwxrwxrwx   1 root root           8 Dec  6  2025 nisdomainname -> hostname
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 nl -> ../lib/cargo/bin/coreutils/nl
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 nohup -> ../lib/cargo/bin/coreutils/nohup
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 nproc -> ../lib/cargo/bin/coreutils/nproc
+-rwxr-xr-x   1 root root        5718 Dec  2  2025 nroff
+-rwxr-xr-x   1 root root       35544 Mar 13 07:09 nsenter
+-rwxr-xr-x   1 root root      117736 May 21 08:23 nslookup
+-rwxr-xr-x   1 root root       84680 May 21 08:23 nsupdate
+-rwsr-xr-x   1 root root      167000 Apr 17 13:48 ntfs-3g
+-rwxr-xr-x   1 root root       14800 Apr 17 13:48 ntfs-3g.probe
+-rwxr-xr-x   1 root root       27088 Apr 17 13:48 ntfscat
+-rwxr-xr-x   1 root root       39384 Apr 17 13:48 ntfscluster
+-rwxr-xr-x   1 root root       31184 Apr 17 13:48 ntfscmp
+-rwxr-xr-x   1 root root       43480 Apr 17 13:48 ntfsdecrypt
+-rwxr-xr-x   1 root root       27096 Apr 17 13:48 ntfsfallocate
+-rwxr-xr-x   1 root root       35288 Apr 17 13:48 ntfsfix
+-rwxr-xr-x   1 root root       55768 Apr 17 13:48 ntfsinfo
+-rwxr-xr-x   1 root root       28192 Apr 17 13:48 ntfsls
+-rwxr-xr-x   1 root root       31192 Apr 17 13:48 ntfsmove
+-rwxr-xr-x   1 root root      113104 Apr 17 13:48 ntfsrecover
+-rwxr-xr-x   1 root root       84928 Apr 17 13:48 ntfssecaudit
+-rwxr-xr-x   1 root root       27016 Apr 17 13:48 ntfstruncate
+-rwxr-xr-x   1 root root       18816 Apr 17 13:48 ntfsusermap
+-rwxr-xr-x   1 root root       44016 Apr 17 13:48 ntfswipe
+-rwxr-xr-x   1 root root       40288 Feb  2 16:31 numactl
+-rwxr-xr-x   1 root root       35360 Feb  2 16:31 numastat
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 numfmt -> ../lib/cargo/bin/coreutils/numfmt
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 od -> ../lib/cargo/bin/coreutils/od
+lrwxrwxrwx   1 root root          17 Feb  2 16:36 on_ac_power -> /sbin/on_ac_power
+-rwxr-xr-x   1 root root     1132128 Apr  7 08:05 openssl
+lrwxrwxrwx   1 root root          23 Mar 13 07:09 pager -> /etc/alternatives/pager
+-rwxr-xr-x   1 root root       63960 Mar 13 07:09 partx
+-rwsr-xr-x   1 root root       93640 Feb  2 16:45 passwd
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 paste -> ../lib/cargo/bin/coreutils/paste
+lrwxrwxrwx   1 root root          34 Mar 30 12:50 pathchk -> ../lib/cargo/bin/coreutils/pathchk
+-rwxr-xr-x   1 root root       47568 Feb  2 16:34 pcilmr
+lrwxrwxrwx   1 root root           7 Mar 21 05:46 pdb3 -> pdb3.14
+-rwxr-xr-x   1 root root          38 Apr  8 00:02 pdb3.14
+-rwxr-xr-x   1 root root     9924770 Apr 16 18:56 pebble
+-rwxr-xr-x   1 root root       14720 Feb  2 16:37 peekfd
+-rwxr-xr-x   2 root root     4064448 Mar 17 06:45 perl
+-rwxr-xr-x   2 root root     4064448 Mar 17 06:45 perl5.40.1
+-rwxr-xr-x   1 root root       39544 Dec  1  2025 pgrep
+-rwxr-xr-x   1 root root      196744 Dec  2  2025 pic
+lrwxrwxrwx   1 root root          22 Feb  8 18:29 pico -> /etc/alternatives/pico
+lrwxrwxrwx   1 root root          16 Oct 31  2025 pidof -> ../sbin/killall5
+-rwxr-xr-x   1 root root       55864 Jan 11 18:40 pidstat
+-rwxr-xr-x   1 root root       39544 Dec  1  2025 pidwait
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 pinky -> ../lib/cargo/bin/coreutils/pinky
+lrwxrwxrwx   1 root root           5 Dec  1  2025 pkill -> pgrep
+-rwxr-xr-x   1 root root       22976 Mar 31 16:35 pldd
+-rwxr-xr-x   1 root root       47488 Mar 12 10:27 plymouth
+-rwxr-xr-x   1 root root       35376 Dec  1  2025 pmap
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 pr -> ../lib/cargo/bin/coreutils/pr
+-rwxr-xr-x   1 root root       59952 Dec  2  2025 preconv
+lrwxrwxrwx   1 root root          35 Mar 30 12:50 printenv -> ../lib/cargo/bin/coreutils/printenv
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 printf -> ../lib/cargo/bin/coreutils/printf
+-rwxr-xr-x   1 root root       27616 Mar 13 07:09 prlimit
+lrwxrwxrwx   1 root root          16 Mar 11 09:27 pro -> ubuntu-advantage
+-rwxr-xr-x   1 root root       22992 Feb  2 16:37 prtstat
+-rwxr-xr-x   1 root root      146576 Dec  1  2025 ps
+-rwxr-xr-x   1 root root       14720 Feb  2 16:37 pslog
+-rwxr-xr-x   1 root root       35544 Feb  2 16:37 pstree
+lrwxrwxrwx   1 root root           6 Feb  2 16:37 pstree.x11 -> pstree
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 ptx -> ../lib/cargo/bin/coreutils/ptx
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 pwd -> ../lib/cargo/bin/coreutils/pwd
+-rwxr-xr-x   1 root root       14872 Dec  1  2025 pwdx
+-rwxr-xr-x   1 root root        7231 Mar 21 05:46 py3clean
+-rwxr-xr-x   1 root root       13312 Mar 21 05:46 py3compile
+lrwxrwxrwx   1 root root          31 Mar 21 05:46 py3versions -> ../share/python3/py3versions.py
+lrwxrwxrwx   1 root root           9 Mar 21 05:46 pydoc3 -> pydoc3.14
+-rwxr-xr-x   1 root root          80 Apr  8 00:02 pydoc3.14
+lrwxrwxrwx   1 root root          13 Mar 21 05:46 pygettext3 -> pygettext3.14
+-rwxr-xr-x   1 root root       28593 Apr  8 00:02 pygettext3.14
+lrwxrwxrwx   1 root root          10 Mar 21 05:46 python3 -> python3.14
+-rwxr-xr-x   1 root root     7477096 Apr  8 00:02 python3.14
+lrwxrwxrwx   1 root root           4 Feb 13 08:16 rbash -> bash
+lrwxrwxrwx   1 root root          35 Mar 30 12:50 readlink -> ../lib/cargo/bin/coreutils/readlink
+lrwxrwxrwx   1 root root          35 Mar 30 12:50 realpath -> ../lib/cargo/bin/coreutils/realpath
+-rwxr-xr-x   1 root root          89 Jan  5 11:07 red
+-rwxr-xr-x   1 root root       14800 Mar 13 07:09 renice
+lrwxrwxrwx   1 root root           4 Jan  3 03:53 reset -> tset
+-rwxr-xr-x   1 root root      137912 Apr 15 14:32 resolvectl
+-rwxr-xr-x   1 root root       14808 Mar 13 07:09 rev
+-rwxr-xr-x   1 root root          30 Apr 21  2025 rgrep
+lrwxrwxrwx   1 root root           5 Mar 30 12:50 rm -> gnurm
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 rmdir -> ../lib/cargo/bin/coreutils/rmdir
+lrwxrwxrwx   1 root root           4 Feb  8 18:29 rnano -> nano
+-rwxr-xr-x   1 root root       13005 May 14 04:54 rrsync
+-rwxr-xr-x   1 root root      542912 May 14 04:54 rsync
+-rwxr-xr-x   1 root root        5128 May 14 04:54 rsync-ssl
+-rwxr-xr-x   1 root root       31632 Feb  2 16:29 run-parts
+lrwxrwxrwx   1 root root          11 Apr 15 14:32 run0 -> systemd-run
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 runcon -> ../lib/cargo/bin/coreutils/runcon
+lrwxrwxrwx   1 root root          23 May 20 15:11 rview -> /etc/alternatives/rview
+lrwxrwxrwx   1 root root          22 May 20 15:11 rvim -> /etc/alternatives/rvim
+-rwxr-xr-x   1 root root      405648 Jan 11 18:40 sadf
+lrwxrwxrwx   1 root root          21 Jan 11 18:40 sar -> /etc/alternatives/sar
+-rwxr-xr-x   1 root root      191600 Jan 11 18:40 sar.sysstat
+-rwxr-xr-x   1 root root       10487 Feb  2 16:29 savelog
+-rwxr-xr-x   1 root root      137976 Apr 27 20:15 scp
+-rwxr-xr-x   1 root root      497936 Feb  9 18:45 screen
+-rwxr-xr-x   1 root root       55760 Mar 13 07:09 script
+-rwxr-xr-x   1 root root       43472 Mar 13 07:09 scriptlive
+-rwxr-xr-x   1 root root       35280 Mar 13 07:09 scriptreplay
+-rwxr-xr-x   1 root root       51808 Oct 19  2025 sdiff
+-rwxr-xr-x   1 root root      117392 Feb  2 16:41 sed
+-rwxr-xr-x   1 root root        2678 Dec 18 08:57 select-editor
+-rwxr-xr-x   1 root root        1085 Dec 18 08:57 sensible-browser
+-rwxr-xr-x   1 root root        1551 Dec 18 08:57 sensible-editor
+-rwxr-xr-x   1 root root         824 Dec 18 08:57 sensible-pager
+-rwxr-xr-x   1 root root        1109 Dec 18 08:57 sensible-terminal
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 seq -> ../lib/cargo/bin/coreutils/seq
+-rwxr-xr-x   1 root root       27368 Mar 13 07:09 setarch
+-rwxr-xr-x   1 root root       35288 Feb  2 16:34 setpci
+-rwxr-xr-x   1 root root       47576 Mar 13 07:09 setpriv
+-rwxr-xr-x   1 root root       14800 Mar 13 07:09 setsid
+-rwxr-xr-x   1 root root       35280 Mar 13 07:09 setterm
+-rwxr-xr-x   1 root root      154336 Apr 27 20:15 sftp
+lrwxrwxrwx   1 root root           4 Feb  2 16:26 sh -> dash
+lrwxrwxrwx   1 root root          34 Mar 30 12:50 sha1sum -> ../lib/cargo/bin/coreutils/sha1sum
+lrwxrwxrwx   1 root root          36 Mar 30 12:50 sha224sum -> ../lib/cargo/bin/coreutils/sha224sum
+lrwxrwxrwx   1 root root          36 Mar 30 12:50 sha256sum -> ../lib/cargo/bin/coreutils/sha256sum
+lrwxrwxrwx   1 root root          38 Mar 30 12:50 sha3-224sum -> ../lib/cargo/bin/coreutils/sha3-224sum
+lrwxrwxrwx   1 root root          38 Mar 30 12:50 sha3-256sum -> ../lib/cargo/bin/coreutils/sha3-256sum
+lrwxrwxrwx   1 root root          38 Mar 30 12:50 sha3-384sum -> ../lib/cargo/bin/coreutils/sha3-384sum
+lrwxrwxrwx   1 root root          38 Mar 30 12:50 sha3-512sum -> ../lib/cargo/bin/coreutils/sha3-512sum
+lrwxrwxrwx   1 root root          36 Mar 30 12:50 sha384sum -> ../lib/cargo/bin/coreutils/sha384sum
+lrwxrwxrwx   1 root root          34 Mar 30 12:50 sha3sum -> ../lib/cargo/bin/coreutils/sha3sum
+lrwxrwxrwx   1 root root          36 Mar 30 12:50 sha512sum -> ../lib/cargo/bin/coreutils/sha512sum
+lrwxrwxrwx   1 root root          38 Mar 30 12:50 shake128sum -> ../lib/cargo/bin/coreutils/shake128sum
+lrwxrwxrwx   1 root root          38 Mar 30 12:50 shake256sum -> ../lib/cargo/bin/coreutils/shake256sum
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 shred -> ../lib/cargo/bin/coreutils/shred
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 shuf -> ../lib/cargo/bin/coreutils/shuf
+-rwxr-xr-x   1 root root       27128 Dec  1  2025 skill
+-rwxr-xr-x   1 root root       23128 Dec  1  2025 slabtop
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 sleep -> ../lib/cargo/bin/coreutils/sleep
+lrwxrwxrwx   1 root root           5 Dec  1  2025 snice -> skill
+-rwxr-xr-x   1 root root       39472 Dec  2  2025 soelim
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 sort -> ../lib/cargo/bin/coreutils/sort
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 split -> ../lib/cargo/bin/coreutils/split
+-rwxr-xr-x   1 root root      924800 Apr 27 20:15 ssh
+-rwxr-xr-x   1 root root      297472 Apr 27 20:15 ssh-add
+-rwxr-sr-x   1 root _ssh      313864 Apr 27 20:15 ssh-agent
+-rwxr-xr-x   1 root root        1455 Mar 12 10:14 ssh-argv0
+-rwxr-xr-x   1 root root       14421 Oct  9  2025 ssh-copy-id
+-rwxr-xr-x   1 root root      457232 Apr 27 20:15 ssh-keygen
+-rwxr-xr-x   1 root root      399888 Apr 27 20:15 ssh-keyscan
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 stat -> ../lib/cargo/bin/coreutils/stat
+lrwxrwxrwx   1 root root           7 Jan 14 11:50 static-sh -> busybox
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 stdbuf -> ../lib/cargo/bin/coreutils/stdbuf
+-rwxr-xr-x   1 root root     2370264 Apr 15 10:53 strace
+-rwxr-xr-x   1 root root        1875 Jul 19  2024 strace-log-merge
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 stty -> ../lib/cargo/bin/coreutils/stty
+-rwsr-xr-x   1 root root       55760 Mar 13 07:09 su
+lrwxrwxrwx   1 root root          19 Mar 11 09:27 su-rs -> ../lib/cargo/bin/su
+lrwxrwxrwx   1 root root          22 Mar 13 07:02 sudo -> /etc/alternatives/sudo
+lrwxrwxrwx   1 root root          21 Mar 11 09:27 sudo-rs -> ../lib/cargo/bin/sudo
+-rwsr-xr-x   1 root root      282080 Mar 13 07:02 sudo.ws
+lrwxrwxrwx   1 root root          26 Jun  2 09:34 sudoedit -> /etc/alternatives/sudoedit
+lrwxrwxrwx   1 root root          21 Mar 11 09:27 sudoedit-rs -> ../lib/cargo/bin/sudo
+-rwxr-xr-x   1 root root       98368 Mar 13 07:02 sudoreplay.ws
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 sum -> ../lib/cargo/bin/coreutils/sum
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 sync -> ../lib/cargo/bin/coreutils/sync
+-rwxr-xr-x   1 root root      302112 Apr 15 14:32 systemctl
+-rwxr-xr-x   1 root root       14792 Apr 15 14:32 systemd-ac-power
+-rwxr-xr-x   1 root root      252888 Apr 15 14:32 systemd-analyze
+-rwxr-xr-x   1 root root       27248 Apr 15 14:32 systemd-ask-password
+-rwxr-xr-x   1 root root       18896 Apr 15 14:32 systemd-cat
+-rwxr-xr-x   1 root root       23112 Apr 15 14:32 systemd-cgls
+-rwxr-xr-x   1 root root       35392 Apr 15 14:32 systemd-cgtop
+lrwxrwxrwx   1 root root          14 Apr 15 14:32 systemd-confext -> systemd-sysext
+-rwxr-xr-x   1 root root       60256 Apr 15 14:32 systemd-creds
+-rwxr-xr-x   1 root root       80888 Apr 15 14:32 systemd-cryptenroll
+-rwxr-xr-x   1 root root       85080 Apr 15 14:32 systemd-cryptsetup
+-rwxr-xr-x   1 root root       27080 Apr 15 14:32 systemd-delta
+-rwxr-xr-x   1 root root       18888 Apr 15 14:32 systemd-detect-virt
+-rwxr-xr-x   1 root root       22984 Apr 15 14:32 systemd-escape
+-rwxr-xr-x   1 root root       60296 Apr 15 14:32 systemd-firstboot
+-rwxr-xr-x   1 root root       14784 Apr 15 14:32 systemd-hwdb
+-rwxr-xr-x   1 root root       31184 Apr 15 14:32 systemd-id128
+-rwxr-xr-x   1 root root       23008 Apr 15 14:32 systemd-inhibit
+-rwxr-xr-x   1 root root       19072 Apr 15 14:32 systemd-machine-id-setup
+-rwxr-xr-x   1 root root       56112 Apr 15 14:32 systemd-mount
+-rwxr-xr-x   1 root root       27080 Apr 15 14:32 systemd-mute-console
+-rwxr-xr-x   1 root root       31464 Apr 15 14:32 systemd-notify
+-rwxr-xr-x   1 root root       22984 Apr 15 14:32 systemd-path
+-rwxr-xr-x   1 root root       23136 Apr 15 14:32 systemd-pty-forward
+-rwxr-xr-x   1 root root       97272 Apr 15 14:32 systemd-run
+-rwxr-xr-x   1 root root       31176 Apr 15 14:32 systemd-socket-activate
+-rwxr-xr-x   1 root root       22984 Apr 15 14:32 systemd-stdio-bridge
+-rwxr-xr-x   1 root root       76440 Apr 15 14:32 systemd-sysext
+-rwxr-xr-x   1 root root       68224 Apr 15 14:32 systemd-sysusers
+-rwxr-xr-x   1 root root      121544 Apr 15 14:32 systemd-tmpfiles
+-rwxr-xr-x   1 root root       39496 Apr 15 14:32 systemd-tty-ask-password-agent
+lrwxrwxrwx   1 root root          13 Apr 15 14:32 systemd-umount -> systemd-mount
+-rwxr-xr-x   1 root root       23248 Apr 15 14:32 systemd-vpick
+-rwxr-xr-x   1 root root       18816 Jan  3 03:53 tabs
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 tac -> ../lib/cargo/bin/coreutils/tac
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 tail -> ../lib/cargo/bin/coreutils/tail
+-rwxr-xr-x   1 root root       31280 Jan 11 18:40 tapestat
+-rwxr-xr-x   1 root root      448528 Feb 19 16:05 tar
+-rwxr-xr-x   1 root root       31184 Mar 13 07:09 taskset
+-rwxr-xr-x   1 root root      133680 Dec  2  2025 tbl
+-rwxr-xr-x   1 root root     1282240 Feb 27 04:52 tcpdump
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 tee -> ../lib/cargo/bin/coreutils/tee
+lrwxrwxrwx   1 root root          24 Jan 27 10:28 telnet -> /etc/alternatives/telnet
+-rwxr-xr-x   1 root root       14720 Feb  2 16:29 tempfile
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 test -> ../lib/cargo/bin/coreutils/test
+-rwxr-xr-x   1 root root       92736 Jan  3 03:53 tic
+-rwxr-xr-x   1 root root       27232 Jan 14 13:45 time
+-rwxr-xr-x   1 root root       47560 Apr 15 14:32 timedatectl
+lrwxrwxrwx   1 root root          34 Mar 30 12:50 timeout -> ../lib/cargo/bin/coreutils/timeout
+-rwxr-xr-x   1 root root       18984 Dec  1  2025 tload
+-rwxr-xr-x   1 root root      187392 Feb 10 23:57 tnftp
+-rwxr-xr-x   1 root root       22912 Jan  3 03:53 toe
+-rwxr-xr-x   1 root root      135064 Dec  1  2025 top
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 touch -> ../lib/cargo/bin/coreutils/touch
+-rwxr-xr-x   1 root root       27040 Jan  3 03:53 tput
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 tr -> ../lib/cargo/bin/coreutils/tr
+-rwxr-xr-x   1 root root      466992 Jan 22 18:04 trace-cmd
+-rwxr-xr-x   1 root root       18736 Oct 31  2025 tracepath
+-rwxr-xr-x   1 root root       97792 Feb  3 13:59 tree
+-rwxr-xr-x   1 root root      748224 Dec  2  2025 troff
+lrwxrwxrwx   1 root root           7 Mar 30 12:50 true -> gnutrue
+lrwxrwxrwx   1 root root          35 Mar 30 12:50 truncate -> ../lib/cargo/bin/coreutils/truncate
+-rwxr-xr-x   1 root root       31112 Jan  3 03:53 tset
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 tsort -> ../lib/cargo/bin/coreutils/tsort
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 tty -> ../lib/cargo/bin/coreutils/tty
+-rwxr-xr-x   1 root root       21901 Mar 31 16:35 tzselect
+lrwxrwxrwx   1 root root          16 Mar 11 09:27 ua -> ubuntu-advantage
+-rwxr-xr-x   1 root root        1004 Mar 11 09:27 ubuntu-advantage
+-rwxr-xr-x   1 root root       22992 Feb 16 18:18 ubuntu-distro-info
+-rwxr-xr-x   1 root root       22784 Apr 16 09:25 ubuntu-security-status
+-rwxr-xr-x   1 root root       36482 Feb 26 10:35 ucf
+-rwxr-xr-x   1 root root       18915 Feb 26 10:35 ucfq
+-rwxr-xr-x   1 root root       10180 Feb 26 10:35 ucfr
+-rwxr-xr-x   1 root root       31184 Mar 13 07:09 uclampset
+-rwxr-xr-x   1 root root      765648 Apr 15 14:32 udevadm
+-rwxr-xr-x   1 root root       23000 Mar 13 07:09 ul
+-rwsr-xr-x   1 root root       39376 Mar 13 07:09 umount
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 uname -> ../lib/cargo/bin/coreutils/uname
+lrwxrwxrwx   1 root root           6 Feb 27 13:02 uncompress -> gunzip
+lrwxrwxrwx   1 root root          35 Mar 30 12:50 unexpand -> ../lib/cargo/bin/coreutils/unexpand
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 uniq -> ../lib/cargo/bin/coreutils/uniq
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 unlink -> ../lib/cargo/bin/coreutils/unlink
+lrwxrwxrwx   1 root root          24 Mar 31 20:00 unlzma -> /etc/alternatives/unlzma
+-rwxr-xr-x   1 root root       47800 Mar 13 07:09 unshare
+lrwxrwxrwx   1 root root           2 Mar 31 20:00 unxz -> xz
+-rwxr-xr-x   1 root root       59864 Mar 31 10:52 update-alternatives
+-rwxr-xr-x   1 root root       88480 Feb  2 16:45 update-mime-database
+-rwxr-xr-x   1 root root       14872 Dec  1  2025 uptime
+-rwxr-xr-x   1 root root        4979 Oct 22  2025 usb-devices
+-rwxr-xr-x   1 root root       31192 Nov 15  2025 usbhid-dump
+-rwxr-xr-x   1 root root       14720 Nov 15  2025 usbreset
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 users -> ../lib/cargo/bin/coreutils/users
+-rwxr-xr-x   1 root root       22992 Mar 13 07:09 uuidgen
+-rwxr-xr-x   1 root root       22992 Mar 13 07:09 uuidparse
+-rwxr-xr-x   1 root root       47720 Apr 15 14:32 varlinkctl
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 vdir -> ../lib/cargo/bin/coreutils/vdir
+lrwxrwxrwx   1 root root          20 May 20 15:11 vi -> /etc/alternatives/vi
+lrwxrwxrwx   1 root root          22 May 20 15:11 view -> /etc/alternatives/view
+lrwxrwxrwx   1 root root          21 May 20 15:11 vim -> /etc/alternatives/vim
+-rwxr-xr-x   1 root root     4571816 May 20 15:11 vim.basic
+lrwxrwxrwx   1 root root          25 May 20 15:11 vimdiff -> /etc/alternatives/vimdiff
+-rwxr-xr-x   1 root root        4870 May 20 15:11 vimtutor
+lrwxrwxrwx   1 root root          23 Mar 11 09:27 visudo-rs -> ../lib/cargo/bin/visudo
+-rwxr-xr-x   1 root root       39864 Dec  1  2025 vmstat
+-rwxr-xr-x   1 root root       35352 Dec  1  2025 w
+-rwxr-xr-x   1 root root       27088 Mar 13 07:09 wall
+-rwxr-xr-x   1 root root       31736 Dec  1  2025 watch
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 wc -> ../lib/cargo/bin/coreutils/wc
+-rwxr-xr-x   1 root root       11581 Apr 29 07:35 wcurl
+-rwxr-xr-x   1 root root      531536 Feb  2 16:52 wget
+-rwxr-xr-x   1 root root       48576 Feb  2 16:49 whatis
+-rwxr-xr-x   1 root root       31184 Mar 13 07:09 whereis
+lrwxrwxrwx   1 root root          23 Feb  2 16:29 which -> /etc/alternatives/which
+-rwxr-xr-x   1 root root        1080 Feb  2 16:29 which.debianutils
+-rwxr-xr-x   1 root root       30968 Mar 20 07:05 whiptail
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 who -> ../lib/cargo/bin/coreutils/who
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 whoami -> ../lib/cargo/bin/coreutils/whoami
+lrwxrwxrwx   1 root root           7 Mar 13 07:09 x86_64 -> setarch
+-rwxr-xr-x   1 root root       68088 Feb  2 16:37 xargs
+-rwxr-xr-x   1 root root       56352 Dec  6  2025 xauth
+-rwxr-xr-x   1 root root         234 Sep 20  2025 xdg-user-dir
+-rwxr-xr-x   1 root root       26936 Sep 25  2025 xdg-user-dirs-update
+-rwxr-xr-x   1 root root       22896 May 20 15:11 xxd
+-rwxr-xr-x   1 root root      101392 Mar 31 20:00 xz
+lrwxrwxrwx   1 root root           2 Mar 31 20:00 xzcat -> xz
+lrwxrwxrwx   1 root root           6 Mar 31 20:00 xzcmp -> xzdiff
+-rwxr-xr-x   1 root root        7743 Mar 31 20:00 xzdiff
+lrwxrwxrwx   1 root root           6 Mar 31 20:00 xzegrep -> xzgrep
+lrwxrwxrwx   1 root root           6 Mar 31 20:00 xzfgrep -> xzgrep
+-rwxr-xr-x   1 root root       10458 Mar 31 20:00 xzgrep
+-rwxr-xr-x   1 root root        2428 Mar 31 20:00 xzless
+-rwxr-xr-x   1 root root        2262 Mar 31 20:00 xzmore
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 yes -> ../lib/cargo/bin/coreutils/yes
+lrwxrwxrwx   1 root root           8 Dec  6  2025 ypdomainname -> hostname
+-rwxr-xr-x   1 root root        1904 Feb 27 13:02 zcat
+-rwxr-xr-x   1 root root        1609 Feb 27 13:02 zcmp
+-rwxr-xr-x   1 root root        6386 Feb 27 13:02 zdiff
+-rwxr-xr-x   1 root root       31008 Mar 31 16:35 zdump
+-rwxr-xr-x   1 root root          29 Feb 27 13:02 zegrep
+-rwxr-xr-x   1 root root          29 Feb 27 13:02 zfgrep
+-rwxr-xr-x   1 root root        2007 Feb 27 13:02 zforce
+-rwxr-xr-x   1 root root        8136 Feb 27 13:02 zgrep
+-rwxr-xr-x   1 root root        2365 Feb 27 13:02 zless
+-rwxr-xr-x   1 root root        1768 Feb 27 13:02 zmore
+-rwxr-xr-x   1 root root        4561 Feb 27 13:02 znew
+total 80892
+lrwxrwxrwx   1 root root          28 Mar 30 12:50 [ -> ../lib/cargo/bin/coreutils/[
+-rwxr-xr-x   1 root root       14720 Apr  8 13:26 aa-enabled
+-rwxr-xr-x   1 root root       14720 Apr  8 13:26 aa-exec
+-rwxr-xr-x   1 root root       14720 Apr  8 13:26 aa-features-abi
+lrwxrwxrwx   1 root root           6 Feb  2 16:49 apropos -> whatis
+-rwxr-xr-x   1 root root       23072 Apr  7 05:02 apt
+-rwxr-xr-x   1 root root      100904 Apr  7 05:02 apt-cache
+-rwxr-xr-x   1 root root       27176 Apr  7 05:02 apt-cdrom
+-rwxr-xr-x   1 root root       31200 Apr  7 05:02 apt-config
+-rwxr-xr-x   1 root root       59944 Apr  7 05:02 apt-get
+-rwxr-xr-x   1 root root       72232 Apr  7 05:02 apt-mark
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 arch -> ../lib/cargo/bin/coreutils/arch
+lrwxrwxrwx   1 root root          21 Feb  3 16:30 awk -> /etc/alternatives/awk
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 b2sum -> ../lib/cargo/bin/coreutils/b2sum
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 base32 -> ../lib/cargo/bin/coreutils/base32
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 base64 -> ../lib/cargo/bin/coreutils/base64
+lrwxrwxrwx   1 root root          35 Mar 30 12:50 basename -> ../lib/cargo/bin/coreutils/basename
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 basenc -> ../lib/cargo/bin/coreutils/basenc
+-rwxr-xr-x   1 root root     1540520 Feb 13 08:16 bash
+-rwxr-xr-x   1 root root        7075 Feb 13 08:16 bashbug
+-rwxr-xr-x   1 root root       92776 Apr 15 14:32 busctl
+-rwxr-xr-x   1 root root     2190672 Jan 14 11:50 busybox
+-rwxr-xr-x   1 root root        6919 Apr  7 08:05 c_rehash
+lrwxrwxrwx   1 root root           4 Dec  9  2025 cal -> ncal
+lrwxrwxrwx   1 root root           3 Jan  3 03:53 captoinfo -> tic
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 cat -> ../lib/cargo/bin/coreutils/cat
+-rwxr-xr-x   1 root root       35760 Feb  2 16:49 catman
+-rwxr-sr-x   1 root shadow     85256 Feb  2 16:45 chage
+-rwxr-xr-x   1 root root       14728 Feb 13 08:17 chattr
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 chcon -> ../lib/cargo/bin/coreutils/chcon
+-rwsr-xr-x   1 root root       72840 Feb  2 16:45 chfn
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 chgrp -> ../lib/cargo/bin/coreutils/chgrp
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 chmod -> ../lib/cargo/bin/coreutils/chmod
+-rwxr-xr-x   1 root root       22992 Mar 13 07:09 choom
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 chown -> ../lib/cargo/bin/coreutils/chown
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 chroot -> ../lib/cargo/bin/coreutils/chroot
+-rwxr-xr-x   1 root root       31184 Mar 13 07:09 chrt
+-rwsr-xr-x   1 root root       48936 Feb  2 16:45 chsh
+-rwxr-xr-x   1 root root       27184 Jan 11 18:40 cifsiostat
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 cksum -> ../lib/cargo/bin/coreutils/cksum
+-rwxr-xr-x   1 root root       14728 Jan  3 03:53 clear
+-rwxr-xr-x   1 root root       14640 Feb 13 08:16 clear_console
+-rwxr-xr-x   1 root root       43592 Oct 19  2025 cmp
+-rwxr-xr-x   1 root root       23000 Mar 13 07:09 col
+-rwxr-xr-x   1 root root       14808 Mar 13 07:09 colcrt
+-rwxr-xr-x   1 root root       14808 Mar 13 07:09 colrm
+-rwxr-xr-x   1 root root       39384 Mar 13 07:09 column
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 comm -> ../lib/cargo/bin/coreutils/comm
+-rwxr-xr-x 115 root root    11352352 Apr 16 08:41 coreutils
+lrwxrwxrwx   1 root root           5 Mar 30 12:50 cp -> gnucp
+-rwxr-xr-x   1 root root      153624 Dec 21 08:24 cpio
+-rwxr-sr-x   1 root crontab    39744 Nov  5  2025 crontab
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 csplit -> ../lib/cargo/bin/coreutils/csplit
+-rwxr-xr-x   1 root root      334360 Apr 29 07:35 curl
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 cut -> ../lib/cargo/bin/coreutils/cut
+-rwxr-xr-x   1 root root      341328 Mar 13 07:02 cvtsudoers.ws
+-rwxr-xr-x   1 root root      129856 Feb  2 16:26 dash
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 date -> ../lib/cargo/bin/coreutils/date
+-rwxr-xr-x   1 root root       14712 Mar  3 07:20 dbus-cleanup-sockets
+-rwxr-xr-x   1 root root      236256 Mar  3 07:20 dbus-daemon
+-rwxr-xr-x   1 root root       27000 Mar  3 07:20 dbus-monitor
+-rwxr-xr-x   1 root root       14712 Mar  3 07:20 dbus-run-session
+-rwxr-xr-x   1 root root       35192 Mar  3 07:20 dbus-send
+-rwxr-xr-x   1 root root       14712 Mar  3 07:20 dbus-update-activation-environment
+-rwxr-xr-x   1 root root       14712 Mar  3 07:20 dbus-uuidgen
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 dd -> ../lib/cargo/bin/coreutils/dd
+-rwxr-xr-x   1 root root       24358 Jul 13  2022 deb-systemd-helper
+-rwxr-xr-x   1 root root        7135 Nov 26  2023 deb-systemd-invoke
+-rwxr-xr-x   1 root root        2870 Feb 16 13:48 debconf
+-rwxr-xr-x   1 root root       11846 Feb 16 13:48 debconf-apt-progress
+-rwxr-xr-x   1 root root         623 Feb 16 13:48 debconf-communicate
+-rwxr-xr-x   1 root root        1718 Feb 16 13:48 debconf-copydb
+-rwxr-xr-x   1 root root         668 Feb 16 13:48 debconf-escape
+-rwxr-xr-x   1 root root        3216 Feb 16 13:48 debconf-set-selections
+-rwxr-xr-x   1 root root        1825 Feb 16 13:48 debconf-show
+-rwxr-xr-x   1 root root       27088 Feb 16 18:18 debian-distro-info
+-rwxr-xr-x   1 root root       62952 May 21 08:23 delv
+lrwxrwxrwx   1 root root           5 Mar 30 12:50 df -> gnudf
+-rwxr-xr-x   1 root root        4527 Sep 28  2025 dh_bash-completion
+-rwxr-xr-x   1 root root      137960 Oct 19  2025 diff
+-rwxr-xr-x   1 root root       51808 Oct 19  2025 diff3
+-rwxr-xr-x   1 root root      150480 May 21 08:23 dig
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 dir -> ../lib/cargo/bin/coreutils/dir
+lrwxrwxrwx   1 root root          36 Mar 30 12:50 dircolors -> ../lib/cargo/bin/coreutils/dircolors
+lrwxrwxrwx   1 root root          34 Mar 30 12:50 dirname -> ../lib/cargo/bin/coreutils/dirname
+lrwxrwxrwx   1 root root          18 Feb 16 18:18 distro-info -> ubuntu-distro-info
+-rwxr-xr-x   1 root root       74528 Mar 13 07:09 dmesg
+lrwxrwxrwx   1 root root           8 Dec  6  2025 dnsdomainname -> hostname
+-rwxr-xr-x   1 root root        9268 Apr 22 13:29 do-release-upgrade
+lrwxrwxrwx   1 root root           8 Dec  6  2025 domainname -> hostname
+-rwxr-xr-x   1 root root      322728 Mar 31 10:52 dpkg
+-rwxr-xr-x   1 root root      150176 Mar 31 10:52 dpkg-deb
+-rwxr-xr-x   1 root root      125768 Mar 31 10:52 dpkg-divert
+-rwxr-xr-x   1 root root       21123 Mar 31 10:52 dpkg-maintscript-helper
+-rwxr-xr-x   1 root root      142160 Mar 31 10:52 dpkg-query
+-rwxr-xr-x   1 root root       35280 Mar 31 10:52 dpkg-realpath
+-rwxr-xr-x   1 root root      100976 Mar 31 10:52 dpkg-split
+-rwxr-xr-x   1 root root       55936 Mar 31 10:52 dpkg-statoverride
+-rwxr-xr-x   1 root root       47728 Mar 31 10:52 dpkg-trigger
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 du -> ../lib/cargo/bin/coreutils/du
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 echo -> ../lib/cargo/bin/coreutils/echo
+-rwxr-xr-x   1 root root       63792 Jan  5 11:07 ed
+lrwxrwxrwx   1 root root          24 Jan  5 11:07 editor -> /etc/alternatives/editor
+-rwxr-xr-x   1 root root          41 Sep 27  2025 egrep
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 env -> ../lib/cargo/bin/coreutils/env
+-rwxr-xr-x   1 root root       39456 Nov 13  2025 envsubst
+-rwxr-xr-x   1 root root      197136 Dec  2  2025 eqn
+lrwxrwxrwx   1 root root          20 May 20 15:11 ex -> /etc/alternatives/ex
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 expand -> ../lib/cargo/bin/coreutils/expand
+-rwxr-sr-x   1 root shadow     23168 Feb  2 16:45 expiry
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 expr -> ../lib/cargo/bin/coreutils/expr
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 factor -> ../lib/cargo/bin/coreutils/factor
+-rwxr-xr-x   1 root root       27088 Mar 13 07:09 fallocate
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 false -> ../lib/cargo/bin/coreutils/false
+-rwxr-xr-x   1 root root          41 Sep 27  2025 fgrep
+-rwxr-xr-x   1 root root       27352 Feb  2 16:37 file
+-rwxr-xr-x   1 root root      216632 Feb  2 16:37 find
+-rwxr-xr-x   1 root root       81888 Mar 13 07:09 findmnt
+-rwxr-xr-x   1 root root       27200 Mar 13 07:09 flock
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 fmt -> ../lib/cargo/bin/coreutils/fmt
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 fold -> ../lib/cargo/bin/coreutils/fold
+-rwxr-xr-x   1 root root       27160 Dec  1  2025 free
+lrwxrwxrwx   1 root root          21 Feb 10 23:57 ftp -> /etc/alternatives/ftp
+-rwxr-xr-x   1 root root       44000 Feb  2 16:37 fuser
+lrwxrwxrwx   1 root root          11 Mar 21 03:16 fusermount -> fusermount3
+-rwsr-xr-x   1 root root       39376 Mar 21 03:16 fusermount3
+lrwxrwxrwx   1 root root           3 Dec  2  2025 geqn -> eqn
+-rwxr-xr-x   1 root root       31088 Mar 31 16:35 getconf
+-rwxr-xr-x   1 root root       39648 Mar 31 16:35 getent
+-rwxr-xr-x   1 root root       22992 Mar 13 07:09 getopt
+-rwxr-xr-x   1 root root       39456 Nov 13  2025 gettext
+-rwxr-xr-x   1 root root        5167 Nov 13  2025 gettext.sh
+lrwxrwxrwx   1 root root          12 Mar 25 14:25 ginstall-info -> install-info
+-rwxr-xr-x   1 root root       47632 Jan 23 09:41 gnu[
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnuarch
+-rwxr-xr-x   1 root root       55904 Jan 23 09:41 gnub2sum
+-rwxr-xr-x   1 root root       39520 Jan 23 09:41 gnubase32
+-rwxr-xr-x   1 root root       39520 Jan 23 09:41 gnubase64
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnubasename
+-rwxr-xr-x   1 root root       51808 Jan 23 09:41 gnubasenc
+-rwxr-xr-x   1 root root       39472 Jan 23 09:41 gnucat
+-rwxr-xr-x   1 root root       64096 Jan 23 09:41 gnuchcon
+-rwxr-xr-x   1 root root       64064 Jan 23 09:41 gnuchgrp
+-rwxr-xr-x   1 root root       60000 Jan 23 09:41 gnuchmod
+-rwxr-xr-x   1 root root       68160 Jan 23 09:41 gnuchown
+-rwxr-xr-x   1 root root      117360 Jan 23 09:41 gnucksum
+-rwxr-xr-x   1 root root       39528 Jan 23 09:41 gnucomm
+-rwxr-xr-x   1 root root      137840 Jan 23 09:41 gnucp
+-rwxr-xr-x   1 root root       51808 Jan 23 09:41 gnucsplit
+-rwxr-xr-x   1 root root       43616 Jan 23 09:41 gnucut
+-rwxr-xr-x   1 root root       96864 Jan 23 09:41 gnudate
+-rwxr-xr-x   1 root root       64128 Jan 23 09:41 gnudd
+-rwxr-xr-x   1 root root       93256 Jan 23 09:41 gnudf
+-rwxr-xr-x   1 root root      150568 Jan 23 09:41 gnudir
+-rwxr-xr-x   1 root root       47720 Jan 23 09:41 gnudircolors
+-rwxr-xr-x   1 root root       35288 Jan 23 09:41 gnudirname
+-rwxr-xr-x   1 root root      100960 Jan 23 09:41 gnudu
+-rwxr-xr-x   1 root root       35288 Jan 23 09:41 gnuecho
+-rwxr-xr-x   1 root root       48128 Jan 23 09:41 gnuenv
+-rwxr-xr-x   1 root root       39544 Jan 23 09:41 gnuexpand
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnuexpr
+-rwxr-xr-x   1 root root       64096 Jan 23 09:41 gnufactor
+-rwxr-xr-x   1 root root       35288 Jan 23 09:41 gnufalse
+-rwxr-xr-x   1 root root       43584 Jan 23 09:41 gnufmt
+-rwxr-xr-x   1 root root       39520 Jan 23 09:41 gnufold
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnugroups
+-rwxr-xr-x   1 root root       43616 Jan 23 09:41 gnuhead
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnuhostid
+-rwxr-xr-x   1 root root       43616 Jan 23 09:41 gnuid
+-rwxr-xr-x   1 root root      141936 Jan 23 09:41 gnuinstall
+-rwxr-xr-x   1 root root       51856 Jan 23 09:41 gnujoin
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnulink
+-rwxr-xr-x   1 root root       60000 Jan 23 09:41 gnuln
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnulogname
+-rwxr-xr-x   1 root root      150568 Jan 23 09:41 gnuls
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnumd5sum
+-rwxr-xr-x   1 root root       51808 Jan 23 09:41 gnumkdir
+-rwxr-xr-x   1 root root       43616 Jan 23 09:41 gnumkfifo
+-rwxr-xr-x   1 root root       47680 Jan 23 09:41 gnumknod
+-rwxr-xr-x   1 root root       39488 Jan 23 09:41 gnumktemp
+-rwxr-xr-x   1 root root      133744 Jan 23 09:41 gnumv
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnunice
+-rwxr-xr-x   1 root root       43712 Jan 23 09:41 gnunl
+-rwxr-xr-x   1 root root       39424 Jan 23 09:41 gnunohup
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnunproc
+-rwxr-xr-x   1 root root       60032 Jan 23 09:41 gnunumfmt
+-rwxr-xr-x   1 root root       76384 Jan 23 09:41 gnuod
+-rwxr-xr-x   1 root root       39424 Jan 23 09:41 gnupaste
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnupathchk
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnupinky
+-rwxr-xr-x   1 root root       72360 Jan 23 09:41 gnupr
+-rwxr-xr-x   1 root root       35288 Jan 23 09:41 gnuprintenv
+-rwxr-xr-x   1 root root       64064 Jan 23 09:41 gnuprintf
+-rwxr-xr-x   1 root root       55936 Jan 23 09:41 gnuptx
+-rwxr-xr-x   1 root root       39488 Jan 23 09:41 gnupwd
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnureadlink
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnurealpath
+-rwxr-xr-x   1 root root       64096 Jan 23 09:41 gnurm
+-rwxr-xr-x   1 root root       35328 Jan 23 09:41 gnurmdir
+-rwxr-xr-x   1 root root       35392 Jan 23 09:41 gnuruncon
+-rwxr-xr-x   1 root root       43616 Jan 23 09:41 gnuseq
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnusha1sum
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnusha224sum
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnusha256sum
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnusha384sum
+-rwxr-xr-x   1 root root       43520 Jan 23 09:41 gnusha512sum
+-rwxr-xr-x   1 root root       55904 Jan 23 09:41 gnushred
+-rwxr-xr-x   1 root root       51808 Jan 23 09:41 gnushuf
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnusleep
+-rwxr-xr-x   1 root root      105360 Jan 23 09:41 gnusort
+-rwxr-xr-x   1 root root       60440 Jan 23 09:41 gnusplit
+-rwxr-xr-x   1 root root       92776 Jan 23 09:41 gnustat
+-rwxr-xr-x   1 root root       39488 Jan 23 09:41 gnustdbuf
+-rwxr-xr-x   1 root root       72304 Jan 23 09:41 gnustty
+-rwxr-xr-x   1 root root       39424 Jan 23 09:41 gnusum
+-rwxr-xr-x   1 root root       35328 Jan 23 09:41 gnusync
+-rwxr-xr-x   1 root root       39424 Jan 23 09:41 gnutac
+-rwxr-xr-x   1 root root       72312 Jan 23 09:41 gnutail
+-rwxr-xr-x   1 root root       39520 Jan 23 09:41 gnutee
+-rwxr-xr-x   1 root root       39440 Jan 23 09:41 gnutest
+-rwxr-xr-x   1 root root       39968 Jan 23 09:41 gnutimeout
+-rwxr-xr-x   1 root root       76384 Jan 23 09:41 gnutouch
+-rwxr-xr-x   1 root root       51776 Jan 23 09:41 gnutr
+-rwxr-xr-x   1 root root       35288 Jan 23 09:41 gnutrue
+-rwxr-xr-x   1 root root       39520 Jan 23 09:41 gnutruncate
+-rwxr-xr-x   1 root root       51808 Jan 23 09:41 gnutsort
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnutty
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnuuname
+-rwxr-xr-x   1 root root       39544 Jan 23 09:41 gnuunexpand
+-rwxr-xr-x   1 root root       47728 Jan 23 09:41 gnuuniq
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnuunlink
+-rwxr-xr-x   1 root root       43616 Jan 23 09:41 gnuusers
+-rwxr-xr-x   1 root root      150568 Jan 23 09:41 gnuvdir
+-rwxr-xr-x   1 root root       60016 Jan 23 09:41 gnuwc
+-rwxr-xr-x   1 root root       51824 Jan 23 09:41 gnuwho
+-rwxr-xr-x   1 root root       35424 Jan 23 09:41 gnuwhoami
+-rwxr-xr-x   1 root root       35288 Jan 23 09:41 gnuyes
+-rwsr-xr-x   1 root root       76328 Feb  2 16:45 gpasswd
+-rwxr-xr-x   1 root root      302296 Jan 29 09:57 gpgv
+lrwxrwxrwx   1 root root           3 Dec  2  2025 gpic -> pic
+-rwxr-xr-x   1 root root      191056 Sep 27  2025 grep
+-rwxr-xr-x   1 root root       96848 Dec  2  2025 groff
+-rwxr-xr-x   1 root root       19195 Dec  2  2025 grog
+-rwxr-xr-x   1 root root      170624 Dec  2  2025 grops
+-rwxr-xr-x   1 root root      125520 Dec  2  2025 grotty
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 groups -> ../lib/cargo/bin/coreutils/groups
+lrwxrwxrwx   1 root root           3 Dec  2  2025 gtbl -> tbl
+-rwxr-xr-x   1 root root        2266 Feb 27 13:02 gunzip
+-rwxr-xr-x   1 root root        6379 Feb 27 13:02 gzexe
+-rwxr-xr-x   1 root root       97560 Feb 27 13:02 gzip
+-rwxr-xr-x   1 root root       47664 Mar 13 07:09 hardlink
+lrwxrwxrwx   1 root root          34 Mar 30 12:50 hashsum -> ../lib/cargo/bin/coreutils/hashsum
+lrwxrwxrwx   1 root root           7 Mar 13 07:09 hd -> hexdump
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 head -> ../lib/cargo/bin/coreutils/head
+-rwxr-xr-x   1 root root        2514 May 20 15:11 helpztags
+-rwxr-xr-x   1 root root       51680 Mar 13 07:09 hexdump
+-rwxr-xr-x   1 root root      113632 May 21 08:23 host
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 hostid -> ../lib/cargo/bin/coreutils/hostid
+-rwxr-xr-x   1 root root       26928 Dec  6  2025 hostname
+-rwxr-xr-x   1 root root       39384 Apr 15 14:32 hostnamectl
+-rwxr-xr-x   1 root root       11512 Apr 16 09:25 hwe-support-status
+lrwxrwxrwx   1 root root           7 Mar 13 07:09 i386 -> setarch
+-rwxr-xr-x   1 root root       68104 Mar 31 16:35 iconv
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 id -> ../lib/cargo/bin/coreutils/id
+-rwxr-xr-x   1 root root      202320 Jan 27 10:28 inetutils-telnet
+-rwxr-xr-x   1 root root      251736 Mar 25 14:25 info
+lrwxrwxrwx   1 root root          29 Mar 25 14:25 infobrowser -> /etc/alternatives/infobrowser
+-rwxr-xr-x   1 root root       68040 Jan  3 03:53 infocmp
+lrwxrwxrwx   1 root root           3 Jan  3 03:53 infotocap -> tic
+lrwxrwxrwx   1 root root          34 Mar 30 12:50 install -> ../lib/cargo/bin/coreutils/install
+-rwxr-xr-x   1 root root       48448 Mar 25 14:25 install-info
+-rwxr-xr-x   1 root root       18896 Mar 13 07:09 ionice
+-rwxr-xr-x   1 root root       59952 Jan 11 18:40 iostat
+-rwxr-xr-x   1 root root       23064 Mar 13 07:09 ipcmk
+-rwxr-xr-x   1 root root       31184 Mar 13 07:09 ipcrm
+-rwxr-xr-x   1 root root       39376 Mar 13 07:09 ipcs
+lrwxrwxrwx   1 root root          28 Feb  2 16:26 iptables-xml -> ../sbin/xtables-legacy-multi
+-rwxr-xr-x   1 root root       14896 Feb  2 16:29 ischroot
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 join -> ../lib/cargo/bin/coreutils/join
+-rwxr-xr-x   1 root root       93376 Apr 15 14:32 journalctl
+-rwxr-xr-x   1 root root       56024 Apr 15 14:32 kernel-install
+-rwxr-xr-x   1 root root       22992 Dec  1  2025 kill
+-rwxr-xr-x   1 root root       31632 Feb  2 16:37 killall
+lrwxrwxrwx   1 root root          29 Mar 31 16:35 ld.so -> ../lib64/ld-linux-x86-64.so.2
+-rwxr-xr-x   1 root root        5388 Mar 31 16:35 ldd
+-rwxr-xr-x   1 root root      245256 Feb  2 16:30 less
+-rwxr-xr-x   1 root root       14728 Feb  2 16:30 lessecho
+lrwxrwxrwx   1 root root           8 Feb  2 16:30 lessfile -> lesspipe
+-rwxr-xr-x   1 root root       27096 Feb  2 16:30 lesskey
+-rwxr-xr-x   1 root root        9047 Apr  5  2025 lesspipe
+-rwxr-xr-x   1 root root      101976 Feb  2 16:49 lexgrog
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 link -> ../lib/cargo/bin/coreutils/link
+lrwxrwxrwx   1 root root           7 Mar 13 07:09 linux32 -> setarch
+lrwxrwxrwx   1 root root           7 Mar 13 07:09 linux64 -> setarch
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 ln -> ../lib/cargo/bin/coreutils/ln
+-rwxr-xr-x   1 root root       50824 Mar 31 16:35 locale
+-rwxr-xr-x   1 root root       14568 Apr 20 04:46 locale-check
+-rwxr-xr-x   1 root root       31176 Apr 15 14:32 localectl
+-rwxr-xr-x   1 root root      334976 Mar 31 16:35 localedef
+-rwxr-xr-x   1 root root       39984 Mar 13 07:09 logger
+-rwxr-xr-x   1 root root       43472 Mar 13 07:09 login
+-rwxr-xr-x   1 root root       68192 Apr 15 14:32 loginctl
+lrwxrwxrwx   1 root root          34 Mar 30 12:50 logname -> ../lib/cargo/bin/coreutils/logname
+-rwxr-xr-x   1 root root       18904 Mar 13 07:09 look
+-rwxr-xr-x   1 root root      121912 Apr 17 13:48 lowntfs-3g
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 ls -> ../lib/cargo/bin/coreutils/ls
+-rwxr-xr-x   1 root root       14728 Feb 13 08:17 lsattr
+-rwxr-xr-x   1 root root        2834 Dec 18 08:47 lsb_release
+-rwxr-xr-x   1 root root      174552 Mar 13 07:09 lsblk
+-rwxr-xr-x   1 root root      117208 Mar 13 07:09 lscpu
+-rwxr-xr-x   1 root root      823832 Oct 28  2025 lshw
+-rwxr-xr-x   1 root root       63952 Mar 13 07:09 lsipc
+-rwxr-xr-x   1 root root       43904 Mar 13 07:09 lslocks
+-rwxr-xr-x   1 root root       51672 Mar 13 07:09 lsns
+-rwxr-xr-x   1 root root      196416 Feb  2 16:48 lsof
+-rwxr-xr-x   1 root root      118976 Feb  2 16:34 lspci
+-rwxr-xr-x   1 root root        1228 Mar 11  2025 lspower
+-rwxr-xr-x   1 root root      231920 Nov 15  2025 lsusb
+lrwxrwxrwx   1 root root          23 Mar 31 20:00 lzcat -> /etc/alternatives/lzcat
+lrwxrwxrwx   1 root root          23 Mar 31 20:00 lzcmp -> /etc/alternatives/lzcmp
+lrwxrwxrwx   1 root root          24 Mar 31 20:00 lzdiff -> /etc/alternatives/lzdiff
+lrwxrwxrwx   1 root root          25 Mar 31 20:00 lzegrep -> /etc/alternatives/lzegrep
+lrwxrwxrwx   1 root root          25 Mar 31 20:00 lzfgrep -> /etc/alternatives/lzfgrep
+lrwxrwxrwx   1 root root          24 Mar 31 20:00 lzgrep -> /etc/alternatives/lzgrep
+lrwxrwxrwx   1 root root          24 Mar 31 20:00 lzless -> /etc/alternatives/lzless
+lrwxrwxrwx   1 root root          22 Mar 31 20:00 lzma -> /etc/alternatives/lzma
+-rwxr-xr-x   1 root root       18896 Mar 31 20:00 lzmainfo
+lrwxrwxrwx   1 root root          24 Mar 31 20:00 lzmore -> /etc/alternatives/lzmore
+-rwxr-xr-x   1 root root         320 Apr 20 22:05 man
+-rwxr-xr-x   1 root root       36408 Feb  2 16:49 man-recode
+-rwxr-xr-x   1 root root      128496 Feb  2 16:49 man.REAL
+-rwxr-xr-x   1 root root      147200 Feb  2 16:49 mandb
+-rwxr-xr-x   1 root root       31680 Feb  2 16:49 manpath
+-rwxr-xr-x   1 root root      183128 Feb  3 16:30 mawk
+-rwxr-xr-x   1 root root       27160 Mar 13 07:09 mcookie
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 md5sum -> ../lib/cargo/bin/coreutils/md5sum
+-rwxr-xr-x   1 root root       51688 May 21 08:23 mdig
+-rwxr-xr-x   1 root root       14848 Feb  2 16:31 memhog
+-rwxr-xr-x   1 root root       14800 Feb  2 16:31 migratepages
+-rwxr-xr-x   1 root root       14728 Feb  2 16:31 migspeed
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 mkdir -> ../lib/cargo/bin/coreutils/mkdir
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 mkfifo -> ../lib/cargo/bin/coreutils/mkfifo
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 mknod -> ../lib/cargo/bin/coreutils/mknod
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 mktemp -> ../lib/cargo/bin/coreutils/mktemp
+-rwxr-xr-x   1 root root       47576 Mar 13 07:09 more
+-rwsr-xr-x   1 root root       51664 Mar 13 07:09 mount
+-rwxr-xr-x   1 root root       18896 Mar 13 07:09 mountpoint
+-rwxr-xr-x   1 root root       51768 Jan 11 18:40 mpstat
+lrwxrwxrwx   1 root root          20 Dec 21 08:24 mt -> /etc/alternatives/mt
+-rwxr-xr-x   1 root root       76888 Dec 21 08:24 mt-gnu
+-rwxr-xr-x   1 root root       78232 Dec  6  2025 mtr
+-rwsr-xr-x   1 root root       35280 Dec  6  2025 mtr-packet
+lrwxrwxrwx   1 root root           5 Mar 30 12:50 mv -> gnumv
+-rwxr-xr-x   1 root root       22992 Mar 13 07:09 namei
+-rwxr-xr-x   1 root root      301904 Feb  8 18:29 nano
+lrwxrwxrwx   1 root root          22 Feb  3 16:30 nawk -> /etc/alternatives/nawk
+-rwxr-xr-x   1 root root       37912 Dec  9  2025 ncal
+-rwxr-xr-x   1 root root         913 Dec  2  2025 neqn
+-rwxr-xr-x   1 root root      129624 Apr 15 14:32 networkctl
+-rwxr-xr-x   1 root root       39456 Nov 13  2025 ngettext
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 nice -> ../lib/cargo/bin/coreutils/nice
+lrwxrwxrwx   1 root root           8 Dec  6  2025 nisdomainname -> hostname
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 nl -> ../lib/cargo/bin/coreutils/nl
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 nohup -> ../lib/cargo/bin/coreutils/nohup
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 nproc -> ../lib/cargo/bin/coreutils/nproc
+-rwxr-xr-x   1 root root        5718 Dec  2  2025 nroff
+-rwxr-xr-x   1 root root       35544 Mar 13 07:09 nsenter
+-rwxr-xr-x   1 root root      117736 May 21 08:23 nslookup
+-rwxr-xr-x   1 root root       84680 May 21 08:23 nsupdate
+-rwsr-xr-x   1 root root      167000 Apr 17 13:48 ntfs-3g
+-rwxr-xr-x   1 root root       14800 Apr 17 13:48 ntfs-3g.probe
+-rwxr-xr-x   1 root root       27088 Apr 17 13:48 ntfscat
+-rwxr-xr-x   1 root root       39384 Apr 17 13:48 ntfscluster
+-rwxr-xr-x   1 root root       31184 Apr 17 13:48 ntfscmp
+-rwxr-xr-x   1 root root       43480 Apr 17 13:48 ntfsdecrypt
+-rwxr-xr-x   1 root root       27096 Apr 17 13:48 ntfsfallocate
+-rwxr-xr-x   1 root root       35288 Apr 17 13:48 ntfsfix
+-rwxr-xr-x   1 root root       55768 Apr 17 13:48 ntfsinfo
+-rwxr-xr-x   1 root root       28192 Apr 17 13:48 ntfsls
+-rwxr-xr-x   1 root root       31192 Apr 17 13:48 ntfsmove
+-rwxr-xr-x   1 root root      113104 Apr 17 13:48 ntfsrecover
+-rwxr-xr-x   1 root root       84928 Apr 17 13:48 ntfssecaudit
+-rwxr-xr-x   1 root root       27016 Apr 17 13:48 ntfstruncate
+-rwxr-xr-x   1 root root       18816 Apr 17 13:48 ntfsusermap
+-rwxr-xr-x   1 root root       44016 Apr 17 13:48 ntfswipe
+-rwxr-xr-x   1 root root       40288 Feb  2 16:31 numactl
+-rwxr-xr-x   1 root root       35360 Feb  2 16:31 numastat
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 numfmt -> ../lib/cargo/bin/coreutils/numfmt
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 od -> ../lib/cargo/bin/coreutils/od
+lrwxrwxrwx   1 root root          17 Feb  2 16:36 on_ac_power -> /sbin/on_ac_power
+-rwxr-xr-x   1 root root     1132128 Apr  7 08:05 openssl
+lrwxrwxrwx   1 root root          23 Mar 13 07:09 pager -> /etc/alternatives/pager
+-rwxr-xr-x   1 root root       63960 Mar 13 07:09 partx
+-rwsr-xr-x   1 root root       93640 Feb  2 16:45 passwd
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 paste -> ../lib/cargo/bin/coreutils/paste
+lrwxrwxrwx   1 root root          34 Mar 30 12:50 pathchk -> ../lib/cargo/bin/coreutils/pathchk
+-rwxr-xr-x   1 root root       47568 Feb  2 16:34 pcilmr
+lrwxrwxrwx   1 root root           7 Mar 21 05:46 pdb3 -> pdb3.14
+-rwxr-xr-x   1 root root          38 Apr  8 00:02 pdb3.14
+-rwxr-xr-x   1 root root     9924770 Apr 16 18:56 pebble
+-rwxr-xr-x   1 root root       14720 Feb  2 16:37 peekfd
+-rwxr-xr-x   2 root root     4064448 Mar 17 06:45 perl
+-rwxr-xr-x   2 root root     4064448 Mar 17 06:45 perl5.40.1
+-rwxr-xr-x   1 root root       39544 Dec  1  2025 pgrep
+-rwxr-xr-x   1 root root      196744 Dec  2  2025 pic
+lrwxrwxrwx   1 root root          22 Feb  8 18:29 pico -> /etc/alternatives/pico
+lrwxrwxrwx   1 root root          16 Oct 31  2025 pidof -> ../sbin/killall5
+-rwxr-xr-x   1 root root       55864 Jan 11 18:40 pidstat
+-rwxr-xr-x   1 root root       39544 Dec  1  2025 pidwait
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 pinky -> ../lib/cargo/bin/coreutils/pinky
+lrwxrwxrwx   1 root root           5 Dec  1  2025 pkill -> pgrep
+-rwxr-xr-x   1 root root       22976 Mar 31 16:35 pldd
+-rwxr-xr-x   1 root root       47488 Mar 12 10:27 plymouth
+-rwxr-xr-x   1 root root       35376 Dec  1  2025 pmap
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 pr -> ../lib/cargo/bin/coreutils/pr
+-rwxr-xr-x   1 root root       59952 Dec  2  2025 preconv
+lrwxrwxrwx   1 root root          35 Mar 30 12:50 printenv -> ../lib/cargo/bin/coreutils/printenv
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 printf -> ../lib/cargo/bin/coreutils/printf
+-rwxr-xr-x   1 root root       27616 Mar 13 07:09 prlimit
+lrwxrwxrwx   1 root root          16 Mar 11 09:27 pro -> ubuntu-advantage
+-rwxr-xr-x   1 root root       22992 Feb  2 16:37 prtstat
+-rwxr-xr-x   1 root root      146576 Dec  1  2025 ps
+-rwxr-xr-x   1 root root       14720 Feb  2 16:37 pslog
+-rwxr-xr-x   1 root root       35544 Feb  2 16:37 pstree
+lrwxrwxrwx   1 root root           6 Feb  2 16:37 pstree.x11 -> pstree
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 ptx -> ../lib/cargo/bin/coreutils/ptx
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 pwd -> ../lib/cargo/bin/coreutils/pwd
+-rwxr-xr-x   1 root root       14872 Dec  1  2025 pwdx
+-rwxr-xr-x   1 root root        7231 Mar 21 05:46 py3clean
+-rwxr-xr-x   1 root root       13312 Mar 21 05:46 py3compile
+lrwxrwxrwx   1 root root          31 Mar 21 05:46 py3versions -> ../share/python3/py3versions.py
+lrwxrwxrwx   1 root root           9 Mar 21 05:46 pydoc3 -> pydoc3.14
+-rwxr-xr-x   1 root root          80 Apr  8 00:02 pydoc3.14
+lrwxrwxrwx   1 root root          13 Mar 21 05:46 pygettext3 -> pygettext3.14
+-rwxr-xr-x   1 root root       28593 Apr  8 00:02 pygettext3.14
+lrwxrwxrwx   1 root root          10 Mar 21 05:46 python3 -> python3.14
+-rwxr-xr-x   1 root root     7477096 Apr  8 00:02 python3.14
+lrwxrwxrwx   1 root root           4 Feb 13 08:16 rbash -> bash
+lrwxrwxrwx   1 root root          35 Mar 30 12:50 readlink -> ../lib/cargo/bin/coreutils/readlink
+lrwxrwxrwx   1 root root          35 Mar 30 12:50 realpath -> ../lib/cargo/bin/coreutils/realpath
+-rwxr-xr-x   1 root root          89 Jan  5 11:07 red
+-rwxr-xr-x   1 root root       14800 Mar 13 07:09 renice
+lrwxrwxrwx   1 root root           4 Jan  3 03:53 reset -> tset
+-rwxr-xr-x   1 root root      137912 Apr 15 14:32 resolvectl
+-rwxr-xr-x   1 root root       14808 Mar 13 07:09 rev
+-rwxr-xr-x   1 root root          30 Apr 21  2025 rgrep
+lrwxrwxrwx   1 root root           5 Mar 30 12:50 rm -> gnurm
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 rmdir -> ../lib/cargo/bin/coreutils/rmdir
+lrwxrwxrwx   1 root root           4 Feb  8 18:29 rnano -> nano
+-rwxr-xr-x   1 root root       13005 May 14 04:54 rrsync
+-rwxr-xr-x   1 root root      542912 May 14 04:54 rsync
+-rwxr-xr-x   1 root root        5128 May 14 04:54 rsync-ssl
+-rwxr-xr-x   1 root root       31632 Feb  2 16:29 run-parts
+lrwxrwxrwx   1 root root          11 Apr 15 14:32 run0 -> systemd-run
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 runcon -> ../lib/cargo/bin/coreutils/runcon
+lrwxrwxrwx   1 root root          23 May 20 15:11 rview -> /etc/alternatives/rview
+lrwxrwxrwx   1 root root          22 May 20 15:11 rvim -> /etc/alternatives/rvim
+-rwxr-xr-x   1 root root      405648 Jan 11 18:40 sadf
+lrwxrwxrwx   1 root root          21 Jan 11 18:40 sar -> /etc/alternatives/sar
+-rwxr-xr-x   1 root root      191600 Jan 11 18:40 sar.sysstat
+-rwxr-xr-x   1 root root       10487 Feb  2 16:29 savelog
+-rwxr-xr-x   1 root root      137976 Apr 27 20:15 scp
+-rwxr-xr-x   1 root root      497936 Feb  9 18:45 screen
+-rwxr-xr-x   1 root root       55760 Mar 13 07:09 script
+-rwxr-xr-x   1 root root       43472 Mar 13 07:09 scriptlive
+-rwxr-xr-x   1 root root       35280 Mar 13 07:09 scriptreplay
+-rwxr-xr-x   1 root root       51808 Oct 19  2025 sdiff
+-rwxr-xr-x   1 root root      117392 Feb  2 16:41 sed
+-rwxr-xr-x   1 root root        2678 Dec 18 08:57 select-editor
+-rwxr-xr-x   1 root root        1085 Dec 18 08:57 sensible-browser
+-rwxr-xr-x   1 root root        1551 Dec 18 08:57 sensible-editor
+-rwxr-xr-x   1 root root         824 Dec 18 08:57 sensible-pager
+-rwxr-xr-x   1 root root        1109 Dec 18 08:57 sensible-terminal
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 seq -> ../lib/cargo/bin/coreutils/seq
+-rwxr-xr-x   1 root root       27368 Mar 13 07:09 setarch
+-rwxr-xr-x   1 root root       35288 Feb  2 16:34 setpci
+-rwxr-xr-x   1 root root       47576 Mar 13 07:09 setpriv
+-rwxr-xr-x   1 root root       14800 Mar 13 07:09 setsid
+-rwxr-xr-x   1 root root       35280 Mar 13 07:09 setterm
+-rwxr-xr-x   1 root root      154336 Apr 27 20:15 sftp
+lrwxrwxrwx   1 root root           4 Feb  2 16:26 sh -> dash
+lrwxrwxrwx   1 root root          34 Mar 30 12:50 sha1sum -> ../lib/cargo/bin/coreutils/sha1sum
+lrwxrwxrwx   1 root root          36 Mar 30 12:50 sha224sum -> ../lib/cargo/bin/coreutils/sha224sum
+lrwxrwxrwx   1 root root          36 Mar 30 12:50 sha256sum -> ../lib/cargo/bin/coreutils/sha256sum
+lrwxrwxrwx   1 root root          38 Mar 30 12:50 sha3-224sum -> ../lib/cargo/bin/coreutils/sha3-224sum
+lrwxrwxrwx   1 root root          38 Mar 30 12:50 sha3-256sum -> ../lib/cargo/bin/coreutils/sha3-256sum
+lrwxrwxrwx   1 root root          38 Mar 30 12:50 sha3-384sum -> ../lib/cargo/bin/coreutils/sha3-384sum
+lrwxrwxrwx   1 root root          38 Mar 30 12:50 sha3-512sum -> ../lib/cargo/bin/coreutils/sha3-512sum
+lrwxrwxrwx   1 root root          36 Mar 30 12:50 sha384sum -> ../lib/cargo/bin/coreutils/sha384sum
+lrwxrwxrwx   1 root root          34 Mar 30 12:50 sha3sum -> ../lib/cargo/bin/coreutils/sha3sum
+lrwxrwxrwx   1 root root          36 Mar 30 12:50 sha512sum -> ../lib/cargo/bin/coreutils/sha512sum
+lrwxrwxrwx   1 root root          38 Mar 30 12:50 shake128sum -> ../lib/cargo/bin/coreutils/shake128sum
+lrwxrwxrwx   1 root root          38 Mar 30 12:50 shake256sum -> ../lib/cargo/bin/coreutils/shake256sum
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 shred -> ../lib/cargo/bin/coreutils/shred
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 shuf -> ../lib/cargo/bin/coreutils/shuf
+-rwxr-xr-x   1 root root       27128 Dec  1  2025 skill
+-rwxr-xr-x   1 root root       23128 Dec  1  2025 slabtop
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 sleep -> ../lib/cargo/bin/coreutils/sleep
+lrwxrwxrwx   1 root root           5 Dec  1  2025 snice -> skill
+-rwxr-xr-x   1 root root       39472 Dec  2  2025 soelim
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 sort -> ../lib/cargo/bin/coreutils/sort
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 split -> ../lib/cargo/bin/coreutils/split
+-rwxr-xr-x   1 root root      924800 Apr 27 20:15 ssh
+-rwxr-xr-x   1 root root      297472 Apr 27 20:15 ssh-add
+-rwxr-sr-x   1 root _ssh      313864 Apr 27 20:15 ssh-agent
+-rwxr-xr-x   1 root root        1455 Mar 12 10:14 ssh-argv0
+-rwxr-xr-x   1 root root       14421 Oct  9  2025 ssh-copy-id
+-rwxr-xr-x   1 root root      457232 Apr 27 20:15 ssh-keygen
+-rwxr-xr-x   1 root root      399888 Apr 27 20:15 ssh-keyscan
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 stat -> ../lib/cargo/bin/coreutils/stat
+lrwxrwxrwx   1 root root           7 Jan 14 11:50 static-sh -> busybox
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 stdbuf -> ../lib/cargo/bin/coreutils/stdbuf
+-rwxr-xr-x   1 root root     2370264 Apr 15 10:53 strace
+-rwxr-xr-x   1 root root        1875 Jul 19  2024 strace-log-merge
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 stty -> ../lib/cargo/bin/coreutils/stty
+-rwsr-xr-x   1 root root       55760 Mar 13 07:09 su
+lrwxrwxrwx   1 root root          19 Mar 11 09:27 su-rs -> ../lib/cargo/bin/su
+lrwxrwxrwx   1 root root          22 Mar 13 07:02 sudo -> /etc/alternatives/sudo
+lrwxrwxrwx   1 root root          21 Mar 11 09:27 sudo-rs -> ../lib/cargo/bin/sudo
+-rwsr-xr-x   1 root root      282080 Mar 13 07:02 sudo.ws
+lrwxrwxrwx   1 root root          26 Jun  2 09:34 sudoedit -> /etc/alternatives/sudoedit
+lrwxrwxrwx   1 root root          21 Mar 11 09:27 sudoedit-rs -> ../lib/cargo/bin/sudo
+-rwxr-xr-x   1 root root       98368 Mar 13 07:02 sudoreplay.ws
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 sum -> ../lib/cargo/bin/coreutils/sum
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 sync -> ../lib/cargo/bin/coreutils/sync
+-rwxr-xr-x   1 root root      302112 Apr 15 14:32 systemctl
+-rwxr-xr-x   1 root root       14792 Apr 15 14:32 systemd-ac-power
+-rwxr-xr-x   1 root root      252888 Apr 15 14:32 systemd-analyze
+-rwxr-xr-x   1 root root       27248 Apr 15 14:32 systemd-ask-password
+-rwxr-xr-x   1 root root       18896 Apr 15 14:32 systemd-cat
+-rwxr-xr-x   1 root root       23112 Apr 15 14:32 systemd-cgls
+-rwxr-xr-x   1 root root       35392 Apr 15 14:32 systemd-cgtop
+lrwxrwxrwx   1 root root          14 Apr 15 14:32 systemd-confext -> systemd-sysext
+-rwxr-xr-x   1 root root       60256 Apr 15 14:32 systemd-creds
+-rwxr-xr-x   1 root root       80888 Apr 15 14:32 systemd-cryptenroll
+-rwxr-xr-x   1 root root       85080 Apr 15 14:32 systemd-cryptsetup
+-rwxr-xr-x   1 root root       27080 Apr 15 14:32 systemd-delta
+-rwxr-xr-x   1 root root       18888 Apr 15 14:32 systemd-detect-virt
+-rwxr-xr-x   1 root root       22984 Apr 15 14:32 systemd-escape
+-rwxr-xr-x   1 root root       60296 Apr 15 14:32 systemd-firstboot
+-rwxr-xr-x   1 root root       14784 Apr 15 14:32 systemd-hwdb
+-rwxr-xr-x   1 root root       31184 Apr 15 14:32 systemd-id128
+-rwxr-xr-x   1 root root       23008 Apr 15 14:32 systemd-inhibit
+-rwxr-xr-x   1 root root       19072 Apr 15 14:32 systemd-machine-id-setup
+-rwxr-xr-x   1 root root       56112 Apr 15 14:32 systemd-mount
+-rwxr-xr-x   1 root root       27080 Apr 15 14:32 systemd-mute-console
+-rwxr-xr-x   1 root root       31464 Apr 15 14:32 systemd-notify
+-rwxr-xr-x   1 root root       22984 Apr 15 14:32 systemd-path
+-rwxr-xr-x   1 root root       23136 Apr 15 14:32 systemd-pty-forward
+-rwxr-xr-x   1 root root       97272 Apr 15 14:32 systemd-run
+-rwxr-xr-x   1 root root       31176 Apr 15 14:32 systemd-socket-activate
+-rwxr-xr-x   1 root root       22984 Apr 15 14:32 systemd-stdio-bridge
+-rwxr-xr-x   1 root root       76440 Apr 15 14:32 systemd-sysext
+-rwxr-xr-x   1 root root       68224 Apr 15 14:32 systemd-sysusers
+-rwxr-xr-x   1 root root      121544 Apr 15 14:32 systemd-tmpfiles
+-rwxr-xr-x   1 root root       39496 Apr 15 14:32 systemd-tty-ask-password-agent
+lrwxrwxrwx   1 root root          13 Apr 15 14:32 systemd-umount -> systemd-mount
+-rwxr-xr-x   1 root root       23248 Apr 15 14:32 systemd-vpick
+-rwxr-xr-x   1 root root       18816 Jan  3 03:53 tabs
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 tac -> ../lib/cargo/bin/coreutils/tac
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 tail -> ../lib/cargo/bin/coreutils/tail
+-rwxr-xr-x   1 root root       31280 Jan 11 18:40 tapestat
+-rwxr-xr-x   1 root root      448528 Feb 19 16:05 tar
+-rwxr-xr-x   1 root root       31184 Mar 13 07:09 taskset
+-rwxr-xr-x   1 root root      133680 Dec  2  2025 tbl
+-rwxr-xr-x   1 root root     1282240 Feb 27 04:52 tcpdump
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 tee -> ../lib/cargo/bin/coreutils/tee
+lrwxrwxrwx   1 root root          24 Jan 27 10:28 telnet -> /etc/alternatives/telnet
+-rwxr-xr-x   1 root root       14720 Feb  2 16:29 tempfile
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 test -> ../lib/cargo/bin/coreutils/test
+-rwxr-xr-x   1 root root       92736 Jan  3 03:53 tic
+-rwxr-xr-x   1 root root       27232 Jan 14 13:45 time
+-rwxr-xr-x   1 root root       47560 Apr 15 14:32 timedatectl
+lrwxrwxrwx   1 root root          34 Mar 30 12:50 timeout -> ../lib/cargo/bin/coreutils/timeout
+-rwxr-xr-x   1 root root       18984 Dec  1  2025 tload
+-rwxr-xr-x   1 root root      187392 Feb 10 23:57 tnftp
+-rwxr-xr-x   1 root root       22912 Jan  3 03:53 toe
+-rwxr-xr-x   1 root root      135064 Dec  1  2025 top
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 touch -> ../lib/cargo/bin/coreutils/touch
+-rwxr-xr-x   1 root root       27040 Jan  3 03:53 tput
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 tr -> ../lib/cargo/bin/coreutils/tr
+-rwxr-xr-x   1 root root      466992 Jan 22 18:04 trace-cmd
+-rwxr-xr-x   1 root root       18736 Oct 31  2025 tracepath
+-rwxr-xr-x   1 root root       97792 Feb  3 13:59 tree
+-rwxr-xr-x   1 root root      748224 Dec  2  2025 troff
+lrwxrwxrwx   1 root root           7 Mar 30 12:50 true -> gnutrue
+lrwxrwxrwx   1 root root          35 Mar 30 12:50 truncate -> ../lib/cargo/bin/coreutils/truncate
+-rwxr-xr-x   1 root root       31112 Jan  3 03:53 tset
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 tsort -> ../lib/cargo/bin/coreutils/tsort
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 tty -> ../lib/cargo/bin/coreutils/tty
+-rwxr-xr-x   1 root root       21901 Mar 31 16:35 tzselect
+lrwxrwxrwx   1 root root          16 Mar 11 09:27 ua -> ubuntu-advantage
+-rwxr-xr-x   1 root root        1004 Mar 11 09:27 ubuntu-advantage
+-rwxr-xr-x   1 root root       22992 Feb 16 18:18 ubuntu-distro-info
+-rwxr-xr-x   1 root root       22784 Apr 16 09:25 ubuntu-security-status
+-rwxr-xr-x   1 root root       36482 Feb 26 10:35 ucf
+-rwxr-xr-x   1 root root       18915 Feb 26 10:35 ucfq
+-rwxr-xr-x   1 root root       10180 Feb 26 10:35 ucfr
+-rwxr-xr-x   1 root root       31184 Mar 13 07:09 uclampset
+-rwxr-xr-x   1 root root      765648 Apr 15 14:32 udevadm
+-rwxr-xr-x   1 root root       23000 Mar 13 07:09 ul
+-rwsr-xr-x   1 root root       39376 Mar 13 07:09 umount
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 uname -> ../lib/cargo/bin/coreutils/uname
+lrwxrwxrwx   1 root root           6 Feb 27 13:02 uncompress -> gunzip
+lrwxrwxrwx   1 root root          35 Mar 30 12:50 unexpand -> ../lib/cargo/bin/coreutils/unexpand
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 uniq -> ../lib/cargo/bin/coreutils/uniq
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 unlink -> ../lib/cargo/bin/coreutils/unlink
+lrwxrwxrwx   1 root root          24 Mar 31 20:00 unlzma -> /etc/alternatives/unlzma
+-rwxr-xr-x   1 root root       47800 Mar 13 07:09 unshare
+lrwxrwxrwx   1 root root           2 Mar 31 20:00 unxz -> xz
+-rwxr-xr-x   1 root root       59864 Mar 31 10:52 update-alternatives
+-rwxr-xr-x   1 root root       88480 Feb  2 16:45 update-mime-database
+-rwxr-xr-x   1 root root       14872 Dec  1  2025 uptime
+-rwxr-xr-x   1 root root        4979 Oct 22  2025 usb-devices
+-rwxr-xr-x   1 root root       31192 Nov 15  2025 usbhid-dump
+-rwxr-xr-x   1 root root       14720 Nov 15  2025 usbreset
+lrwxrwxrwx   1 root root          32 Mar 30 12:50 users -> ../lib/cargo/bin/coreutils/users
+-rwxr-xr-x   1 root root       22992 Mar 13 07:09 uuidgen
+-rwxr-xr-x   1 root root       22992 Mar 13 07:09 uuidparse
+-rwxr-xr-x   1 root root       47720 Apr 15 14:32 varlinkctl
+lrwxrwxrwx   1 root root          31 Mar 30 12:50 vdir -> ../lib/cargo/bin/coreutils/vdir
+lrwxrwxrwx   1 root root          20 May 20 15:11 vi -> /etc/alternatives/vi
+lrwxrwxrwx   1 root root          22 May 20 15:11 view -> /etc/alternatives/view
+lrwxrwxrwx   1 root root          21 May 20 15:11 vim -> /etc/alternatives/vim
+-rwxr-xr-x   1 root root     4571816 May 20 15:11 vim.basic
+lrwxrwxrwx   1 root root          25 May 20 15:11 vimdiff -> /etc/alternatives/vimdiff
+-rwxr-xr-x   1 root root        4870 May 20 15:11 vimtutor
+lrwxrwxrwx   1 root root          23 Mar 11 09:27 visudo-rs -> ../lib/cargo/bin/visudo
+-rwxr-xr-x   1 root root       39864 Dec  1  2025 vmstat
+-rwxr-xr-x   1 root root       35352 Dec  1  2025 w
+-rwxr-xr-x   1 root root       27088 Mar 13 07:09 wall
+-rwxr-xr-x   1 root root       31736 Dec  1  2025 watch
+lrwxrwxrwx   1 root root          29 Mar 30 12:50 wc -> ../lib/cargo/bin/coreutils/wc
+-rwxr-xr-x   1 root root       11581 Apr 29 07:35 wcurl
+-rwxr-xr-x   1 root root      531536 Feb  2 16:52 wget
+-rwxr-xr-x   1 root root       48576 Feb  2 16:49 whatis
+-rwxr-xr-x   1 root root       31184 Mar 13 07:09 whereis
+lrwxrwxrwx   1 root root          23 Feb  2 16:29 which -> /etc/alternatives/which
+-rwxr-xr-x   1 root root        1080 Feb  2 16:29 which.debianutils
+-rwxr-xr-x   1 root root       30968 Mar 20 07:05 whiptail
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 who -> ../lib/cargo/bin/coreutils/who
+lrwxrwxrwx   1 root root          33 Mar 30 12:50 whoami -> ../lib/cargo/bin/coreutils/whoami
+lrwxrwxrwx   1 root root           7 Mar 13 07:09 x86_64 -> setarch
+-rwxr-xr-x   1 root root       68088 Feb  2 16:37 xargs
+-rwxr-xr-x   1 root root       56352 Dec  6  2025 xauth
+-rwxr-xr-x   1 root root         234 Sep 20  2025 xdg-user-dir
+-rwxr-xr-x   1 root root       26936 Sep 25  2025 xdg-user-dirs-update
+-rwxr-xr-x   1 root root       22896 May 20 15:11 xxd
+-rwxr-xr-x   1 root root      101392 Mar 31 20:00 xz
+lrwxrwxrwx   1 root root           2 Mar 31 20:00 xzcat -> xz
+lrwxrwxrwx   1 root root           6 Mar 31 20:00 xzcmp -> xzdiff
+-rwxr-xr-x   1 root root        7743 Mar 31 20:00 xzdiff
+lrwxrwxrwx   1 root root           6 Mar 31 20:00 xzegrep -> xzgrep
+lrwxrwxrwx   1 root root           6 Mar 31 20:00 xzfgrep -> xzgrep
+-rwxr-xr-x   1 root root       10458 Mar 31 20:00 xzgrep
+-rwxr-xr-x   1 root root        2428 Mar 31 20:00 xzless
+-rwxr-xr-x   1 root root        2262 Mar 31 20:00 xzmore
+lrwxrwxrwx   1 root root          30 Mar 30 12:50 yes -> ../lib/cargo/bin/coreutils/yes
+lrwxrwxrwx   1 root root           8 Dec  6  2025 ypdomainname -> hostname
+-rwxr-xr-x   1 root root        1904 Feb 27 13:02 zcat
+-rwxr-xr-x   1 root root        1609 Feb 27 13:02 zcmp
+-rwxr-xr-x   1 root root        6386 Feb 27 13:02 zdiff
+-rwxr-xr-x   1 root root       31008 Mar 31 16:35 zdump
+-rwxr-xr-x   1 root root          29 Feb 27 13:02 zegrep
+-rwxr-xr-x   1 root root          29 Feb 27 13:02 zfgrep
+-rwxr-xr-x   1 root root        2007 Feb 27 13:02 zforce
+-rwxr-xr-x   1 root root        8136 Feb 27 13:02 zgrep
+-rwxr-xr-x   1 root root        2365 Feb 27 13:02 zless
+-rwxr-xr-x   1 root root        1768 Feb 27 13:02 zmore
+-rwxr-xr-x   1 root root        4561 Feb 27 13:02 znew
