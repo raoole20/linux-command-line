@@ -1,143 +1,171 @@
-Libros
+# Roadmap de estudio — Backend / DevOps / Arquitectura
 
-https://medium.com/javarevisited/6-must-read-books-for-backend-developers-in-2026-28bcd7984ddd
-
-### 🎯 Tu Próximo Gran Reto
-
-Dado tu perfil, te sugiero este ejercicio práctico que une NestJS + Docker + Conceptos Avanzados:
-
-**El Proyecto "Cola de Procesamiento":**
-
-1. Crea una API en NestJS (Servicio A) que reciba un archivo (ej. una imagen o CSV).
-2. En lugar de procesarlo ahí, envía un mensaje a una cola (**RabbitMQ** o **Redis BullMQ**) y responde al usuario "Archivo recibido".
-3. Crea un **Worker** (Servicio B, otro contenedor Docker) que escuche la cola, procese el archivo (ej. redimensionar imagen) y guarde el resultado en S3 (o una carpeta local simulada).
-4. Todo orquestado con **Docker Compose**.
-
-# 🗺️ Roadmap de Aprendizaje: DevOps, Linux y Arquitectura
-
-## 🎯 Si quieres dominar SOLO lo que hicimos (Ruta Rápida)
-
-| Libro | Por qué | Tiempo |
-| --- | --- | --- |
-| **The Linux Command Line** <br>*William Shotts (gratis)* | Dominas SSH, permisos, procesos, scripts. Base de TODO. | 2-3 semanas |
-| **Docker Deep Dive** <br>*Nigel Poulton* | Práctico, corto (~300 pág). Te lleva de cero a "ya entiendo Docker de verdad". | 1-2 semanas |
-| **The Phoenix Project** <br>*Gene Kim* | Novela de DevOps. Se lee como ficción. Cambia tu mentalidad sobre deploys, CI/CD, ops. | 1 semana |
-
-> 💡 **Nota:** Esos tres te dan dominio práctico de todo lo que se tocó hoy.
-> 
+> **Estado: en cola, NO activo.** El libro que se está leyendo ahora mismo es
+> ***The Linux Command Line*** (ver `PROGRESO.md` en la raíz del proyecto).
+> Este roadmap es el **siguiente** paso, en orden, una vez cerrado LCL. No se
+> estudia en paralelo — evita diluir el foco.
+>
+> Progresión: **1 recurso a la vez, en el orden de la tabla.** No saltar al
+> siguiente hasta terminar el actual. Cuando arranques este roadmap, créale
+> su propio `PROGRESO.md`/flashcards siguiendo el mismo formato que ya usas
+> para LCL.
 
 ---
 
-## 📚 Por Área Específica
+## Orden de lectura (lineal, no te saltes pasos)
 
-### 🖥️ Backend / Arquitectura *(Lo más recomendado del mundo)*
+| # | Libro | Por qué va aquí | Tiempo est. |
+|---|-------|------------------|-------------|
+| 0 | **The Linux Command Line** — William Shotts *(EN CURSO ahora)* | Base de todo: shell, permisos, procesos, scripts. | 2-3 semanas |
+| 1 | **Docker Deep Dive** — Nigel Poulton | Corto y práctico (~300 pág). Pasas de "cero" a entender Docker de verdad. Requiere ya tener soltura de shell (paso 0). | 1-2 semanas |
+| 2 | **The Phoenix Project** — Gene Kim | Novela de DevOps. Se lee como ficción; cambia la mentalidad sobre deploys/CI/CD/ops antes de ir a teoría dura. | 1 semana |
+| 3 | **Designing Data-Intensive Applications** — Martin Kleppmann | La pieza más densa y más importante de esta lista: bases de datos, replicación, consistencia, escalabilidad. Si solo hicieras una del roadmap completo, sería esta. | 4-6 semanas |
 
-- **Designing Data-Intensive Applications** — *Martin Kleppmann*
-    - La biblia para devs backend. Bases de datos, replicación, consistencia, escalabilidad. Si lees uno solo de esta lista, que sea este.
-
-### ♾️ DevOps / SRE
-
-- **The DevOps Handbook** — *Gene Kim, Jez Humble*
-- **Site Reliability Engineering** — *Google (gratis online)*
-- **Release It!** — *Michael Nygard*
-    - Patrones para que producción no se caiga (circuit breakers, bulkheads, etc.)
-
-### 🐋 Docker / Kubernetes
-
-- **The Kubernetes Book** — *Nigel Poulton* (cuando estés listo para orquestación)
-- **Kubernetes Up & Running** — *Kelsey Hightower*
-
-### 🐧 Linux Profundo
-
-- **How Linux Works** — *Brian Ward*
-    - Entender el kernel, init, redes desde dentro.
-- **Linux Performance** — *Brendan Gregg*
-    - Más avanzado, para cuando necesites debug serio.
-
-### 🌐 Redes / DNS / SSL
-
-- **Computer Networking: A Top-Down Approach** — *Kurose & Ross* (textbook clásico)
-- **Network Programming with Go** — *Adam Woodbeck* (si te gusta aprender con código)
-
-### 🏗️ Web Architecture (Microservicios, APIs)
-
-- **Building Microservices** — *Sam Newman*
-    - Guía pragmática, la 2da edición es de 2021.
-- **Software Architecture: The Hard Parts** — *Neal Ford*
-    - Decisiones de arquitectura del mundo real.
+**Tiempo total pasos 0-3:** ~3 meses a 30 min/día.
 
 ---
 
-## 🎓 Mi Recomendación Concreta Para Ti
+## Después del núcleo — ENFOQUE ÚNICO (ya decidido, no re-abrir la elección)
 
-Sin saber tu nivel exacto pero viendo cómo trabajaste hoy:
+> Se evaluó salida laboral de todas las ramas posibles y se eligió converger
+> **Rama A (DevOps/SRE) + Rama B (Docker/Kubernetes) + Rama F (CMS/e-commerce)**
+> en un solo proyecto capstone. No se estudian como libros sueltos y
+> desconectados — cada libro se lee **para construir una parte concreta del
+> proyecto**, en el orden de las fases de abajo.
 
-1. 🚀 **Empieza por:** *The Linux Command Line* (gratis, fundamentos sólidos)
-2. 🐋 **Después:** *Docker Deep Dive* (refuerza todo lo que hicimos hoy)
-3. 🫀 **Para el siguiente nivel:** *Designing Data-Intensive Applications* (te transforma como dev backend)
+### Proyecto capstone — Mini plataforma headless de e-commerce con SRE real
 
-⏱️ **Tiempo estimado:** Los tres juntos te tomarán **~3 meses** si lees 30 min/día. Después de eso, decides en qué profundizar (K8s, SRE, networking).
+Backend de comercio pequeño (catálogo, carrito, checkout) multi-tenant,
+desplegado como si fuera producción, con CI/CD, observabilidad y un CMS que
+autoprovisiona tenants nuevos.
+
+**Fase 1 — CMS / dominio de comercio (Rama F)**
+- API en NestJS: productos, variantes, carrito → orden. Referencia de
+  arquitectura: Vendure / Ever (leer código, no copiar).
+- Multi-tenancy **shared-schema** (columna `tenant_id`) — se elige este
+  modelo sobre namespace-por-tenant para no explotar el scope de un proyecto
+  de portfolio.
+- Panel CMS mínimo (API + vista simple, puede ser Next.js) para crear un
+  tenant: nombre, subdominio, tema/catálogo inicial.
+- Storefront en Next.js consumiendo la API (ya sabes hacer esto).
+
+**Fase 2 — Contenerización y orquestación (Rama B)**
+- Libros: **The Kubernetes Book** (Poulton), **Kubernetes Up & Running** (Hightower).
+- Dockerizar API + storefront + Postgres/Redis.
+- Desplegar en Kubernetes local (`kind`/`minikube`): manifiestos propios o Helm chart.
+- Health checks (liveness/readiness) + HPA (autoescalado horizontal).
+
+**Fase 3 — DevOps/SRE y autodeploy de tenants (Rama A)**
+- Libros: **The DevOps Handbook**, **Site Reliability Engineering** (Google, gratis), **Release It!** (Nygard).
+- CI/CD con GitHub Actions: build → push a registry → deploy automático.
+- **Autodeploy real:** crear un tenant desde el CMS dispara un workflow que
+  corre migración + seed de datos + config para ese tenant (sin tocar K8s
+  manualmente).
+- Observabilidad: Prometheus + Grafana (métricas), Loki/ELK (logs).
+- Prueba de carga con **k6** simulando tráfico de checkout.
+- Chaos mini-test: matar un pod a propósito y documentar la recuperación.
+- *Stretch goal opcional (solo si sobra tiempo):* migrar el aislamiento a
+  namespace-por-tenant con release de Helm nuevo por cada alta.
+
+Cuando arranques esta fase, créale su propio `PROGRESO.md` y flashcards
+igual que con LCL — checkpoints por fase, no todo de un jalón.
+
+**Fase 4 — Features futuras (post-MVP, stretch — NO empezar hasta cerrar Fases 1-3)**
+
+Lista tomada de un repo de referencia (Spring Cloud), adaptada a nuestro
+stack (NestJS/Node). Algunas herramientas son intercambiables 1:1, otras son
+específicas de Java y necesitan su equivalente.
+
+| Feature original (Spring) | Equivalente en nuestro stack (NestJS/K8s) |
+|---|---|
+| Service Discovery (Netflix Eureka) | Nativo de Kubernetes (Services/DNS) — Eureka no aplica fuera de Spring |
+| API Gateway (Spring Cloud Gateway) | Nginx Ingress / Kong / gateway propio en NestJS |
+| Distributed Tracing (Sleuth & Zipkin) | OpenTelemetry + Zipkin/Jaeger (agnóstico de lenguaje) |
+| Event-Driven Architecture (RabbitMQ) | Igual — RabbitMQ vía `@nestjs/microservices` |
+| Security (API Key Manager & OAuth2/Keycloak) | Igual — Keycloak es agnóstico de stack |
+| Resiliency (Resilience4j) | `opossum` o circuit breaker propio en NestJS |
+| Database per Service Pattern | Igual — un Postgres/schema por servicio |
+| Cloud Native (Kubernetes & AWS EKS) | Igual |
+| Infrastructure as Code (Terraform) | Igual |
+| Automated Deployment (Skaffold) | Igual — Skaffold para loop de dev en K8s |
+| Monitoring (Prometheus & Grafana) | Igual |
+| Email Notifications (AWS SES) | Igual |
+| Deployment Strategies (Blue/Green, Rolling, Canary) | Igual — vía Argo Rollouts o nativo de K8s |
+| CQRS (read/write separados, Order View denormalizado) | Igual — NestJS trae módulo `@nestjs/cqrs` |
+
+**Roadmap de features (checklist, orden sugerido tras el MVP de Fases 1-3):**
+- [ ] API Documentation con OpenAPI/Swagger
+- [ ] API Key Manager para seguridad de APIs
+- [ ] OAuth2 con Keycloak
+- [ ] Resiliencia (circuit breaker + fallback)
+- [ ] Deploy automatizado a K8s con Skaffold
+- [ ] Infrastructure as Code con Terraform
+- [ ] Deployment Strategies (Blue/Green, Rolling Update, Canary)
+- [ ] CQRS con read model denormalizado en Order Service
+- [ ] Service Mesh (Istio/Linkerd)
+- [ ] Frontend con React o Angular (alternativo/adicional al storefront Next.js)
+
+**Repo de referencia (arquitectura, no copiar código):**
+[miliariadnane/demo-microservices](https://github.com/miliariadnane/demo-microservices) —
+mismo patrón de features (Eureka, Gateway, Sleuth/Zipkin, RabbitMQ, OAuth2,
+Resilience4j, K8s/EKS) pero en Spring Cloud. Útil para ver cómo se conectan
+las piezas, adaptando cada una a la tabla de equivalencias de arriba.
+
+### System Architecture (objetivo final, todas las fases)
+
+```
+                                   ┌────────────────────┐
+                                   │   Storefront (Next.js)│
+                                   │   CMS Admin Panel      │
+                                   └──────────┬─────────┘
+                                              │ HTTPS
+                                   ┌──────────▼─────────┐
+                                   │   API Gateway        │  ← Ingress / Kong
+                                   │  (auth, rate limit)  │
+                                   └──────────┬─────────┘
+                     ┌───────────────┬────────┼────────┬───────────────┐
+                     │               │        │        │               │
+              ┌──────▼─────┐ ┌───────▼──┐ ┌───▼────┐ ┌─▼──────────┐ ┌──▼─────────┐
+              │  Catalog    │ │  Cart    │ │ Order  │ │  Tenant/   │ │Notification│
+              │  Service    │ │ Service  │ │Service │ │  CMS Svc   │ │  Service   │
+              └──────┬─────┘ └───────┬──┘ └───┬────┘ └─┬──────────┘ └──┬─────────┘
+                     │               │        │        │               │
+                     │      DB per service (Postgres, schema/tenant_id)│
+                     │               │        │        │               │
+                     └───────┬───────┴────────┴────────┴───────────────┘
+                              │ eventos (orden creada, tenant creado...)
+                       ┌──────▼──────┐
+                       │  RabbitMQ    │
+                       └──────┬──────┘
+                              │
+                   ┌──────────▼───────────┐
+                   │ Autodeploy pipeline    │  ← GitHub Actions
+                   │ (migración+seed tenant)│
+                   └────────────────────────┘
+
+   Transversal a todos los servicios:
+   - Auth: Keycloak (OAuth2)
+   - Tracing: OpenTelemetry → Zipkin/Jaeger
+   - Métricas/Logs: Prometheus + Grafana, Loki/ELK
+   - Orquestación: Kubernetes (EKS) + Terraform (IaC) + Skaffold (dev loop)
+   - Resiliencia: circuit breaker/fallback en cada llamada entre servicios
+```
+
+### Ramas descartadas por ahora (no se estudian, no distraen)
+Redes (Rama D), Linux profundo (Rama C) y arquitectura de microservicios
+genérica (Rama E) quedaron fuera del enfoque único. Si en el futuro se
+retoman, se re-evalúan aparte — no se mezclan con el capstone.
 
 ---
 
-## 📺 Bonus: Si prefieres video / práctico
+## Extras (no forman parte de la progresión — opcionales, cuando quieras)
 
-- **Cloud Resume Challenge:** Proyecto guiado gratis, terminas con una app + CI/CD + IaC en AWS/Azure/GCP.
-- **TechWorld with Nana (YouTube):** Explicaciones cortas y claras de DevOps.
-- **Frontend Masters (frontendmasters.com):** Cursos de Docker, K8s, AWS dictados por expertos del área.
-
----
-
-### 💬 ¿En qué área quieres profundizar primero?
-
-Te puedo recomendar uno específico si me cuentas tu nivel actual y a dónde quieres llegar.
-
-## 1. La habilidad #1: diagnosticar por medición, no por intuición
-
-Hoy fallé 5 hipótesis seguidas (índices, `N''`, `ARITHABORT`, cursores, `lpc:`) hasta que **medimos** y aislamos capa por capa. Esa disciplina (medir → formular hipótesis → aislar → confirmar) es lo que resolvió el caso.
-
-- 📘 **"Debugging" de David J. Agans** — las 9 reglas (sobre todo *"Quit thinking and look"* y *"Make it fail"*). Corto y oro puro.
-- 📘 **"Systems Performance" de Brendan Gregg** — el método **USE** y la mentalidad de "mide antes de optimizar". Aunque es de sistemas, el marco mental aplica a todo.
-- 🧠 Interioriza: **"fijo y repetido, no proporcional al trabajo = espera/overhead, no cómputo"**. Eso fue la pista que delató la conexión.
-
-## 2. SQL Server / bases de datos (donde estaba la confusión)
-
-Hoy vimos planes de ejecución, DMVs (`sys.dm_exec_query_stats`), cursores, MARS y proveedores OLE DB.
-
-- 🌐 **Brent Ozar** (brentozar.com, blog y videos gratis) — el mejor recurso práctico de rendimiento en SQL Server. Busca "How to think like the SQL Server engine".
-- 📘 **"SQL Server Execution Plans" de Grant Fritchey** (gratis en Redgate) — leer planes de ejecución de verdad.
-- 🌐 **use-the-index-luke.com** (Markus Winand) — *el* recurso para entender índices y por qué una query es SARGable o hace scan. Gratis, didáctico.
-- Conceptos concretos a estudiar: **logical reads vs CPU vs elapsed**, **cursores server-side vs client-side**, **MARS**, **parameter sniffing**, **statistics**.
-
-## 3. Patrones de acceso a datos (el origen de la lentitud "de código")
-
-- 🔑 **N+1 queries** — el patrón que más mata el rendimiento en apps con BD. Estudia cómo detectarlo y resolverlo con *batching* (`IN (...)`) o *eager loading*. Hoy lo hicimos a mano con `getChildProductsBatch`/`primeProductCurrencyFactors`.
-- 🔑 **Memoización y caché por capas** (request → proceso → distribuido). Lee sobre **cache invalidation** (TTL vs eventos).
-- 📘 **"Designing Data-Intensive Applications" de Martin Kleppmann** — la biblia moderna del tema. Denso pero transformador a medio plazo.
-
-## 4. La tecnología específica de hoy (COM/ADO/OLE DB)
-
-- La causa raíz fue un **driver deprecado** (`SQLOLEDB`) vs el moderno (`MSOLEDBSQL`). Lección: **conoce tu capa de conexión y mantén los drivers al día**.
-- 📄 Docs de Microsoft: *"Microsoft OLE DB Driver for SQL Server"* y *"Using Multiple Active Result Sets (MARS)"*. Entiende por qué SQLOLEDB quedó obsoleto.
-
-## 5. Modernizar legacy + seguridad (el resto del proyecto)
-
-- 📘 **"Working Effectively with Legacy Code" de Michael Feathers** — cómo cambiar código sin tests con seguridad. Justo este proyecto.
-- 📘 **"Refactoring" de Martin Fowler** (2ª ed.) — vocabulario y técnicas de refactor seguro.
-- 🌐 **phptherightway.com** y **PDO + consultas parametrizadas** — para dejar atrás la concatenación de SQL.
-- 🌐 **OWASP Top 10** (sobre todo **inyección SQL**) — hoy vimos queries por concatenación; esto es lo que las cierra.
-
-## 6. Hábitos que valen más que cualquier libro
-
-- **Perfila antes de optimizar.** Hoy el profiler (`?debugperf=1`) fue lo que evitó semanas perdidas tocando índices que ya estaban bien.
-- **Cambia una cosa a la vez y mide.** Cada hipótesis se probó aislada.
-- **Documenta el "por qué", no solo el "qué"** (lo que hicimos con los comentarios `// [perf]` y el playbook).
-- **Latency numbers every programmer should know** (búscalo) — para tener intuición de qué es "rápido".
+- **Cloud Resume Challenge** — proyecto guiado gratis: app + CI/CD + IaC en AWS/Azure/GCP.
+- **TechWorld with Nana** (YouTube) — explicaciones cortas de DevOps.
+- **Frontend Masters** — cursos de Docker/K8s/AWS.
 
 ---
 
-### Si solo haces 3 cosas
+## Fuente
 
-1. Lee **"Debugging" (Agans)** — 1 tarde, cambia cómo resuelves problemas para siempre.
-2. Estudia **use-the-index-luke.com** + **planes de ejecución (Fritchey)** — te vuelve peligroso con SQL Server.
-3. Practica el ciclo **medir → aislar → confirmar** en cada bug, conscientemente, hasta que sea automático.
+Lista original tomada de: https://medium.com/javarevisited/6-must-read-books-for-backend-developers-in-2026-28bcd7984ddd
