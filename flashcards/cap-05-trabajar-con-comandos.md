@@ -65,12 +65,12 @@
 | # | Pregunta | Respuesta | Estado |
 |---|----------|-----------|--------|
 | 5.1 | ¿Cuáles son los **4 tipos** de comando que puede identificar `type`? | (1) programa ejecutable, (2) comando interno/builtin de la shell, (3) función de la shell, (4) alias. | 🆕 |
-| 5.2 | ¿Diferencia entre `type` y `which`? | `type` dice **cómo se interpreta** un nombre (los 4 tipos) y es un builtin; `which` solo da la **ubicación de un programa ejecutable** y NO funciona con builtins ni alias. | 🆕 |
+| 5.2 | ¿Diferencia entre `type` y `which`? | `type` dice **cómo se interpreta** un nombre (los 4 tipos) y es un builtin; `which` solo da la **ubicación de un programa ejecutable** y NO funciona con builtins ni alias. **Por eso `which cd` no sirve (es builtin) → usa `type cd`.** | 🔁 |
 | 5.3 | ¿Con qué comando obtienes ayuda de un **builtin** como `cd`? | `help cd`. (Para ejecutables suele servir `comando --help`.) | 🆕 |
 | 5.4 | ¿`man` es un tutorial? | No. Es **material de referencia**, no enseña a usar el comando paso a paso; describe opciones y uso. | 🆕 |
 | 5.5 | ¿Para qué sirven `apropos` y `whatis`? | `apropos palabra` busca y lista páginas de manual cuya descripción coincide (= `man -k`); `whatis` da la descripción de **una línea** de un comando. | 🆕 |
-| 5.6 | ¿Qué hay en la **sección 5** del manual y cómo la pides? | Formatos de archivo. Se pide con `man 5 tema` (ej. `man 5 passwd`). | 🆕 |
-| 5.7 | ¿Cómo defines un alias `ll` para `ls -l`? ¿Qué error es típico? | `alias ll='ls -l'`. Error típico: poner **espacios** alrededor del `=`. | 🆕 |
+| 5.6 | ¿Qué hay en la **sección 5** del manual y cómo la pides? | Formatos de archivo. Se pide con `man 5 tema` (ej. `man 5 passwd` = el **archivo** `/etc/passwd`, no el comando `passwd` de la sección 1). | 🔁 |
+| 5.7 | ¿Cómo defines un alias `ll` para `ls -l`? ¿Qué error es típico? | `alias ll='ls -l'`. ⚠️ El `=` **SÍ es obligatorio**; el error típico es poner **espacios** alrededor del `=`. (Falló en examen 2026-06-26: creyó que el `=` no se necesita.) | 🔁 |
 | 5.8 | ¿Cómo pones varios comandos en una sola línea y cómo borras un alias? | Separados por `;` (ej. `cd /usr; ls; cd -`); borrar con `unalias nombre`. | 🆕 |
 | 5.9 | Si defines un alias en la terminal, ¿sigue existiendo mañana al reabrir? ¿Por qué? | No: se pierde al cerrar la sesión. Para que sea permanente hay que ponerlo en `.bashrc` (Cap 11). | 🆕 |
 
@@ -84,4 +84,7 @@
 
 ## Pendientes de repaso
 *(Hilos sin cerrar de este capítulo. Mantener en sync con la cola 🔁 de PROGRESO.md.)*
-- Demostrar en terminal: `type` sobre los 4 casos, `which` fallando con un builtin, y crear/usar/borrar un alias propio.
+- Demostrar en terminal: `type` sobre los 4 casos, `which` fallando con un builtin (`which cd`), y crear/usar/borrar un alias propio (`alias`, `type`, `unalias`).
+- **Sintaxis `alias`** (5.7): el `=` SÍ va, prohibidos los espacios alrededor. Falló 2026-06-26 → 🔁.
+- **Secciones de `man`** (5.6): sección 1 (comando) vs 5 (formato de archivo). Sin contestar 2026-06-26 → 🔁.
+- Entorno *minimized*: no hay manpages. Correr `unminimize` (o instalar `man-db`) para poder practicar `man`/`apropos`/`whatis`.

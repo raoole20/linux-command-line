@@ -67,13 +67,15 @@ Los comodines se usan muchísimo con `cp`, `mv`, `rm`, etc. para seleccionar var
 | 4.1 | ¿Qué empareja `*` vs `?` en comodines? | `*` = cualquier número de caracteres (incluso cero); `?` = exactamente **un** carácter cualquiera. | 🔁 |
 | 4.2 | ¿Diferencia entre `[abc]` y `[!abc]`? | `[abc]` empareja un carácter que **esté** en el conjunto; `[!abc]` empareja uno que **NO** esté en el conjunto. | 🔁 |
 | 4.3 | ¿Para qué sirve `[[:clase:]]` y un ejemplo? | Empareja un carácter de una **clase** predefinida, p. ej. `[[:digit:]]` (dígitos), `[[:upper:]]` (mayúsculas), `[[:alpha:]]` (letras). | 🔁 |
-| 4.4 | ¿Qué empareja el patrón `Data???`? | Archivos que empiezan con `Data` seguido de **exactamente tres** caracteres cualesquiera (ni más ni menos). | 🔁 |
-| 4.5 | ¿Qué empareja `[![:digit:]]*`? | Cualquier archivo cuyo **primer carácter NO sea un dígito**. | 🔁 |
+| 4.4 | ¿Qué empareja el patrón `Data???`? | Archivos que empiezan con `Data` seguido de **exactamente tres** caracteres cualesquiera (ni más ni menos). | ✅ |
+| 4.5 | ¿Qué empareja `[![:digit:]]*`? | Cualquier archivo cuyo **primer carácter NO sea un dígito** (y que **no** sea oculto — ver 4.15). | 🔁 |
+| 4.15 | ⚠️ ¿`*` empareja los archivos **ocultos** (`.algo`)? | **NO.** Los comodines (`*`, `?`, `[...]`) **no** emparejan archivos cuyo nombre empieza con `.`. Para verlos necesitas un patrón explícito como `.*`. (Falló en examen 2026-06-26.) | 🔁 |
+| 4.16 | Con `[[:upper:]]*` sobre `Abc.txt`, ¿qué nombre empareja: `Abc.txt` o `bc.txt`? | **`Abc.txt`** completo. El patrón selecciona archivos cuyo **nombre entero** cumple; **no recorta** la parte que casó con `[[:upper:]]`. | 🔁 |
 | 4.6 | ¿Diferencia entre `[:alnum:]` y `[:alpha:]`? | `[:alpha:]` = solo letras; `[:alnum:]` = letras **o** dígitos (alfanumérico). | 🔁 |
 | 4.7 | ¿Qué pasa si copias un archivo a un destino que ya existe, sin ninguna opción? | `cp` lo **sobrescribe en silencio**, sin ningún aviso. Para que pregunte antes, usa `-i`. | ✅ |
 | 4.8 | ¿Qué opción de `cp` es **obligatoria** para copiar un directorio entero? | `-r` (`--recursive`) o `-a` (`--archive`). Sin ella, `cp` falla al intentar copiar un directorio. | 🆕 |
 | 4.9 | ¿Qué diferencia hay entre `cp -r` y `cp -a` al copiar un directorio? | `-r` copia el contenido recursivamente pero los archivos toman los **atributos del usuario** que copia; `-a` además preserva **permisos y propietario** originales. | 🆕 |
-| 4.10 | La **doble función de `mv`**: ¿qué hace `mv a.txt /tmp/` vs `mv a.txt nuevo.txt`? | Mueve (1º a `/tmp/`) o renombra (2º en el mismo dir). En **ningún** caso **copia**: el nombre original deja de existir. | 🔁 |
+| 4.10 | La **doble función de `mv`**: ¿qué hace `mv a.txt /tmp/` vs `mv a.txt nuevo.txt`? | Mueve (1º a `/tmp/`) o renombra (2º en el mismo dir). En **ningún** caso **copia**: el nombre original deja de existir. | 🔁 (1 acierto 2026-06-26, falta 2º para ✅) |
 | 4.11 | Hard link: si borras el archivo original, ¿se puede seguir leyendo por el hard link? ¿Por qué? | **Sí.** El hard link es otro nombre apuntando al **mismo inode** (mismos datos). Borrar el original solo quita un nombre; los datos viven hasta que el contador de enlaces llega a 0. | 🆕 |
 | 4.12 | Symbolic link: si borras el original, ¿qué pasa al abrir el symlink? ¿Por qué? | Se rompe (**dangling link**): da *"No such file or directory"*. El symlink solo guarda una **ruta de texto** al original, no los datos; sin original apunta a la nada. | 🆕 |
 | 4.13 | ¿Por qué un **hard link** no cruza particiones ni apunta a directorios, pero un **symlink** sí? | El inode solo tiene sentido dentro de su propio sistema de archivos (→ no cruza particiones) y los hard links a directorios crearían bucles en el árbol. El symlink es solo una ruta, así que puede ir a otra partición, a un directorio o incluso a algo inexistente. | 🆕 |
@@ -86,6 +88,7 @@ Los comodines se usan muchísimo con `cp`, `mv`, `rm`, etc. para seleccionar var
 
 ## Pendientes de repaso
 *(Hilos sin cerrar de este capítulo. Mantener en sync con la cola 🔁 de PROGRESO.md.)*
-- **Hard vs symbolic link** (4.11–4.14): sin estudiar al examen del 2026-06-08. Prioridad #1. Practicar con `ls -li`.
-- **Comodines** (4.1–4.6): no aplicados en examen → 🔁. Practicar prediciendo salidas reales.
-- **`mv` no copia** (4.10): corregir la idea de que renombrar es "copiar".
+- **Hard vs symbolic link** (4.11–4.14): **sigue sin estudiar** (0/3 en examen 2026-06-26). **Prioridad #1**, pedido por el alumno. Practicar con `ls -li`, borrar original y observar.
+- **Comodines + ocultos** (4.15) y **patrón = nombre completo** (4.16): trampas falladas el 2026-06-26.
+- **Comodines** (4.1–4.6): A1/A3 ✅, resto a reforzar. Practicar prediciendo salidas reales en terminal.
+- **`mv` no copia** (4.10): mejoró (B9 ✅ el 2026-06-26); confirmar 2ª vez para marcar ✅.
