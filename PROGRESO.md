@@ -4,9 +4,9 @@
 > Estados: ⬜ sin empezar · 🟡 en progreso · ✅ dominado · 🔁 a repasar
 
 ## Última sesión
-- **Fecha:** 2026-06-08
-- **Dónde quedé:** Caps 1, 2 y 3 ✅. Cap 4 🟡 — examen rápido (5.5/20). Bien la práctica de sobrescritura con `mv`; **mal links (sin estudiar) y comodines (sin aplicar)**.
-- **Próximo paso:** (1) Estudiar a fondo **hard vs symbolic link** + práctica con `ls -li` (inodes); (2) practicar **comodines** prediciendo salidas (`?`, `[..]`, `[[:clase:]]`, `[!..]`); (3) corregir la idea de que `mv` "copia" (NO copia, mueve/renombra); (4) cerrar `-F`/alias de `ls` con explicación propia (ya corrió `type ls` → `ls --color=auto`).
+- **Fecha:** 2026-07-09
+- **Dónde quedé:** Repaso profundo del Cap 4 completo + práctica real de **hard vs symbolic link** en un contenedor Docker/Linux (Git Bash en Windows no crea symlinks reales — quedó anotado). Rompió y arregló un symlink relativo mal apuntado, demostró repunte (`ln -sf`) cambiando destino sin tocar el script lector, y verificó con `ls -li` que hard link = mismo inode (no copia) y symlink = inode propio con solo texto.
+- **Próximo paso:** (1) Practicar **comodines** prediciendo salidas reales (pendiente de esta misma sesión); (2) hacer el examen del Cap 4 (ya con links reforzados); (3) cerrar Cap 5 con demostración práctica en terminal (`type`/`which`/alias).
 
 ---
 
@@ -16,10 +16,10 @@
 | 1 | ¿Qué es la shell? | ✅ | Verificado 2026-06-02. Inicialmente confundía shell vs terminal; aclarado. |
 | 2 | Navegación (`pwd`, `cd`, `ls`) | ✅ | Verificado 2026-06-02. `pwd` = Print Working Directory. Atajos `cd`: `cd -` (dir anterior, destacado en el libro), `cd` (home), `cd ~usuario`. |
 | 3 | Explorando el sistema (`less`, `file`, enlaces) | ✅ | Completado 2026-06-02. Descubrió que las opciones cortas (`-l`, `-t`, `-a`, `-r`, `-s`...) se encadenan sin límite y en cualquier orden (`-ltasr`). Diferencia `-r` (corta) vs `--reverse` (larga, 2 guiones). Pendiente: por qué `-F` no muestra diferencia → alias de `ls` (ver cola de repaso). |
-| 4 | Manipular archivos y directorios (`cp`, `mv`, `rm`, `ln`) | 🟡 | Leyéndolo por mi cuenta (2026-06-03). Pendiente: recuerdo activo + práctica en terminal. Ojo al plato fuerte: hard link vs symbolic link. |
-| 5 | Trabajar con comandos (`type`, `which`, `help`, `man`, alias) | ⬜ | |
-| 6 | Redirección (`>`, `>>`, `|`, pipes, `tee`) | ⬜ | |
-| 7 | Ver el mundo como la shell (expansión, comillas, escapes) | ⬜ | |
+| 4 | Manipular archivos y directorios (`cp`, `mv`, `rm`, `ln`) | 🟡 | Repaso a fondo + práctica real de links 2026-07-09 (Docker/Linux). Hard vs symbolic link ya entendido y demostrado. Falta: comodines en práctica + examen final. |
+| 5 | Trabajar con comandos (`type`, `which`, `help`, `man`, alias) | 🟡 | Leído por mi cuenta (2026-07-09). Pendiente: recuerdo activo + práctica en terminal. |
+| 6 | Redirección (`>`, `>>`, `|`, pipes, `tee`) | 🟡 | Leído por mi cuenta (2026-07-09). Pendiente: verificar. Ojo: `cat sort uniq grep wc head tail tee` son del cap 5 — el 6 es redirección/pipes. |
+| 7 | Ver el mundo como la shell (expansión, comillas, escapes) | 🟡 | Leído por mi cuenta (2026-07-09). Pendiente: verificar. Base: `echo *`, `echo D*`, expansión de comodines. |
 | 8 | Trucos de teclado avanzados | ⬜ | |
 | 9 | Permisos (`chmod`, `chown`, `umask`, `su`/`sudo`) | ⬜ | |
 | 10 | Procesos (`ps`, `top`, señales, `kill`, jobs) | ⬜ | |
@@ -70,9 +70,11 @@
 | Tema | Marcado el | Repasado el | ¿Resuelto? |
 |------|-----------|-------------|------------|
 | `-F` de `ls` y alias de `ls` (correr `type ls`) — por qué no se ve diferencia | 2026-06-02 | 2026-06-08 | 🟡 Parcial — corrió `type ls` (`ls --color=auto`); falta explicación propia |
-| **Hard link vs symbolic link** (inode, borrar original, particiones, directorios) | 2026-06-08 | | ⬜ No — sin estudiar |
-| **Comodines** — predecir salidas (`?`, `[abc]`, `[!abc]`, `[[:clase:]]`) | 2026-06-08 | | ⬜ No |
-| `mv` NO copia — mueve/renombra (el original deja de existir) | 2026-06-08 | | ⬜ No |
+| **Hard link vs symbolic link** (inode, borrar original, particiones, directorios) | 2026-06-08 | 2026-07-09 | ✅ Resuelto — practicado en Docker/Linux real, incluyó ruta relativa rota, repunte con `ln -sf`, inode/contador con `ls -li` |
+| **Comodines** — predecir salidas (`?`, `[abc]`, `[!abc]`, `[[:clase:]]`) | 2026-06-08 | | ⬜ No — pendiente esta sesión (2026-07-09) |
+| `mv` NO copia — mueve/renombra (el original deja de existir) | 2026-06-08 | 2026-07-09 | 🟡 Repasado en teoría; falta reforzar en examen |
+| **Symlinks no funcionan en Git Bash de Windows** — usar Docker/WSL con Linux real para practicar | 2026-07-09 | | ✅ Resuelto (dato de entorno, no de contenido) |
+| **Cap 7 — `echo ~foo`** (tilde expansion con nombre de usuario pegado, no solo `~` solo) | 2026-07-09 | | ⬜ No — duda abierta, en proceso |
 
 ---
 
