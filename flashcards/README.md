@@ -22,6 +22,7 @@ Tapa la columna **Respuesta** e intenta contestar en voz alta antes de mirar.
 | 5 | Trabajar con comandos (`type`, `which`, `help`, `man`, `alias`) | [cap-05-trabajar-con-comandos.md](cap-05-trabajar-con-comandos.md) | 🟡 |
 | 6 | Redirección (`>`, `>>`, `|`, pipes, filtros) | [cap-06-redireccion.md](cap-06-redireccion.md) | 🟡 |
 | 7 | Ver el mundo como la shell (expansión, comillas, escapes) | [cap-07-expansion-de-la-shell.md](cap-07-expansion-de-la-shell.md) | 🟡 |
+| 8 | Trucos de teclado avanzados (Readline) | [cap-08-atajos-teclado.md](cap-08-atajos-teclado.md) | 🟡 |
 
 > A medida que avances, añade aquí una fila por cada capítulo nuevo.
 

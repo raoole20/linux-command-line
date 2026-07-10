@@ -20,7 +20,7 @@
 | 5 | Trabajar con comandos (`type`, `which`, `help`, `man`, alias) | 🟡 | Leído por mi cuenta (2026-07-09). Pendiente: recuerdo activo + práctica en terminal. |
 | 6 | Redirección (`>`, `>>`, `|`, pipes, `tee`) | 🟡 | Leído por mi cuenta (2026-07-09). Pendiente: verificar. Corrección: `cat sort uniq grep wc head tail tee` sí son del **cap 6** (filtros de pipeline) — Claude se equivocó antes al decir que eran del cap 5. |
 | 7 | Ver el mundo como la shell (expansión, comillas, escapes) | 🟡 | Leído por mi cuenta (2026-07-09). Pendiente: verificar. Base: `echo *`, `echo D*`, expansión de comodines. |
-| 8 | Trucos de teclado avanzados | ⬜ | |
+| 8 | Trucos de teclado avanzados | 🟡 | Leído por mi cuenta (2026-07-09). Pendiente: verificar. Movimiento (`CTRL-A/E/F/B`, `ALT-F/B/L`), edición (`CTRL-D/T`, `ALT-T/L/U`), cortar/pegar con kill-ring (`CTRL-K/U/Y`, `ALT-D/BACKSPACE`). |
 | 9 | Permisos (`chmod`, `chown`, `umask`, `su`/`sudo`) | ⬜ | |
 | 10 | Procesos (`ps`, `top`, señales, `kill`, jobs) | ⬜ | |
 
