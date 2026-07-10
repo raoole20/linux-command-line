@@ -5,8 +5,8 @@
 
 ## Última sesión
 - **Fecha:** 2026-07-09
-- **Dónde quedé:** Repaso profundo del Cap 4 completo + práctica real de **hard vs symbolic link** en un contenedor Docker/Linux (Git Bash en Windows no crea symlinks reales — quedó anotado). Rompió y arregló un symlink relativo mal apuntado, demostró repunte (`ln -sf`) cambiando destino sin tocar el script lector, y verificó con `ls -li` que hard link = mismo inode (no copia) y symlink = inode propio con solo texto.
-- **Próximo paso:** (1) Practicar **comodines** prediciendo salidas reales (pendiente de esta misma sesión); (2) hacer el examen del Cap 4 (ya con links reforzados); (3) cerrar Cap 5 con demostración práctica en terminal (`type`/`which`/alias).
+- **Dónde quedé:** Repaso profundo del Cap 4 (teoría + práctica real de links en Docker/Linux + comodines básicos verificados en terminal) y luego **examen rápido de Cap 4: 9.5/20**. Confirmó dominio de links y comodines básicos; el examen expuso 3 huecos nuevos no cubiertos en el repaso guiado: rangos en corchetes (`[0-5]`/`[!0-5]`), sintaxis de `ln -s` con un solo argumento (creó un auto-link roto y no lo arregló), y precisión al explicar mecanismos (contador de enlaces, por qué `mv` no copia).
+- **Próximo paso:** (1) Repasar rangos en comodines y sintaxis completa de `ln -s TARGET NOMBRE`; (2) repetir la tarea práctica de symlink entre directorios hasta lograrla sin error; (3) leer Cap 7 hoy (en curso); (4) cerrar Cap 5 con demostración práctica en terminal; (5) sábado: examen largo acumulativo de todos los capítulos vistos.
 
 ---
 
@@ -16,7 +16,7 @@
 | 1 | ¿Qué es la shell? | ✅ | Verificado 2026-06-02. Inicialmente confundía shell vs terminal; aclarado. |
 | 2 | Navegación (`pwd`, `cd`, `ls`) | ✅ | Verificado 2026-06-02. `pwd` = Print Working Directory. Atajos `cd`: `cd -` (dir anterior, destacado en el libro), `cd` (home), `cd ~usuario`. |
 | 3 | Explorando el sistema (`less`, `file`, enlaces) | ✅ | Completado 2026-06-02. Descubrió que las opciones cortas (`-l`, `-t`, `-a`, `-r`, `-s`...) se encadenan sin límite y en cualquier orden (`-ltasr`). Diferencia `-r` (corta) vs `--reverse` (larga, 2 guiones). Pendiente: por qué `-F` no muestra diferencia → alias de `ls` (ver cola de repaso). |
-| 4 | Manipular archivos y directorios (`cp`, `mv`, `rm`, `ln`) | 🟡 | Repaso a fondo + práctica real de links 2026-07-09 (Docker/Linux). Hard vs symbolic link ya entendido y demostrado. Falta: comodines en práctica + examen final. |
+| 4 | Manipular archivos y directorios (`cp`, `mv`, `rm`, `ln`) | 🟡 | Examen 2026-07-09: **9.5/20**. Sólido: hard/symlink, comodines básicos, elegir `cp`/`mv`/`ln` según caso. Débil: rangos `[0-5]` en comodines, sintaxis `ln -s TARGET NOMBRE` (creó auto-link sin arreglarlo), precisión explicando contador de enlaces y por qué `mv` no copia. |
 | 5 | Trabajar con comandos (`type`, `which`, `help`, `man`, alias) | 🟡 | Leído por mi cuenta (2026-07-09). Pendiente: recuerdo activo + práctica en terminal. |
 | 6 | Redirección (`>`, `>>`, `|`, pipes, `tee`) | 🟡 | Leído por mi cuenta (2026-07-09). Pendiente: verificar. Ojo: `cat sort uniq grep wc head tail tee` son del cap 5 — el 6 es redirección/pipes. |
 | 7 | Ver el mundo como la shell (expansión, comillas, escapes) | 🟡 | Leído por mi cuenta (2026-07-09). Pendiente: verificar. Base: `echo *`, `echo D*`, expansión de comodines. |
@@ -72,9 +72,16 @@
 | `-F` de `ls` y alias de `ls` (correr `type ls`) — por qué no se ve diferencia | 2026-06-02 | 2026-06-08 | 🟡 Parcial — corrió `type ls` (`ls --color=auto`); falta explicación propia |
 | **Hard link vs symbolic link** (inode, borrar original, particiones, directorios) | 2026-06-08 | 2026-07-09 | ✅ Resuelto — practicado en Docker/Linux real, incluyó ruta relativa rota, repunte con `ln -sf`, inode/contador con `ls -li` |
 | **Comodines** — predecir salidas (`?`, `[abc]`, `[!abc]`, `[[:clase:]]`) | 2026-06-08 | 2026-07-09 | ✅ Resuelto — 4/4 predicciones correctas, verificadas en terminal real |
-| `mv` NO copia — mueve/renombra (el original deja de existir) | 2026-06-08 | 2026-07-09 | 🟡 Repasado en teoría; falta reforzar en examen |
+| `mv` NO copia — mueve/renombra (el original deja de existir) | 2026-06-08 | 2026-07-09 | 🟡 Sigue impreciso en examen (dijo "borra y mueve" en vez de "renombra entrada de directorio, atómico, sin duplicar") |
 | **Symlinks no funcionan en Git Bash de Windows** — usar Docker/WSL con Linux real para practicar | 2026-07-09 | | ✅ Resuelto (dato de entorno, no de contenido) |
 | **Cap 7 — `echo ~foo`** (tilde expansion con nombre de usuario pegado, no solo `~` solo) | 2026-07-09 | | ⬜ No — duda abierta, en proceso |
+| **Rangos en corchetes `[0-5]` / `[!0-5]`** (comodines) | 2026-07-09 | | ⬜ No — falló en examen, creía que no existían rangos en `[...]` |
+| **`ln -s` con un solo argumento → auto-link roto** (`activo -> activo`, "Too many levels of symbolic links") | 2026-07-09 | | ⬜ No — cometido en examen, no lo arregló; repetir la tarea |
+| **Contador de enlaces explícito al explicar hard links** (usar el número real, no solo "comparten inode") | 2026-07-09 | | ⬜ No — sabe la definición (4.19) pero no la aplicó en el examen |
+| **`[...]` empareja un solo carácter, no una palabra** (extensiones de 3 letras necesitan `*` extra) | 2026-07-09 | | ⬜ No — falló al construir patrón para extensión `.PNG`/`.TXT` |
+| **Cap 7 — ¿siempre lleva `$` antes de `((...))`?** (arithmetic expansion vs otros usos de paréntesis dobles) | 2026-07-09 | | ⬜ No — duda abierta |
+| **Cap 7 — anidamiento `$(($((5**2)) * 3))`** (por qué la sintaxis anidada se ve "rara") | 2026-07-09 | | ⬜ No — duda abierta |
+| **Cap 7 — brace expansion con ceros a la izquierda `{001..15}`** (cómo sabe mantener el padding de 3 dígitos hasta el 15) | 2026-07-09 | | ⬜ No — duda abierta |
 
 ---
 
@@ -85,3 +92,4 @@
 |-------|---------------------|---------------|-----------------|
 | 2026-06-02 | Caps 1, 2 y 3 | Encadenar opciones cortas de `ls` sin límite y en cualquier orden (`-ltasr`); `-r` vs `--reverse` | Entender `-F` (quedó pendiente el tema del alias de `ls`) |
 | 2026-06-08 | Examen rápido Caps 1–4 — **5.5/20** | Práctica real: demostró sobrescritura silenciosa con `mv` (`b.txt` pisado, `a.txt` desaparece) | Hard/symbolic links (sin estudiar); comodines (no los aplicó); creía que `mv` "copia" |
+| 2026-07-09 | Repaso a fondo Cap 4 (teoría + práctica real de links y comodines) + examen rápido Cap 4 — **9.5/20** | Hard/symlink con inode/contador, repunte de symlinks, comodines básicos (`?`, `[abc]`, `[[:clase:]]`), elegir `cp`/`mv`/`ln` según caso de uso | Rangos `[0-5]` en comodines; sintaxis `ln -s TARGET NOMBRE` (auto-link sin arreglar); precisión explicando mecanismos (contador de enlaces, por qué `mv` no copia) |
