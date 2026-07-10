@@ -104,3 +104,5 @@ Permite usar la **salida de un comando** como parte de otro comando.
 *(Hilos sin cerrar de este capítulo. Mantener en sync con la cola 🔁 de PROGRESO.md.)*
 - Todas las flashcards de este capítulo (7.1–7.8) siguen 🆕: contenido leído pero **sin verificar** con recuerdo activo ni práctica real en terminal.
 - Pendiente hacer la demostración práctica de cada una en terminal antes de marcarlas ✅.
+- **Duda abierta — múltiples expansiones combinadas dentro de una sola cadena:** `echo "$USER $((2+2)) $(cal)"`. No entiende por qué se necesita `$` antes de cada paréntesis cuando conviven varias expansiones distintas en el mismo `echo`.
+- **Duda abierta — comillas simples vs dobles vs sin comillas:** comparó `echo text ~/*.txt {a,b} $(echo foo) $((2+2)) $USER` sin comillas, con `"..."` y con `'...'`, y no entiende por qué cada versión da un resultado distinto (qué expansiones deja pasar cada tipo de comilla y cuáles suprime).

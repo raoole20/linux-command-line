@@ -83,6 +83,8 @@
 | **Cap 7 — anidamiento `$(($((5**2)) * 3))`** (por qué la sintaxis anidada se ve "rara") | 2026-07-09 | | ⬜ No — duda abierta |
 | **Cap 7 — brace expansion con ceros a la izquierda `{001..15}`** (cómo sabe mantener el padding de 3 dígitos hasta el 15) | 2026-07-09 | | ⬜ No — duda abierta |
 | **Cap 7 — Command Substitution** (`$(comando)` y backticks `` `comando` `` como argumento de otro comando) | 2026-07-09 | | ⬜ No — duda abierta |
+| **Cap 7 — múltiples expansiones combinadas** (`echo "$USER $((2+2)) $(cal)"`, por qué `$` antes de cada paréntesis) | 2026-07-09 | | ⬜ No — duda abierta |
+| **Cap 7 — comillas simples vs dobles vs sin comillas** (qué expansiones suprime cada una: `~`, `*`, `{}`, `$(...)`, `$((...))`, `$VAR`) | 2026-07-09 | | ⬜ No — duda abierta |
 
 ---
 
