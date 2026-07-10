@@ -64,12 +64,13 @@ Los comodines se usan muchísimo con `cp`, `mv`, `rm`, etc. para seleccionar var
 
 | # | Pregunta | Respuesta | Estado |
 |---|----------|-----------|--------|
-| 4.1 | ¿Qué empareja `*` vs `?` en comodines? | `*` = cualquier número de caracteres (incluso cero); `?` = exactamente **un** carácter cualquiera. | 🔁 |
-| 4.2 | ¿Diferencia entre `[abc]` y `[!abc]`? | `[abc]` empareja un carácter que **esté** en el conjunto; `[!abc]` empareja uno que **NO** esté en el conjunto. | 🔁 |
-| 4.3 | ¿Para qué sirve `[[:clase:]]` y un ejemplo? | Empareja un carácter de una **clase** predefinida, p. ej. `[[:digit:]]` (dígitos), `[[:upper:]]` (mayúsculas), `[[:alpha:]]` (letras). | 🔁 |
-| 4.4 | ¿Qué empareja el patrón `Data???`? | Archivos que empiezan con `Data` seguido de **exactamente tres** caracteres cualesquiera (ni más ni menos). | 🔁 |
-| 4.5 | ¿Qué empareja `[![:digit:]]*`? | Cualquier archivo cuyo **primer carácter NO sea un dígito**. | 🔁 |
-| 4.6 | ¿Diferencia entre `[:alnum:]` y `[:alpha:]`? | `[:alpha:]` = solo letras; `[:alnum:]` = letras **o** dígitos (alfanumérico). | 🔁 |
+| 4.1 | ¿Qué empareja `*` vs `?` en comodines? | `*` = cualquier número de caracteres (incluso cero); `?` = exactamente **un** carácter cualquiera. | ✅ |
+| 4.2 | ¿Diferencia entre `[abc]` y `[!abc]`? | `[abc]` empareja un carácter que **esté** en el conjunto; `[!abc]` empareja uno que **NO** esté en el conjunto. | ✅ |
+| 4.3 | ¿Para qué sirve `[[:clase:]]` y un ejemplo? | Empareja un carácter de una **clase** predefinida, p. ej. `[[:digit:]]` (dígitos), `[[:upper:]]` (mayúsculas), `[[:alpha:]]` (letras). | ✅ |
+| 4.4 | ¿Qué empareja el patrón `Data???`? | Archivos que empiezan con `Data` seguido de **exactamente tres** caracteres cualesquiera (ni más ni menos). | ✅ |
+| 4.5 | ¿Qué empareja `[![:digit:]]*`? | Cualquier archivo cuyo **primer carácter NO sea un dígito**. | ✅ |
+| 4.6 | ¿Diferencia entre `[:alnum:]` y `[:alpha:]`? | `[:alpha:]` = solo letras; `[:alnum:]` = letras **o** dígitos (alfanumérico). | ✅ |
+| 4.22 | ¿Qué empareja `*.[ct]??` y por qué NO entra `img3.png`? | Archivos cuya extensión (después del último `.`) empieza con `c` o `t` y tiene **exactamente 3 caracteres** en total. `img3.png` no entra porque su extensión `png` empieza con `p`, no con `c`/`t`. Verificado en terminal: matchea `archivo1.txt`, `archivo2.txt`, `Notas.txt`, `datos.csv`. | ✅ |
 | 4.7 | ¿Qué pasa si copias un archivo a un destino que ya existe, sin ninguna opción? | `cp` lo **sobrescribe en silencio**, sin ningún aviso. Para que pregunte antes, usa `-i`. | ✅ |
 | 4.8 | ¿Qué opción de `cp` es **obligatoria** para copiar un directorio entero? | `-r` (`--recursive`) o `-a` (`--archive`). Sin ella, `cp` falla al intentar copiar un directorio. | 🆕 |
 | 4.9 | ¿Qué diferencia hay entre `cp -r` y `cp -a` al copiar un directorio? | `-r` copia el contenido recursivamente pero los archivos toman los **atributos del usuario** que copia; `-a` además preserva **permisos y propietario** originales. | 🆕 |
@@ -96,5 +97,5 @@ Los comodines se usan muchísimo con `cp`, `mv`, `rm`, etc. para seleccionar var
 
 ## Pendientes de repaso
 *(Hilos sin cerrar de este capítulo. Mantener en sync con la cola 🔁 de PROGRESO.md.)*
-- **Comodines** (4.1–4.6): no aplicados en examen → 🔁. Practicar prediciendo salidas reales. Pendiente para esta misma sesión (2026-07-09).
+- **Comodines** (4.1–4.6, 4.22): resuelto 2026-07-09, 4/4 predicciones correctas verificadas en terminal.
 - **`mv` no copia** (4.10): repasado en teoría hoy (2026-07-09), falta reforzar en el examen.

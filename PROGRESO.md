@@ -71,7 +71,7 @@
 |------|-----------|-------------|------------|
 | `-F` de `ls` y alias de `ls` (correr `type ls`) — por qué no se ve diferencia | 2026-06-02 | 2026-06-08 | 🟡 Parcial — corrió `type ls` (`ls --color=auto`); falta explicación propia |
 | **Hard link vs symbolic link** (inode, borrar original, particiones, directorios) | 2026-06-08 | 2026-07-09 | ✅ Resuelto — practicado en Docker/Linux real, incluyó ruta relativa rota, repunte con `ln -sf`, inode/contador con `ls -li` |
-| **Comodines** — predecir salidas (`?`, `[abc]`, `[!abc]`, `[[:clase:]]`) | 2026-06-08 | | ⬜ No — pendiente esta sesión (2026-07-09) |
+| **Comodines** — predecir salidas (`?`, `[abc]`, `[!abc]`, `[[:clase:]]`) | 2026-06-08 | 2026-07-09 | ✅ Resuelto — 4/4 predicciones correctas, verificadas en terminal real |
 | `mv` NO copia — mueve/renombra (el original deja de existir) | 2026-06-08 | 2026-07-09 | 🟡 Repasado en teoría; falta reforzar en examen |
 | **Symlinks no funcionan en Git Bash de Windows** — usar Docker/WSL con Linux real para practicar | 2026-07-09 | | ✅ Resuelto (dato de entorno, no de contenido) |
 | **Cap 7 — `echo ~foo`** (tilde expansion con nombre de usuario pegado, no solo `~` solo) | 2026-07-09 | | ⬜ No — duda abierta, en proceso |
