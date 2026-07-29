@@ -86,6 +86,7 @@
 | **Cap 7 — Command Substitution** (`$(comando)` y backticks `` `comando` `` como argumento de otro comando) | 2026-07-09 | | ⬜ No — duda abierta |
 | **Cap 7 — múltiples expansiones combinadas** (`echo "$USER $((2+2)) $(cal)"`, por qué `$` antes de cada paréntesis) | 2026-07-09 | | ⬜ No — duda abierta |
 | **Cap 7 — comillas simples vs dobles vs sin comillas** (qué expansiones suprime cada una: `~`, `*`, `{}`, `$(...)`, `$((...))`, `$VAR`) | 2026-07-09 | | ⬜ No — duda abierta |
+| **Cap 6/9 — operador `>` (redirección de salida)** — no recuerda qué hace, incluyendo el caso `> foo.txt` sin comando (crear archivo vacío) | 2026-07-10 | | ⬜ No — duda abierta, marcada por el propio estudiante |
 
 ---
 
